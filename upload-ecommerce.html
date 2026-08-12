@@ -1,211 +1,214 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<title>UPLOAD ECOMMERCE — LLA · Meta & IG Paid Media</title>
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Upload Ecommerce — LLA · Meta & Instagram Paid Media</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..700&family=Inter:wght@300..800&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --bg:#0B0E14; --card:#12161F; --card2:#171C27; --line:#242A36;
-    --text:#E8E7E3; --muted:#8A8E97; --faint:#5A5E67;
-    --teal:#20808D; --teal2:#4FB0BD; --gold:#D19900;
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif}
-  a{color:var(--teal2);text-decoration:none}
-  .wrap{max-width:1240px;margin:0 auto;padding:32px 24px 96px}
-  header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:24px}
-  .brand{font-size:12px;letter-spacing:.14em;color:var(--teal2);text-transform:uppercase;font-weight:700}
-  h1{font-family:"Playfair Display",Georgia,serif;font-weight:700;font-size:48px;margin:8px 0 0;letter-spacing:-.01em}
-  .subtitle{color:var(--muted);margin-top:8px;font-size:15px}
-  .pill{display:inline-block;background:var(--teal);color:#fff;font-weight:700;font-size:11px;letter-spacing:.08em;padding:6px 10px;border-radius:999px;text-transform:uppercase}
-  .pill.gold{background:var(--gold)}
-  .toc{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 8px}
-  .toc a{background:var(--card);border:1px solid var(--line);color:var(--text);font-size:12px;padding:6px 10px;border-radius:999px}
-  .toc a:hover{border-color:var(--teal2);color:var(--teal2)}
-  .block{margin:40px 0 0;padding:24px;background:var(--card);border:1px solid var(--line);border-radius:16px}
-  .block h2{font-family:"Playfair Display",Georgia,serif;font-weight:700;font-size:26px;margin:0 0 6px;letter-spacing:-.01em}
-  .block .num{color:var(--teal2);font-weight:700;font-size:14px;letter-spacing:.08em;margin-right:10px}
-  .block .sub{color:var(--muted);font-size:14px;margin:0 0 18px}
-  .ref{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#000;margin:8px 0 20px;max-width:820px}
-  .ref img{display:block;width:100%;height:auto}
-  .ref-cap{font-size:11px;color:var(--faint);letter-spacing:.1em;text-transform:uppercase;margin:0 0 6px}
-  .files{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-  .file{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:14px}
-  .ratio{font-size:20px;font-weight:700;letter-spacing:-.01em}
-  .size{color:var(--teal2);font-weight:700;font-size:15px;margin-top:2px}
-  .meta{margin-top:10px;font-size:12.5px;color:var(--muted);line-height:1.55}
-  .meta b{color:var(--text);font-weight:600}
-  .fname{margin-top:8px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;color:var(--faint);word-break:break-all}
-  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--teal);color:#fff;font-weight:700;font-size:13px;padding:10px 14px;border-radius:10px;margin-top:12px;letter-spacing:.02em}
-  .btn:hover{background:var(--teal2);color:#0B0E14}
-  .btn svg{width:14px;height:14px}
-  .chip{display:inline-block;background:transparent;border:1px solid var(--line);color:var(--muted);font-size:10.5px;letter-spacing:.06em;padding:3px 7px;border-radius:6px;text-transform:uppercase;margin-right:6px;margin-top:6px}
-  table{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px}
-  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
-  th{background:#0F131B;color:var(--muted);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
-  td.file-cell{font-family:ui-monospace,Menlo,monospace;font-size:12px}
-  td .btn{margin:0;padding:6px 10px;font-size:11.5px}
-  .footer{margin-top:64px;color:var(--faint);font-size:12px;text-align:center}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <header>
-    <div>
-      <div class="brand">LLA · Meta & Instagram Paid Media</div>
-      <h1>Upload Ecommerce</h1>
-      <p class="subtitle">Only the approved creatives in the source document — matched exactly to files in the library. These are the only assets to upload on Meta for real.</p>
-    </div>
-    <div>
-      <span class="pill" id="fcount">— approved files</span>
-      &nbsp;<span class="pill gold" id="bcount">— approved blocks</span>
-    </div>
-  </header>
+:root{--bg:#05070d;--line:rgba(140,190,255,.16);--ink:#f2f6ff;--dim:#95a3bd;--blue:#9cc2ee;--gold:#e3cb96;--red:#ff8a7a;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;
+background-image:radial-gradient(90% 60% at 50% -10%,rgba(60,110,200,.20),transparent 70%);}
+.wrap{max-width:1560px;margin:0 auto;padding:72px 40px 120px}
+header{border-bottom:1px solid var(--line);padding-bottom:44px}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.30em;color:var(--blue);text-transform:uppercase}
+h1{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(38px,5.4vw,74px);line-height:1.03;letter-spacing:-.02em;margin-top:18px}
+h1 em{font-style:italic;background:linear-gradient(100deg,#e8f1ff,#9cc2ee 55%,#6f9dd8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{margin-top:22px;max-width:940px;font-size:19px;line-height:1.65;color:var(--dim)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chip{font-size:12.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#cfe0ff;
+border:1px solid var(--line);background:rgba(20,32,60,.55);padding:9px 15px;border-radius:100px}
+.bar{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
+.btn{display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:700;padding:15px 26px;border-radius:12px;text-decoration:none;border:1px solid transparent;transition:.18s}
+.btn-p{background:linear-gradient(180deg,#a8cbf5,#6f9dd8);color:#04101f;box-shadow:0 10px 34px rgba(90,160,255,.34)}
+.btn-p:hover{filter:brightness(1.09);transform:translateY(-1px)}
+.btn-s{border-color:var(--line);color:#dbe7fb;background:rgba(16,26,48,.6)}
+.btn-s:hover{border-color:rgba(156,194,238,.5);background:rgba(24,38,68,.8)}
+section{margin-top:88px}
+.sechead{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;border-left:3px solid var(--blue);padding-left:20px}
+.sechead.gold{border-left-color:var(--gold)}
+h2{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(30px,3.4vw,46px);letter-spacing:-.015em}
+.sechead p{color:var(--dim);font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:30px;margin-top:34px;align-items:stretch}
+.card{background:linear-gradient(170deg,rgba(14,22,42,.94),rgba(7,11,22,.94));border:1px solid var(--line);
+border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:.2s}
+.card:hover{border-color:rgba(156,194,238,.42);transform:translateY(-3px);box-shadow:0 26px 60px rgba(0,0,0,.55)}
+.card.g{border-color:rgba(227,203,150,.18)} .card.g:hover{border-color:rgba(227,203,150,.45)}
+.head{padding:22px 24px 18px;border-bottom:1px solid var(--line);min-height:152px}
+.ratio{font-family:'Playfair Display',serif;font-weight:700;font-size:32px;line-height:1.1;letter-spacing:-.01em}
+.tagx{display:inline-block;margin-left:9px;font-family:'Inter',sans-serif;font-size:10.5px;font-weight:800;letter-spacing:.14em;
+vertical-align:middle;padding:5px 9px;border-radius:4px;background:rgba(46,224,138,.16);color:#5ef0ab;border:1px solid rgba(46,224,138,.34)}
+.px{margin-top:9px;font-size:23px;font-weight:800;color:var(--blue);font-variant-numeric:tabular-nums}
+.card.g .px{color:var(--gold)}
+.place{margin-top:11px;font-size:13.5px;line-height:1.5;color:var(--dim)}
+.thumb{background:#04060c;display:flex;align-items:center;justify-content:center;padding:22px;height:430px}
+.thumb img{max-width:100%;max-height:386px;width:auto;height:auto;display:block;border-radius:6px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+.spec{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border-top:1px solid var(--line)}
+.spec div{background:rgba(6,10,20,.9);padding:13px 16px}
+.spec b{display:block;font-size:10.5px;font-weight:700;letter-spacing:.16em;color:#7d8ca8;text-transform:uppercase}
+.spec span{font-size:14px;font-weight:600;color:#e6eeff;font-variant-numeric:tabular-nums}
+.acts{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;margin-top:auto}
+.dl{display:flex;align-items:center;justify-content:center;gap:10px;padding:15px 18px;border-radius:11px;font-size:15px;font-weight:800;text-decoration:none;
+background:linear-gradient(180deg,#a8cbf5,#6f9dd8);color:#04101f;box-shadow:0 8px 26px rgba(90,160,255,.3);transition:.16s}
+.card.g .dl{background:linear-gradient(180deg,#f2e0b8,#c8a45c);box-shadow:0 8px 26px rgba(226,180,110,.3)}
+.dl:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.dl2{display:flex;align-items:center;justify-content:center;gap:9px;padding:12px 16px;border-radius:10px;font-size:13.5px;font-weight:600;
+text-decoration:none;color:#c4d4ee;border:1px solid var(--line);background:rgba(14,24,44,.6)}
+.dl2:hover{border-color:rgba(156,194,238,.45);color:#fff}
+.ok{color:#2ee08a;font-weight:700}
+footer{margin-top:110px;padding-top:34px;border-top:1px solid var(--line);color:#6f7d96;font-size:13.5px;line-height:1.85}
+@media(max-width:640px){.wrap{padding:44px 20px 80px}}
+</style></head>
+<body><div class="wrap">
 
-  <div class="toc" id="toc"></div>
-
-  <div id="blocks"></div>
-
-  <div class="block" id="quickref">
-    <h2><span class="num">17</span>Quick reference · all files</h2>
-    <p class="sub">Deduped. Click any download button for the raw PNG.</p>
-    <table id="qtable">
-      <thead><tr><th>File</th><th>Aspect</th><th>Size</th><th>Format</th><th style="text-align:right">Download</th></tr></thead>
-      <tbody></tbody>
-    </table>
+<header>
+  <div class="kicker">Longevity Life Academy · Upload Ecommerce</div>
+  <h1>Upload <em>Ecommerce</em></h1>
+  <p class="lede">Only the approved creatives — matched exactly to files in the master library. Each card below is a real, upload-ready PNG pulled directly from the library repo (not a screenshot), rendered at its native pixel size. These are the only assets to upload on Meta for real.</p>
+  <div class="chips">
+    <span class="chip" id="fcount">42 upload-ready PNGs</span>
+    <span class="chip">16 approved blocks</span>
+    <span class="chip">PNG · sRGB</span>
+    <span class="chip">Meta &amp; IG safe zones verified</span>
   </div>
-
-  <div class="footer">
-    Source repo: <a href="https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes">gitteromri-ux/lla-meta-ig-ad-sizes</a> ·
-    Full library: <a href="https://gitteromri-ux.github.io/lla-meta-ig-ad-sizes/">gitteromri-ux.github.io/lla-meta-ig-ad-sizes</a>
+  <div class="bar">
+    <a class="btn btn-p" href="https://gitteromri-ux.github.io/lla-meta-ig-ad-sizes/">← Full Library</a>
+    <a class="btn btn-s" href="https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes">Source repo</a>
   </div>
+</header>
+
+<div id="sections"></div>
+
+<footer>
+  Every image on this page is the real file from
+  <a class="src" href="https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes">gitteromri-ux/lla-meta-ig-ad-sizes</a> —
+  ads/, concepts/ and guides/ folders. Download button links to the raw PNG on GitHub.
+</footer>
+
 </div>
 
 <script>
 const RAW = 'https://raw.githubusercontent.com/gitteromri-ux/lla-meta-ig-ad-sizes/main/';
-const DOC_IMG = 'https://raw.githubusercontent.com/gitteromri-ux/lla-meta-ig-ad-sizes/main/upload-ecommerce-refs/';
 
+// APPROVED — 16 blocks from the user's document
 const APPROVED = [
- {n:1,img:'image1.png',label:'Banner 7C · Julie · Longevity Blueprint — Feed pair',sub:'"Master your tailored Longevity Blueprint" — Enroll now CTA · gold card',files:[
-   {name:'LLA_BLUEPRINT_4x5_1080x1350.png',ratio:'4:5',size:'1080 × 1350 px',fmt:'PNG · sRGB',plc:'IG Feed · FB Feed vertical (tallest ratio Feed accepts)',safe:'Safe zone ✓ 68 / 54 px'},
-   {name:'LLA_BLUEPRINT_1x1_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Safe zone ✓ 54 px edges'},
+ {n:1,label:'Banner 7C · Julie · Longevity Blueprint — Feed pair',sub:'"Master your tailored Longevity Blueprint" · Enroll now CTA · gold card',files:[
+   {name:'ads/LLA_BLUEPRINT_4x5_1080x1350.png',ratio:'4:5',size:'1080 × 1350 px',fmt:'PNG · sRGB',plc:'IG Feed · FB Feed vertical — tallest ratio Feed accepts',safe:'✓ 68 / 54 px'},
+   {name:'ads/LLA_BLUEPRINT_1x1_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'✓ 54 px edges'},
  ]},
- {n:2,img:'image2.png',label:'Banner 7A · Julie · Longevity Blueprint — Link banner',sub:'"Master your tailored Longevity Blueprint" · Julie garden portrait · 1.91:1',files:[
-   {name:'LLA_JULIE_191x1_1200x628.png',ratio:'1.91:1',size:'1200 × 628 px',fmt:'PNG · sRGB',plc:'FB link ads · widest ratio IG Feed accepts',safe:'Safe zone ✓ 54 / 103 px'},
+ {n:2,label:'Banner 7A · Julie · Link banner',sub:'"Master your tailored Longevity Blueprint" · Julie garden portrait · 1.91:1',files:[
+   {name:'ads/LLA_JULIE_191x1_1200x628.png',ratio:'1.91:1',size:'1200 × 628 px',fmt:'PNG · sRGB',plc:'FB link ads · widest ratio IG Feed accepts',safe:'✓ 54 / 103 px'},
  ]},
- {n:3,img:'image3.png',label:'Banner 7C · Julie · Longevity Blueprint — Hi-Res Meta-recommended set',sub:'"Master your tailored Longevity Blueprint" · Julie garden · full Meta-spec trio',files:[
-   {name:'LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png',ratio:'9:16',size:'1440 × 2560 px',fmt:'PNG · sRGB',plc:'IG + FB Stories and Reels (Meta printed spec)',safe:'Largest · Meta spec'},
-   {name:'LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png',ratio:'4:5',size:'1440 × 1800 px',fmt:'PNG · sRGB',plc:'Meta printed recommended Feed resolution',safe:'Safe zone ✓ 90 / 72 px reserve'},
-   {name:'LLA_BLUEPRINT_1x1_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace · Right column',safe:'Hi-Res · 72 px edges'},
+ {n:3,label:'Banner 7C · Julie · Longevity Blueprint — Hi-Res Meta-recommended set',sub:'Full Meta-spec trio · Julie garden · Master your tailored Longevity Blueprint',files:[
+   {name:'ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png',ratio:'9:16',tag:'META SPEC',size:'1440 × 2560 px',fmt:'PNG · sRGB',plc:'IG + FB Stories and Reels',safe:'Largest · Meta spec'},
+   {name:'ads/LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png',ratio:'4:5',tag:'META SPEC',size:'1440 × 1800 px',fmt:'PNG · sRGB',plc:'Meta printed recommended Feed resolution',safe:'✓ 90 / 72 px reserve'},
+   {name:'ads/LLA_BLUEPRINT_1x1_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace · Right column',safe:'Hi-Res · 72 px edges'},
  ]},
- {n:4,img:'image4.png',label:'Courtney · 16:9 landscape + Blueprint 7C · 9:16 vertical',sub:'Landscape link + Stories/Reels — different creatives per placement',files:[
-   {name:'LLA_COURTNEY_16x9_1920x1080.png',ratio:'16:9',size:'1920 × 1080 px',fmt:'PNG · sRGB',plc:'In-stream · Instant Articles · landscape link ads',safe:'Safe zone ✓ 54 / 96 px'},
-   {name:'LLA_BLUEPRINT_9x16_STORIES-REELS_1080x1920.png',ratio:'9:16',size:'1080 × 1920 px',fmt:'PNG · sRGB',plc:'IG + FB Stories and Reels',safe:'Safe zone ✓ 269 / 672 px'},
+ {n:4,label:'Courtney 16:9 landscape + Blueprint 9:16 vertical',sub:'Landscape link + Stories/Reels — different creatives per placement',files:[
+   {name:'ads/LLA_COURTNEY_16x9_1920x1080.png',ratio:'16:9',tag:'WIDEST',size:'1920 × 1080 px',fmt:'PNG · sRGB',plc:'In-stream · Instant Articles · landscape link ads',safe:'✓ 54 / 96 px'},
+   {name:'ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1080x1920.png',ratio:'9:16',tag:'STORIES + REELS',size:'1080 × 1920 px',fmt:'PNG · sRGB',plc:'IG + FB Stories and Reels',safe:'✓ 269 / 672 px'},
  ]},
- {n:5,img:'image5.png',label:'Julie · "Make longevity automatic" — Meta-recommended Feed pair',sub:'Julie garden · 4:5 META SPEC + 1:1 HI-RES',files:[
-   {name:'LLA_JULIE_4x5_1440x1800_META-RECOMMENDED.png',ratio:'4:5',size:'1440 × 1800 px',fmt:'PNG · sRGB',plc:'Meta printed recommended Feed resolution',safe:'Safe zone ✓ 90 / 72 px reserve'},
-   {name:'LLA_JULIE_1x1_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Hi-Res · 72 px edges'},
+ {n:5,label:'Julie · "Make longevity automatic" — Meta-recommended Feed pair',sub:'Julie garden · 4:5 META SPEC + 1:1 HI-RES',files:[
+   {name:'ads/LLA_JULIE_4x5_1440x1800_META-RECOMMENDED.png',ratio:'4:5',tag:'META SPEC',size:'1440 × 1800 px',fmt:'PNG · sRGB',plc:'Meta printed recommended Feed resolution',safe:'✓ 90 / 72 px reserve'},
+   {name:'ads/LLA_JULIE_1x1_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Hi-Res · 72 px edges'},
  ]},
- {n:6,img:'image6.png',label:'Banner 7B · Courtney Donofrio — Link banner',sub:'"Decode Your Biomarkers. Extend Your Life." · Courtney studio · 1.91:1',files:[
-   {name:'LLA_COURTNEY_191x1_1200x628.png',ratio:'1.91:1',size:'1200 × 628 px',fmt:'PNG · sRGB',plc:'FB link ads · widest ratio IG Feed accepts',safe:'Safe zone ✓ 54 / 103 px'},
+ {n:6,label:'Banner 7B · Courtney Donofrio — Link banner',sub:'"Decode Your Biomarkers. Extend Your Life." · Courtney studio · 1.91:1',files:[
+   {name:'ads/LLA_COURTNEY_191x1_1200x628.png',ratio:'1.91:1',size:'1200 × 628 px',fmt:'PNG · sRGB',plc:'FB link ads · widest ratio IG Feed accepts',safe:'✓ 54 / 103 px'},
  ]},
- {n:7,img:'image7.png',label:'Julie · "Make longevity automatic" — Landscape + Story pair',sub:'Julie garden · 16:9 widest + 9:16 Stories/Reels',files:[
-   {name:'LLA_JULIE_16x9_1920x1080.png',ratio:'16:9',size:'1920 × 1080 px',fmt:'PNG · sRGB',plc:'In-stream · Instant Articles · landscape link ads',safe:'Safe zone ✓ 54 / 96 px'},
-   {name:'LLA_JULIE_9x16_STORIES-REELS_1080x1920.png',ratio:'9:16',size:'1080 × 1920 px',fmt:'PNG · sRGB',plc:'IG + FB Stories and Reels',safe:'Safe zone ✓ 269 / 672 px'},
+ {n:7,label:'Julie · "Make longevity automatic" — Landscape + Story pair',sub:'Julie garden · 16:9 widest + 9:16 Stories/Reels',files:[
+   {name:'ads/LLA_JULIE_16x9_1920x1080.png',ratio:'16:9',tag:'WIDEST',size:'1920 × 1080 px',fmt:'PNG · sRGB',plc:'In-stream · Instant Articles · landscape link ads',safe:'✓ 54 / 96 px'},
+   {name:'ads/LLA_JULIE_9x16_STORIES-REELS_1080x1920.png',ratio:'9:16',tag:'STORIES + REELS',size:'1080 × 1920 px',fmt:'PNG · sRGB',plc:'IG + FB Stories and Reels',safe:'✓ 269 / 672 px'},
  ]},
- {n:8,img:'image8.png',label:'Julie · "Make longevity automatic" — 1:1 Feed + 1.91:1 Link banner',sub:'Julie garden · square Feed + wide link',files:[
-   {name:'LLA_JULIE_1x1_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Safe zone ✓ 54 px edges'},
-   {name:'LLA_JULIE_191x1_1200x628.png',ratio:'1.91:1',size:'1200 × 628 px',fmt:'PNG · sRGB',plc:'FB link ads · widest ratio IG Feed accepts',safe:'Safe zone ✓ 54 / 103 px'},
+ {n:8,label:'Julie · "Make longevity automatic" — 1:1 Feed + 1.91:1 Link banner',sub:'Julie garden · square Feed + wide link',files:[
+   {name:'ads/LLA_JULIE_1x1_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'✓ 54 px edges'},
+   {name:'ads/LLA_JULIE_191x1_1200x628.png',ratio:'1.91:1',size:'1200 × 628 px',fmt:'PNG · sRGB',plc:'FB link ads · widest ratio IG Feed accepts',safe:'✓ 54 / 103 px'},
  ]},
- {n:9,img:'image9.png',label:'Concept 6A · Courtney · V7 Human Cut · Glass 3D Card',sub:'"Decode Your Biomarkers. Extend Your Life." · Claim Your Seat CTA · glass card',files:[
-   {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'Story/Reel master — frame into 1080 × 1920',safe:'Concept G2 · Hi-Res master'},
-   {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB/IG Feed direct upload',safe:'Concept G2 · Feed size'},
+ {n:9,label:'Concept 6A · Courtney · Glass 3D Card',sub:'"Decode Your Biomarkers. Extend Your Life." · Claim Your Seat CTA · glass card',files:[
+   {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'Master · frame into 1080 × 1920 for Stories',safe:'Concept G2'},
+   {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB / IG Feed direct upload',safe:'Concept G2'},
  ]},
- {n:10,img:'image10.png',label:'Concept G1 · Julie · Glass Card — 1:1',sub:'"Make longevity automatic." · Enroll now · Julie glass 3D card',files:[
-   {name:'concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace · Right column',safe:'Concept G1 · Largest'},
-   {name:'concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace · Right column',safe:'Concept G1 · Also'},
+ {n:10,label:'Concept G1 · Julie · Glass Card',sub:'"Make longevity automatic." · Enroll now · Julie glass 3D card',files:[
+   {name:'concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace · Right column',safe:'Concept G1'},
+   {name:'concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace · Right column',safe:'Concept G1'},
  ]},
- {n:11,img:'image11.png',label:'Concepts 6A / 6B · Courtney + Julie · V7 Human Cut · Glass 3D Card — Story pair',sub:'Two glass 3D cards + matching Stories/Reels frames',files:[
+ {n:11,label:'Concepts 6A / 6B · Glass 3D Card pair — Story frames',sub:'Two glass 3D cards + matching Stories/Reels frames',files:[
    {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'6A Courtney glass card master',safe:'Concept G2'},
    {name:'concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'6B Julie glass card master',safe:'Concept G1'},
    {name:'ads/LLA_COURTNEY_9x16_STORIES-REELS_1080x1920.png',ratio:'9:16',size:'1080 × 1920 px',fmt:'PNG · sRGB',plc:'Courtney Story/Reel upload',safe:'Story · 1080 × 1920'},
    {name:'ads/LLA_JULIE_9x16_STORIES-REELS_1080x1920.png',ratio:'9:16',size:'1080 × 1920 px',fmt:'PNG · sRGB',plc:'Julie Story/Reel upload',safe:'Story · 1080 × 1920'},
  ]},
- {n:12,img:'image12.png',label:'Banner 7C · Julie · Longevity Blueprint — Hi-Res trio (library view)',sub:'Same three files as #3 · full library card view',files:[
-   {name:'LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png',ratio:'9:16',size:'1440 × 2560 px',fmt:'PNG · sRGB',plc:'IG + FB Stories and Reels (Meta printed spec)',safe:'Largest · Meta spec'},
-   {name:'LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png',ratio:'4:5',size:'1440 × 1800 px',fmt:'PNG · sRGB',plc:'Meta printed recommended Feed resolution',safe:'Safe zone ✓ 90 / 72 px reserve'},
-   {name:'LLA_BLUEPRINT_1x1_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace · Right column',safe:'Hi-Res · 72 px edges'},
+ {n:12,label:'Banner 7C · Julie · Longevity Blueprint — Hi-Res trio (library view)',sub:'Same three Meta-spec files as #3 · full library view',files:[
+   {name:'ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png',ratio:'9:16',tag:'META SPEC',size:'1440 × 2560 px',fmt:'PNG · sRGB',plc:'IG + FB Stories and Reels',safe:'Largest · Meta spec'},
+   {name:'ads/LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png',ratio:'4:5',tag:'META SPEC',size:'1440 × 1800 px',fmt:'PNG · sRGB',plc:'Meta printed recommended Feed resolution',safe:'✓ 90 / 72 px reserve'},
+   {name:'ads/LLA_BLUEPRINT_1x1_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace · Right column',safe:'Hi-Res · 72 px edges'},
  ]},
- {n:13,img:'image13.png',label:'Glass 3D + Ice Card concepts — 1:1 Feed quartet',sub:'Courtney Glass Card · Julie Glass Card Alt · Julie 35% Aug Promo · Ice Card',files:[
-   {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept G2 · Courtney Glass Card'},
-   {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept G2 · Also'},
-   {name:'concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept G3 · Julie Glass Card Alt'},
-   {name:'concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept G3 · Also'},
-   {name:'concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept E2 · Julie 35% Aug Promo · Ice Card'},
-   {name:'concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept E2 · Also'},
+ {n:13,label:'Glass 3D + Ice Card concepts — 1:1 Feed quartet',sub:'Courtney Glass Card · Julie Glass Card Alt · Julie 35% Aug Promo · Ice Card',files:[
+   {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'G2 · Courtney Glass Card'},
+   {name:'concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'G2 · Also'},
+   {name:'concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'G3 · Julie Glass Card Alt'},
+   {name:'concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'G3 · Also'},
+   {name:'concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'E2 · Julie 35% Aug Promo · Ice Card'},
+   {name:'concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'E2 · Also'},
  ]},
- {n:14,img:'image14.png',label:'Concept 7B · Julie · Neon Lead Card + 7C · Julie · Longevity Blueprint — 1:1',sub:'Julie Feed pair · Neon Lead + Blueprint · square',files:[
-   {name:'concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept 5B · Julie Neon Lead Card'},
-   {name:'concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept 5B · Also'},
-   {name:'LLA_BLUEPRINT_1x1_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'7C · Blueprint · Hi-Res'},
-   {name:'LLA_BLUEPRINT_1x1_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'7C · Blueprint · 1080'},
+ {n:14,label:'Concept 7B · Julie · Neon Lead Card + 7C · Julie · Longevity Blueprint — 1:1',sub:'Julie Feed pair · Neon Lead + Blueprint · square',files:[
+   {name:'concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'5B · Julie Neon Lead Card'},
+   {name:'concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'5B · Also'},
+   {name:'ads/LLA_BLUEPRINT_1x1_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'7C · Blueprint · Hi-Res'},
+   {name:'ads/LLA_BLUEPRINT_1x1_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'7C · Blueprint · 1080'},
  ]},
- {n:15,img:'image15.png',label:'Feed trio — 7C Julie Blueprint 4:5 + 7A Courtney Neon Lead + 7B Julie Neon Lead',sub:'Mixed Feed set',files:[
-   {name:'LLA_BLUEPRINT_4x5_1080x1350.png',ratio:'4:5',size:'1080 × 1350 px',fmt:'PNG · sRGB',plc:'IG Feed · FB Feed vertical (tallest ratio Feed accepts)',safe:'7C · Blueprint · 4:5'},
-   {name:'concepts/LLA_CONCEPT_31_5A_COURTNEY-LEAD-CARD-V2_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept 5A · Courtney Neon Lead Card'},
-   {name:'concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept 5B · Julie Neon Lead Card'},
+ {n:15,label:'Feed trio — 7C Blueprint 4:5 + 7A Courtney Neon Lead + 7B Julie Neon Lead',sub:'Mixed Feed set',files:[
+   {name:'ads/LLA_BLUEPRINT_4x5_1080x1350.png',ratio:'4:5',size:'1080 × 1350 px',fmt:'PNG · sRGB',plc:'IG Feed · FB Feed vertical (tallest ratio Feed accepts)',safe:'7C · Blueprint · 4:5'},
+   {name:'concepts/LLA_CONCEPT_31_5A_COURTNEY-LEAD-CARD-V2_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'5A · Courtney Neon Lead'},
+   {name:'concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1080x1080.png',ratio:'1:1',size:'1080 × 1080 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'5B · Julie Neon Lead'},
  ]},
- {n:16,img:'image16.png',label:'Feed trio — Neon Lead Cards + Longevity Blueprint · 1080×1350',sub:'7A Courtney · 7B Julie · 7C Julie · vertical Feed',files:[
-   {name:'concepts/LLA_CONCEPT_31_5A_COURTNEY-LEAD-CARD-V2_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept 5A · Courtney Neon Lead'},
-   {name:'concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1440x1440.png',ratio:'1:1',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'Concept 5B · Julie Neon Lead'},
-   {name:'LLA_BLUEPRINT_4x5_1080x1350.png',ratio:'4:5',size:'1080 × 1350 px',fmt:'PNG · sRGB',plc:'IG Feed · FB Feed vertical (tallest ratio Feed accepts)',safe:'7C · Blueprint · 4:5'},
+ {n:16,label:'Feed trio — Neon Lead Cards + Longevity Blueprint · 1080 × 1350',sub:'7A Courtney · 7B Julie · 7C Julie · vertical Feed',files:[
+   {name:'concepts/LLA_CONCEPT_31_5A_COURTNEY-LEAD-CARD-V2_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'5A · Courtney Neon Lead'},
+   {name:'concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1440x1440.png',ratio:'1:1',tag:'HI-RES',size:'1440 × 1440 px',fmt:'PNG · sRGB',plc:'FB Feed · IG Feed · Explore · Marketplace',safe:'5B · Julie Neon Lead'},
+   {name:'ads/LLA_BLUEPRINT_4x5_1080x1350.png',ratio:'4:5',size:'1080 × 1350 px',fmt:'PNG · sRGB',plc:'IG Feed · FB Feed vertical',safe:'7C · Blueprint · 4:5'},
  ]},
 ];
 
-// counts + TOC
-let fc=0; APPROVED.forEach(a=>fc+=a.files.length);
-document.getElementById('fcount').textContent = fc + ' approved files';
-document.getElementById('bcount').textContent = APPROVED.length + ' approved blocks';
-const toc = document.getElementById('toc');
-APPROVED.forEach(a=>{const link=document.createElement('a');link.href='#b'+a.n;link.textContent=String(a.n).padStart(2,'0')+' · '+a.label.split(' — ')[0];toc.appendChild(link);});
-const q=document.createElement('a');q.href='#quickref';q.textContent='Quick reference';q.style.background='var(--teal)';q.style.color='#fff';q.style.borderColor='var(--teal)';toc.appendChild(q);
+// counts
+let total = 0; APPROVED.forEach(a => total += a.files.length);
+document.getElementById('fcount').textContent = total + ' upload-ready PNGs';
 
-// blocks
-const dl = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>';
-const container = document.getElementById('blocks');
-APPROVED.forEach(a=>{
-  const el = document.createElement('div');
-  el.className='block'; el.id='b'+a.n;
-  const filesHtml = a.files.map((f,i)=>`
-    <div class="file">
-      <div class="ratio">${f.ratio}</div>
-      <div class="size">${f.size}</div>
-      <div class="meta"><b>Placement:</b> ${f.plc}<br><b>Format:</b> ${f.fmt}<br><b>Note:</b> ${f.safe}</div>
-      <div class="fname">${f.name}</div>
-      <a class="btn" href="${RAW+f.name}" download>${dl} Download PNG</a>
-    </div>`).join('');
-  el.innerHTML = `
-    <h2><span class="num">${String(a.n).padStart(2,'0')}</span>${a.label}</h2>
-    <p class="sub">${a.sub}</p>
-    <p class="ref-cap">Approved reference (from your document)</p>
-    <div class="ref"><img loading="lazy" src="${DOC_IMG+a.img}" alt="reference ${a.n}"></div>
-    <p class="ref-cap">Matched in library — upload these only</p>
-    <div class="files">${filesHtml}</div>`;
-  container.appendChild(el);
-});
+// icons
+const DL = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>';
 
-// quick reference dedupe table
-const seen = new Map();
-APPROVED.forEach(a=>a.files.forEach(f=>{ if(!seen.has(f.name)) seen.set(f.name,f); }));
-const tb = document.querySelector('#qtable tbody');
-Array.from(seen.values()).sort((a,b)=>a.name.localeCompare(b.name)).forEach(f=>{
-  const tr=document.createElement('tr');
-  tr.innerHTML=`<td class="file-cell"><a href="${RAW+f.name}">${f.name}</a></td>
-    <td><b>${f.ratio}</b></td><td>${f.size}</td><td>${f.fmt}</td>
-    <td style="text-align:right"><a class="btn" href="${RAW+f.name}" download>${dl} Download</a></td>`;
-  tb.appendChild(tr);
+// build sections — one per approved block, uses the exact library card style
+const container = document.getElementById('sections');
+APPROVED.forEach(a => {
+  const sec = document.createElement('section');
+  const isGold = a.n === 1 || a.n === 3 || a.n === 12; // Blueprint / gold theme
+  sec.innerHTML = `
+    <div class="sechead ${isGold?'gold':''}">
+      <h2>${String(a.n).padStart(2,'0')} · ${a.label}</h2>
+      <p>${a.sub}</p>
+    </div>
+    <div class="grid">
+      ${a.files.map(f => `
+        <div class="card${isGold?' g':''}">
+          <div class="head">
+            <div class="ratio">${f.ratio}${f.tag?` <span class="tagx">${f.tag}</span>`:''}</div>
+            <div class="px">${f.size}</div>
+            <div class="place">${f.plc}</div>
+          </div>
+          <div class="thumb"><img loading="lazy" src="${RAW+f.name}" alt="${f.name}"></div>
+          <div class="spec">
+            <div><b>Format</b><span>${f.fmt}</span></div>
+            <div><b>Aspect</b><span>${f.ratio}</span></div>
+            <div><b>Native</b><span>${f.size.replace(' px','')}</span></div>
+            <div><b>Note</b><span class="ok">${f.safe}</span></div>
+          </div>
+          <div class="acts">
+            <a class="dl" href="${RAW+f.name}" download>${DL} Download PNG</a>
+            <a class="dl2" href="${RAW+f.name}" target="_blank">Open raw · ${f.name.split('/').pop()}</a>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+  container.appendChild(sec);
 });
 </script>
-</body>
-</html>
+</body></html>
