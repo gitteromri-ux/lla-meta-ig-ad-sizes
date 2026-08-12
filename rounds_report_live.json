@@ -1,0 +1,155 @@
+[
+  {
+    "kind": "live-frame",
+    "section": "7a",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_7A_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_7A_1080X1080_1080x1080_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "7a",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_7A_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_7A_1080X1350_1080x1350_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "7a",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_7A_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_7A_1080X1920_1080x1920_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "7b",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_7B_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_7B_1080X1080_1080x1080_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "7b",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_7B_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_7B_1080X1350_1080x1350_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "7b",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_7B_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_7B_1080X1920_1080x1920_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "7c",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_7C_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_7C_1080X1080_1080x1080_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "7c",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_7C_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_7C_1080X1350_1080x1350_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "7c",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_7C_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_7C_1080X1920_1080x1920_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "6a",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_6A_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_6A_1080X1080_1080x1080_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "6a",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_6A_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_6A_1080X1350_1080x1350_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "6a",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_6A_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_6A_1080X1920_1080x1920_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "6b",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_6B_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_6B_1080X1080_1080x1080_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "6b",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_6B_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_6B_1080X1350_1080x1350_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "6b",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_6B_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_6B_1080X1920_1080x1920_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "x",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_X_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_X_1080X1080_1080x1080_HI.png"
+  },
+  {
+    "kind": "live-frame",
+    "section": "x",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_X_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_X_1080X1080_1080x1080_HI.png"
+  }
+]

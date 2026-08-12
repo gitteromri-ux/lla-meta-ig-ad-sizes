@@ -1,0 +1,317 @@
+[
+  {
+    "kind": "live",
+    "label": "6A \u00b7 Courtney \u00b7 V7 Human Cut \u00b7 glass 3D card",
+    "ratio": "1080x1920",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_6A_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_6A_1080X1920_1080x1920.png"
+  },
+  {
+    "kind": "live",
+    "label": "6B \u00b7 Julie \u00b7 V7 Human Cut \u00b7 glass 3D card",
+    "ratio": "1080x1920",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_6B_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_6B_1080X1920_1080x1920.png"
+  },
+  {
+    "kind": "live",
+    "label": "6A \u00b7 Courtney \u00b7 V7 Human Cut \u00b7 glass 3D card",
+    "ratio": "1080x1350",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_6A_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_6A_1080X1350_1080x1350.png"
+  },
+  {
+    "kind": "live",
+    "label": "6B \u00b7 Julie \u00b7 V7 Human Cut \u00b7 glass 3D card",
+    "ratio": "1080x1350",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_6B_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_6B_1080X1350_1080x1350.png"
+  },
+  {
+    "kind": "live",
+    "label": "6A \u00b7 Courtney \u00b7 V7 Human Cut \u00b7 glass 3D card",
+    "ratio": "1080x1080",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_6A_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_6A_1080X1080_1080x1080.png"
+  },
+  {
+    "kind": "live",
+    "label": "6B \u00b7 Julie \u00b7 V7 Human Cut \u00b7 glass 3D card",
+    "ratio": "1080x1080",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_6B_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_6B_1080X1080_1080x1080.png"
+  },
+  {
+    "kind": "live",
+    "label": "7A \u00b7 Courtney \u00b7 Neon Lead Card",
+    "ratio": "1080x1920",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_7A_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_7A_1080X1920_1080x1920.png"
+  },
+  {
+    "kind": "live",
+    "label": "7B \u00b7 Julie \u00b7 Neon Lead Card",
+    "ratio": "1080x1920",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_7B_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_7B_1080X1920_1080x1920.png"
+  },
+  {
+    "kind": "live",
+    "label": "7C \u00b7 Julie \u00b7 Longevity Blueprint",
+    "ratio": "1080x1920",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_ROUND_7C_1080X1920_1080x1920.png",
+    "file_hi": "rounds/LLA_ROUND_7C_1080X1920_1080x1920.png"
+  },
+  {
+    "kind": "live",
+    "label": "7A \u00b7 Courtney \u00b7 Neon Lead Card",
+    "ratio": "1080x1350",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_7A_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_7A_1080X1350_1080x1350.png"
+  },
+  {
+    "kind": "live",
+    "label": "7B \u00b7 Julie \u00b7 Neon Lead Card",
+    "ratio": "1080x1350",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_7B_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_7B_1080X1350_1080x1350.png"
+  },
+  {
+    "kind": "live",
+    "label": "7C \u00b7 Julie \u00b7 Longevity Blueprint",
+    "ratio": "1080x1350",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_ROUND_7C_1080X1350_1080x1350.png",
+    "file_hi": "rounds/LLA_ROUND_7C_1080X1350_1080x1350.png"
+  },
+  {
+    "kind": "live",
+    "label": "7A \u00b7 Courtney \u00b7 Neon Lead Card",
+    "ratio": "1080x1080",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_7A_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_7A_1080X1080_1080x1080.png"
+  },
+  {
+    "kind": "live",
+    "label": "7B \u00b7 Julie \u00b7 Neon Lead Card",
+    "ratio": "1080x1080",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_7B_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_7B_1080X1080_1080x1080.png"
+  },
+  {
+    "kind": "live",
+    "label": "7C \u00b7 Julie \u00b7 Longevity Blueprint",
+    "ratio": "1080x1080",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_7C_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_7C_1080X1080_1080x1080.png"
+  },
+  {
+    "kind": "live",
+    "label": "Layout candidate",
+    "ratio": "1080x1080",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_X_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_X_1080X1080_1080x1080.png"
+  },
+  {
+    "kind": "live",
+    "label": "Layout candidate",
+    "ratio": "1080x1080",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_ROUND_X_1080X1080_1080x1080.png",
+    "file_hi": "rounds/LLA_ROUND_X_1080X1080_1080x1080.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 pace \u00b7 9:16",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-PACE-9-16_1080x1920.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-PACE-9-16_1080x1920.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 years \u00b7 9:16",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-YEARS-9-16_1080x1920.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-YEARS-9-16_1080x1920.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 syllabus \u00b7 9:16",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-SYLLABUS-9-16_1080x1920.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-SYLLABUS-9-16_1080x1920.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 pace \u00b7 9:16",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-PACE-9-16_1080x1920.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-PACE-9-16_1080x1920.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 years \u00b7 9:16",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-YEARS-9-16_1080x1920.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-YEARS-9-16_1080x1920.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 syllabus \u00b7 9:16",
+    "ratio": "",
+    "w": 1080,
+    "h": 1920,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-SYLLABUS-9-16_1080x1920.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-SYLLABUS-9-16_1080x1920.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 pace \u00b7 4:5",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-PACE-4-5_1080x1350.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-PACE-4-5_1080x1350.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 years \u00b7 4:5",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-YEARS-4-5_1080x1350.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-YEARS-4-5_1080x1350.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 syllabus \u00b7 4:5",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-SYLLABUS-4-5_1080x1350.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-SYLLABUS-4-5_1080x1350.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 pace \u00b7 4:5",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-PACE-4-5_1080x1350.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-PACE-4-5_1080x1350.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 years \u00b7 4:5",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-YEARS-4-5_1080x1350.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-YEARS-4-5_1080x1350.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 syllabus \u00b7 4:5",
+    "ratio": "",
+    "w": 1080,
+    "h": 1350,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-SYLLABUS-4-5_1080x1350.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-SYLLABUS-4-5_1080x1350.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 pace \u00b7 1:1",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-PACE-1-1_1080x1080.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-PACE-1-1_1080x1080.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 years \u00b7 1:1",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-YEARS-1-1_1080x1080.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-YEARS-1-1_1080x1080.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Courtney \u00b7 syllabus \u00b7 1:1",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_CAMPAIGN_COURTNEY-SYLLABUS-1-1_1080x1080.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_COURTNEY-SYLLABUS-1-1_1080x1080.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 pace \u00b7 1:1",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-PACE-1-1_1080x1080.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-PACE-1-1_1080x1080.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 years \u00b7 1:1",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-YEARS-1-1_1080x1080.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-YEARS-1-1_1080x1080.png"
+  },
+  {
+    "kind": "campaign",
+    "label": "Julie \u00b7 syllabus \u00b7 1:1",
+    "ratio": "",
+    "w": 1080,
+    "h": 1080,
+    "file": "rounds/LLA_CAMPAIGN_JULIE-SYLLABUS-1-1_1080x1080.png",
+    "file_hi": "rounds/LLA_CAMPAIGN_JULIE-SYLLABUS-1-1_1080x1080.png"
+  }
+]
