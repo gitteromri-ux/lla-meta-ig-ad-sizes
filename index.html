@@ -143,17 +143,16 @@ footer{margin-top:110px;padding-top:34px;border-top:1px solid var(--line);color:
 
 <script>
 const SIZES=[
- {t:'1x1_1080x1080',            r:'1:1',   w:1080,h:1080, tag:'', p:'FB Feed · IG Feed · Explore · Marketplace'},
- {t:'1x1_1440x1440',            r:'1:1',   w:1440,h:1440, tag:'HI-RES', p:'Same placements, higher recommended resolution'},
- {t:'4x5_1080x1350',            r:'4:5',   w:1080,h:1350, tag:'', p:'IG Feed · FB Feed vertical — tallest ratio Feed accepts'},
- {t:'4x5_1440x1800',            r:'4:5',   w:1440,h:1800, tag:'HI-RES', p:'Same placements, higher recommended resolution'},
- {t:'9x16_STORIES_1080x1920',   r:'9:16',  w:1080,h:1920, tag:'STORIES', p:'IG Stories · FB Stories — 250 / 340 px reserve'},
- {t:'9x16_REELS_1080x1920',     r:'9:16',  w:1080,h:1920, tag:'REELS', p:'IG Reels · FB Reels · Audience Network — 250 / 672 px reserve'},
- {t:'191x1_1200x628',           r:'1.91:1',w:1200,h:628,  tag:'', p:'FB link ads · Right column · Messenger · Marketplace'},
- {t:'16x9_1920x1080',           r:'16:9',  w:1920,h:1080, tag:'', p:'FB Feed landscape · In-stream · Instant Articles'}
+ {t:'1x1_1080x1080',                                r:'1:1',   w:1080,h:1080, tag:'', safe:'54 px edges', p:'FB Feed · IG Feed · Explore · Marketplace · Right column'},
+ {t:'1x1_1440x1440',                                r:'1:1',   w:1440,h:1440, tag:'HI-RES', safe:'72 px edges', p:'Same placements at higher resolution, resists feed recompression'},
+ {t:'4x5_1080x1350',                                r:'4:5',   w:1080,h:1350, tag:'', safe:'68 / 54 px', p:'IG Feed · FB Feed vertical — tallest ratio Feed accepts'},
+ {t:'4x5_1440x1800_META-RECOMMENDED',               r:'4:5',   w:1440,h:1800, tag:'META SPEC', safe:'90 / 72 px', p:'Meta’s printed recommended Feed resolution'},
+ {t:'9x16_MESSENGER-STORY_1080x1920',               r:'9:16',  w:1080,h:1920, tag:'MESSENGER', safe:'250 / 340 px', p:'Messenger Story — Meta’s printed 250 / 340 px reserve'},
+ {t:'9x16_STORIES-REELS_1080x1920',                 r:'9:16',  w:1080,h:1920, tag:'STORIES + REELS', safe:'269 / 672 px', p:'IG Stories · FB Stories · IG Reels · FB Reels — 14% / 35% / 6% reserve'},
+ {t:'9x16_STORIES-REELS_1440x2560_META-RECOMMENDED',r:'9:16',  w:1440,h:2560, tag:'META SPEC', safe:'358 / 896 px', p:'Meta’s printed recommended Stories / Reels resolution'},
+ {t:'191x1_1200x628',                               r:'1.91:1',w:1200,h:628,  tag:'', safe:'54 / 103 px', p:'FB link ads · widest ratio IG Feed accepts · Marketplace'},
+ {t:'16x9_1920x1080',                               r:'16:9',  w:1920,h:1080, tag:'', safe:'54 / 96 px', p:'In-stream · Instant Articles · landscape link ads'}
 ];
-const SAFE={'1x1_1080x1080':'54 px edges','1x1_1440x1440':'72 px edges','4x5_1080x1350':'68 / 54 px','4x5_1440x1800':'90 / 72 px',
- '9x16_STORIES_1080x1920':'250 / 340 px','9x16_REELS_1080x1920':'250 / 672 px','191x1_1200x628':'54 / 103 px','16x9_1920x1080':'54 / 96 px'};
 for(const b of [{id:'BLUEPRINT',grid:'gridB',cls:''},{id:'COURTNEY',grid:'gridC',cls:''},{id:'JULIE',grid:'gridJ',cls:'g'}]){
   const g=document.getElementById(b.grid);
   for(const s of SIZES){
@@ -169,7 +168,7 @@ for(const b of [{id:'BLUEPRINT',grid:'gridB',cls:''},{id:'COURTNEY',grid:'gridC'
       <div class="spec">
         <div><b>Format</b><span>PNG · sRGB</span></div>
         <div><b>Aspect</b><span>${s.r}</span></div>
-        <div><b>Safe reserve</b><span>${SAFE[s.t]}</span></div>
+        <div><b>Safe reserve</b><span>${s.safe}</span></div>
         <div><b>Copy inside</b><span class="ok">Pass ✓</span></div>
       </div>
       <div class="acts">
