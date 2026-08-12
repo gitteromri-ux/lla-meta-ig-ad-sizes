@@ -46,6 +46,30 @@ with sync_playwright() as p:
             found.push({id:sec.id,label:lbl?lbl.textContent.trim():sec.id,
                         w:parseInt(fr.style.width),h:parseInt(fr.style.height)});
           });
+
+          // Enlarge talent credit lines 2x wherever they appear, then guard against clipping.
+          const NAMES=/Julie Gibson Clark|Courtney Donofrio|Slowest[- ]Aging|Slowest Ager|Longevity Life Academy Instructor|Founding Faculty|Ranked No/i;
+          document.querySelectorAll('div,span,p').forEach(x=>{
+            if(x.childElementCount>0) return;
+            const t=(x.textContent||'').trim();
+            if(!t || !NAMES.test(t)) return;
+            const cs=getComputedStyle(x);
+            const fs=parseFloat(cs.fontSize)||0;
+            if(fs<=0 || fs>90) return;
+            x.style.fontSize=(fs*2)+'px';
+            x.style.fontWeight=(parseInt(cs.fontWeight)||400)<600?'600':cs.fontWeight;
+            x.style.whiteSpace='nowrap';
+            x.setAttribute('data-grown','1');
+          });
+          // shrink any grown block that now exceeds its frame width
+          document.querySelectorAll('[data-grown]').forEach(x=>{
+            let box=x.closest('div[style*="position:absolute"]')||x.parentElement;
+            const lim=(box&&box.offsetWidth)||0;
+            if(lim && x.scrollWidth>lim){
+              const k=lim/x.scrollWidth;
+              x.style.fontSize=(parseFloat(getComputedStyle(x).fontSize)*k*0.98)+'px';
+            }
+          });
           document.body.style.background='#05070d';
           return found;}""", scale)
         page.wait_for_timeout(2500)
