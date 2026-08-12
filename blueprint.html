@@ -44,8 +44,8 @@ html,body{margin:0;padding:0;background:#05070d;overflow:hidden;}
     </div>
   </div>
   <div id="byline" style="position:absolute;text-align:left;background:rgba(8,10,16,.62);backdrop-filter:blur(12px);padding:12px 20px;border-radius:16px;border:1px solid rgba(255,255,255,.16);box-shadow:0 10px 34px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.12);">
-    <div id="bn" style="font-family:'Inter',sans-serif;font-weight:600;color:#fff;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);">Julie Gibson Clark</div>
-    <div id="br" style="font-family:'PlayfairIt',serif;font-style:italic;color:#ffd9a0;font-weight:600;margin-top:10px;white-space:nowrap;text-shadow:0 0 26px rgba(255,196,120,.7),0 2px 16px rgba(0,0,0,.85);">2nd Slowest-Aging Person on Earth</div>
+    <div id="bn" style="font-family:'Inter',sans-serif;font-weight:700;color:#fff;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);">Julie Gibson Clark</div>
+    <div id="br" style="font-family:'PlayfairIt',serif;font-style:italic;color:#ffd9a0;font-weight:600;margin-top:14px;white-space:nowrap;text-shadow:0 0 26px rgba(255,196,120,.7),0 2px 16px rgba(0,0,0,.85);">2nd Slowest-Aging Person on Earth</div>
   </div>
   <div class="guide" id="guide"></div>
 </div></div>
@@ -56,9 +56,9 @@ const Q=new URLSearchParams(location.search), F=Q.get('f')||'1x1', GUIDE=Q.get('
    julieFormats base with h1='Master your tailored', h2='Longevity Blueprint', hd-10, hi-10,
    zw='84%' for 1:1. Card width 740px, left 64px in the authored 1080-wide space. */
 const A={
- '1x1' :{photo:'assets/julie_couch_a_web.jpg',pos:'0% 25%',  top:20, logo:340, zw:'84%', sz:1, sp:0, nm:30, cr:22, nb:6,  hd:44, hi:40, pd:'34px 44px', pl:34, pr:56, po:56},
- '4x5' :{photo:'assets/julie_garden_web.jpg', pos:'18% 18%', top:72, logo:460, zw:'78%', sz:1, sp:1, nm:44, cr:34, nb:56, hd:66, hi:62, pd:'44px 48px', pl:40, pr:68, po:68},
- '9x16':{photo:'assets/julie_couch_b_web.jpg',pos:'30% 25%', top:110,logo:480, zw:'96%', sz:1, sp:1, nm:46, cr:36, nb:56, hd:66, hi:62, pd:'44px 48px', pl:40, pr:68, po:68}
+ '1x1' :{photo:'assets/julie_couch_a_web.jpg',pos:'0% 25%',  top:20, logo:340, zw:'84%', sz:1, sp:0, nm:60, cr:44, nb:6,  hd:44, hi:40, pd:'34px 44px', pl:34, pr:56, po:56},
+ '4x5' :{photo:'assets/julie_garden_web.jpg', pos:'18% 18%', top:72, logo:460, zw:'78%', sz:1, sp:1, nm:88, cr:68, nb:56, hd:66, hi:62, pd:'44px 48px', pl:40, pr:68, po:68},
+ '9x16':{photo:'assets/julie_couch_b_web.jpg',pos:'30% 25%', top:110,logo:480, zw:'96%', sz:1, sp:1, nm:92, cr:72, nb:56, hd:66, hi:62, pd:'44px 48px', pl:40, pr:68, po:68}
 };
 const FORMATS={
  '1x1'   :{w:1080,h:1080, safe:0.05,  a:'1x1'},
@@ -115,14 +115,21 @@ function layout(){
   const by=document.getElementById('byline');
   by.style.right=insetX+'px';
   by.style.bottom=(safeBottom+6)+'px';
-  const bh=by.offsetHeight;
+  /* credit chip is set 2x; if that exceeds the safe width, scale the chip uniformly
+     so it can never be clipped — proportional only, type stays vector-sharp */
+  by.style.transform='none'; by.style.transformOrigin='right bottom';
+  const maxByW=VW-2*insetX;
+  const bw=by.offsetWidth;
+  const bsc=bw>maxByW ? maxByW/bw : 1;
+  by.style.transform='scale('+bsc+')';
+  const bh=by.offsetHeight*bsc;
   /* The credit chip sits bottom-right and horizontally overlaps the card column,
      so its height is reserved out of the usable band. The card is then scaled
      uniformly to fit — proportional only, never reflowed. */
   const usableH = bandH - bh - 18;
   const rawH=card.offsetHeight, rawW=740;
-  const sc=Math.min(1, usableH/rawH, (VW-2*insetX)/rawW);
-  const authoredOK = !fmt.land && a.top>=safeTop && a.top+rawH<=safeTop+usableH && sc===1;
+  const sc=Math.min(usableH/rawH, (VW-2*insetX)/rawW);
+  const authoredOK = false;
   const top = authoredOK ? a.top : Math.round(safeTop+(usableH-rawH*sc)/2);
   wrap.style.top=top+'px';
   wrap.style.transform='scale('+sc+')';
@@ -130,8 +137,8 @@ function layout(){
   window.__meta={VW,VH,S,rawH,sc,top,insetX,safeTop,safeBottom,
     photoSrc:bg.getAttribute('src'),photoW:srcW,photoH:srcH,
     photoUpscale:Math.round(Math.max(fmt.w/srcW,fmt.h/srcH)*1000)/1000,
-    bylineH:bh, cardBottom:Math.round(top+rawH*sc), bylineTop:VH-safeBottom-6-bh,
-    fits:(top>=safeTop-1)&&(top+rawH*sc<=VH-safeBottom-6-bh+1)};
+    bylineH:Math.round(bh), bylineScale:Math.round(bsc*1000)/1000, cardBottom:Math.round(top+rawH*sc), bylineTop:VH-safeBottom-6-bh,
+    fits:(top>=safeTop-1)&&(top+rawH*sc<=VH-safeBottom-6-bh+1)&&(by.offsetWidth*bsc<=maxByW+1)};
   if(GUIDE){
     const g=document.getElementById('guide'); g.style.display='block'; g.innerHTML='';
     const mk=h=>{const d=document.createElement('div');d.innerHTML=h;return d.firstChild;};

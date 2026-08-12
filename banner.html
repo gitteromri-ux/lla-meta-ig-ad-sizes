@@ -32,8 +32,8 @@ transform:perspective(1500px) rotateY(3.5deg);transform-origin:left center;}
 .tp{display:flex;align-items:center;gap:14px;margin-top:20px;}
 .tp span{font-family:'Inter',sans-serif;color:#fff;font-size:23px;white-space:nowrap;}
 .byline{position:absolute;text-align:right;}
-.bn{font-family:'Inter',sans-serif;font-weight:600;color:#fff;font-size:26px;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);}
-.br{font-family:'Inter',sans-serif;font-size:18px;margin-top:5px;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);}
+.bn{font-family:'Inter',sans-serif;font-weight:700;color:#fff;font-size:52px;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);}
+.br{font-family:'Inter',sans-serif;font-weight:600;font-size:36px;margin-top:10px;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);}
 .guide{position:absolute;inset:0;pointer-events:none;display:none;}
 .guide .band{position:absolute;left:0;right:0;background:rgba(255,0,80,.24);}
 .guide .box{position:absolute;border:3px dashed rgba(60,255,170,.95);}
@@ -186,31 +186,36 @@ wrap.style.width='640px';
 
 function layout(){
   wrap.style.transform='none'; wrap.style.top='0px';
-  const ch=card.getBoundingClientRect().height/1; // unscaled because virt scale applied? measure raw
+  const by=document.getElementById('byline');
+  by.style.right=insetX+'px';
+  by.style.bottom=safeBottom+'px';
+  by.style.transform='none'; by.style.transformOrigin='right bottom';
+  const maxByW=VW-2*insetX;
+  const bwRaw=by.offsetWidth;
+  const bsc=bwRaw>maxByW ? maxByW/bwRaw : 1;
+  by.style.transform='scale('+bsc+')';
+  const bylineH=by.offsetHeight*bsc;
   const rawH=card.offsetHeight;
   const rawW=640;
   const maxW=VW-2*insetX;
-  let sc=Math.min(1, bandH/rawH, maxW/rawW);
-  let top;
-  if(!fmt.land && a.top!=null && sc===1 && a.top>=safeTop && a.top+rawH<=VH-safeBottom){
-    top=a.top;                              /* authored position, already inside safe area */
-  }else{
-    top=Math.round(bandTop+(bandH-rawH*sc)/2);
-  }
+  /* The credit block sits bottom-right and overlaps the card column, so reserve it.
+     Scale is uniform and may exceed 1.0 so the card fills the safe area: every glyph
+     is re-rendered from vector at the larger size, never resampled. */
+  const usableH=bandH-bylineH-20;
+  let sc=Math.min(usableH/rawH, maxW/rawW);
+  let top=Math.round(bandTop+(usableH-rawH*sc)/2);
   wrap.style.top=top+'px';
   wrap.style.height=(rawH)+'px';
   wrap.style.transformOrigin='left top';
   wrap.style.transform='scale('+sc+')';
-  const byline=document.getElementById('byline');
-  byline.style.right=insetX+'px';
-  byline.style.bottom=(safeBottom+ (fmt.land?0:0))+'px';
   const bgi=document.getElementById('bg');
   const srcW=bgi.naturalWidth||1, srcH=bgi.naturalHeight||1;
   const coverScale=Math.max(fmt.w/srcW, fmt.h/srcH);
-  window.__meta={VW,VH,S,rawH,sc,top,insetX,safeTop,safeBottom,bandTop,bandH,
+  window.__meta={VW,VH,S,rawH,sc,top,insetX,safeTop,safeBottom,bandTop,bandH,bylineH:Math.round(bylineH),bylineScale:Math.round(bsc*1000)/1000,
                  photoSrc:bgi.getAttribute('src'),photoW:srcW,photoH:srcH,
                  photoUpscale:Math.round(coverScale*1000)/1000,
-                 cardBottom:top+rawH*sc, fits:(top>=safeTop-1)&&(top+rawH*sc<=VH-safeBottom+1)};
+                 cardBottom:Math.round(top+rawH*sc),
+                 fits:(top>=safeTop-1)&&(top+rawH*sc<=VH-safeBottom-20-bylineH+1)&&(by.offsetWidth*bsc<=maxByW+1)};
   if(GUIDE) drawGuide(top,rawH*sc,sc);
 }
 function drawGuide(top,h,sc){

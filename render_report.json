@@ -10,7 +10,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 0.8716,
     "source_photo": "assets/courtney_master_hi.png",
     "source_photo_px": "2752x1536",
     "photo_cover_scale": 0.703
@@ -26,7 +26,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.3333,
+    "card_render_scale": 1.1621,
     "source_photo": "assets/courtney_master_hi.png",
     "source_photo_px": "2752x1536",
     "photo_cover_scale": 0.938
@@ -42,7 +42,7 @@
     "safe_reserve_bottom_px": 68,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 1.0075,
     "source_photo": "assets/courtney_portrait_hi.png",
     "source_photo_px": "1536x2752",
     "photo_cover_scale": 0.703
@@ -58,7 +58,7 @@
     "safe_reserve_bottom_px": 68,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.3333,
+    "card_render_scale": 1.3433,
     "source_photo": "assets/courtney_portrait_hi.png",
     "source_photo_px": "1536x2752",
     "photo_cover_scale": 0.938
@@ -74,7 +74,7 @@
     "safe_reserve_bottom_px": 340,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 1.0017,
     "source_photo": "assets/courtney_portrait_hi.png",
     "source_photo_px": "1536x2752",
     "photo_cover_scale": 0.703
@@ -90,7 +90,7 @@
     "safe_reserve_bottom_px": 672,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 0.8789,
     "source_photo": "assets/courtney_portrait_hi.png",
     "source_photo_px": "1536x2752",
     "photo_cover_scale": 0.703
@@ -106,7 +106,7 @@
     "safe_reserve_bottom_px": 672,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.3333,
+    "card_render_scale": 1.1719,
     "source_photo": "assets/courtney_portrait_hi.png",
     "source_photo_px": "1536x2752",
     "photo_cover_scale": 0.938
@@ -122,7 +122,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 103,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 0.5814,
+    "card_render_scale": 0.5067,
     "source_photo": "assets/courtney_master_hi.png",
     "source_photo_px": "2752x1536",
     "photo_cover_scale": 0.436
@@ -138,7 +138,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 96,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 0.8716,
     "source_photo": "assets/courtney_master_hi.png",
     "source_photo_px": "2752x1536",
     "photo_cover_scale": 0.703
@@ -154,7 +154,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 0.9066,
     "source_photo": "assets/julie_couch_a_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1
@@ -170,7 +170,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.3333,
+    "card_render_scale": 1.2088,
     "source_photo": "assets/julie_couch_a_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.333
@@ -186,7 +186,7 @@
     "safe_reserve_bottom_px": 68,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 1.0426,
     "source_photo": "assets/julie_garden_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.25
@@ -202,7 +202,7 @@
     "safe_reserve_bottom_px": 68,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.3333,
+    "card_render_scale": 1.3901,
     "source_photo": "assets/julie_garden_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.667
@@ -218,7 +218,7 @@
     "safe_reserve_bottom_px": 340,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 1.0329,
     "source_photo": "assets/julie_couch_b_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.778
@@ -234,7 +234,7 @@
     "safe_reserve_bottom_px": 672,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 0.9142,
     "source_photo": "assets/julie_couch_b_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.778
@@ -250,7 +250,7 @@
     "safe_reserve_bottom_px": 672,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.3333,
+    "card_render_scale": 1.219,
     "source_photo": "assets/julie_couch_b_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 2.37
@@ -266,7 +266,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 103,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 0.5814,
+    "card_render_scale": 0.5271,
     "source_photo": "assets/julie_couch_a_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 0.625
@@ -282,7 +282,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 96,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 0.9066,
     "source_photo": "assets/julie_couch_a_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1
@@ -298,7 +298,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 0.9241,
+    "card_render_scale": 0.8492,
     "source_photo": "assets/julie_couch_a_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1
@@ -314,7 +314,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.2321,
+    "card_render_scale": 1.1323,
     "source_photo": "assets/julie_couch_a_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.333
@@ -330,7 +330,7 @@
     "safe_reserve_bottom_px": 68,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 0.9934,
+    "card_render_scale": 0.926,
     "source_photo": "assets/julie_garden_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.25
@@ -346,7 +346,7 @@
     "safe_reserve_bottom_px": 68,
     "safe_reserve_side_px": 54,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.3246,
+    "card_render_scale": 1.2347,
     "source_photo": "assets/julie_garden_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.667
@@ -362,7 +362,7 @@
     "safe_reserve_bottom_px": 340,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1,
+    "card_render_scale": 0.9699,
     "source_photo": "assets/julie_couch_b_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.778
@@ -378,7 +378,7 @@
     "safe_reserve_bottom_px": 672,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 0.9317,
+    "card_render_scale": 0.8568,
     "source_photo": "assets/julie_couch_b_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1.778
@@ -394,7 +394,7 @@
     "safe_reserve_bottom_px": 672,
     "safe_reserve_side_px": 65,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 1.2422,
+    "card_render_scale": 1.1424,
     "source_photo": "assets/julie_couch_b_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 2.37
@@ -410,7 +410,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 103,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 0.5373,
+    "card_render_scale": 0.4937,
     "source_photo": "assets/julie_couch_a_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 0.625
@@ -426,7 +426,7 @@
     "safe_reserve_bottom_px": 54,
     "safe_reserve_side_px": 96,
     "all_copy_inside_safe_zone": true,
-    "card_render_scale": 0.9241,
+    "card_render_scale": 0.8492,
     "source_photo": "assets/julie_couch_a_web.jpg",
     "source_photo_px": "1920x1080",
     "photo_cover_scale": 1
