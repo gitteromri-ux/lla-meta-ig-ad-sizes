@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Playfair';src:url('assets/fonts/PlayfairDisplay.ttf');font-weight:400 900;font-display:block;}
+@font-face{font-family:'PlayfairIt';src:url('assets/fonts/PlayfairDisplay-Italic.ttf');font-weight:400 900;font-style:italic;font-display:block;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter.ttf');font-weight:100 900;font-display:block;}
+html,body{margin:0;padding:0;background:#05070d;overflow:hidden;}
+#out{position:relative;overflow:hidden;background:#05070d;}
+#virt{position:absolute;top:0;left:0;transform-origin:0 0;overflow:hidden;}
+.guide{position:absolute;inset:0;pointer-events:none;display:none;}
+.guide .band{position:absolute;left:0;right:0;background:rgba(255,0,80,.24);}
+.guide .box{position:absolute;border:3px dashed rgba(60,255,170,.95);}
+.guide .lbl{position:absolute;font-family:'Inter',sans-serif;font-weight:700;color:#fff;background:rgba(0,0,0,.62);padding:6px 12px;border-radius:4px;letter-spacing:.08em;}
+</style></head>
+<body>
+<div id="out"><div id="virt">
+  <img id="bg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(1.1) contrast(1.02);">
+  <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(10,7,4,.55) 0%,rgba(10,7,4,.08) 55%,rgba(10,7,4,.02) 100%);"></div>
+  <div style="position:absolute;inset:0;background:radial-gradient(120% 100% at 50% 30%,rgba(0,0,0,0) 62%,rgba(10,7,4,.28) 100%);"></div>
+  <div id="cardwrap" style="position:absolute;transform-origin:left top;">
+    <div id="card" style="width:740px;display:flex;flex-direction:column;background:linear-gradient(165deg,rgba(13,21,42,.95) 0%,rgba(6,10,21,.88) 100%);backdrop-filter:blur(22px);border:1.5px solid rgba(130,185,255,.85);border-radius:26px;transform:perspective(1500px) rotateY(3.5deg);transform-origin:left center;box-shadow:0 60px 130px rgba(0,0,0,.7),0 0 50px rgba(90,160,255,.3),inset 0 2px 0 rgba(255,255,255,.45),inset 0 0 140px rgba(90,160,255,.38),inset 0 0 44px rgba(140,195,255,.32),inset 0 0 12px rgba(170,210,255,.3),inset 0 0 0 1px rgba(255,255,255,.1);">
+      <img id="logo" src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group" style="display:block;margin-top:4px;filter:brightness(1.07) drop-shadow(0 2px 10px rgba(0,0,0,.85));">
+      <div id="h1" style="margin-top:24px;font-family:'Playfair',serif;font-weight:500;color:#fff;line-height:1.1;letter-spacing:-.02em;white-space:nowrap;text-shadow:0 2px 4px rgba(0,0,0,.25),0 0 34px rgba(120,180,255,.4);">Master your tailored</div>
+      <div id="h2" style="margin-top:12px;font-family:'PlayfairIt',serif;font-style:italic;font-weight:600;line-height:1.08;white-space:nowrap;background:linear-gradient(100deg,#e8f1ff 0%,#b8d0f5 55%,#8fb3e8 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 24px rgba(120,180,255,.6));padding-bottom:.10em;">Longevity Blueprint</div>
+      <div style="width:220px;height:2px;margin-top:12px;background:linear-gradient(90deg,#c9b284,rgba(201,178,132,0));"></div>
+      <div id="pl" style="margin-top:24px;font-family:'Playfair',serif;color:#ffffff;white-space:nowrap;">Master the Six Pillars of longevity.</div>
+      <div id="zoomwrap" style="position:relative;aspect-ratio:1600/893;margin-left:auto;margin-right:auto;margin-top:20px;border-radius:14px;overflow:hidden;box-shadow:0 24px 54px rgba(0,0,0,.55),0 0 34px rgba(90,160,255,.35),0 0 0 1px rgba(160,200,255,.4),inset 0 1px 0 rgba(255,255,255,.35);">
+        <img src="assets/zoom_class_web.jpg" alt="Live online small-group class" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;">
+      </div>
+      <div id="sp" style="margin-top:20px;font-family:'Inter',sans-serif;font-size:31px;color:rgba(226,239,255,.9);white-space:nowrap;">18 live sessions &#183; Small groups of 8&#8211;15</div>
+      <div style="display:flex;align-items:baseline;gap:14px;margin-top:26px;border-top:1px solid rgba(216,195,154,.28);padding-top:16px;">
+        <span id="po" style="font-family:'Playfair',serif;font-weight:700;line-height:1;white-space:nowrap;background:linear-gradient(100deg,#fff3d8 0%,#e3cb96 50%,#c8a45c 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 18px rgba(255,206,130,.6));padding-bottom:.06em;">35% off</span>
+        <span style="width:1px;height:38px;background:rgba(255,255,255,.28);align-self:center;margin:0 12px;"></span>
+        <span style="font-family:'Playfair',serif;font-size:32px;color:rgba(255,255,255,.45);text-decoration:line-through;text-decoration-color:rgba(255,150,120,.7);">$445</span>
+        <span id="pr" style="font-family:'Playfair',serif;font-weight:700;line-height:1;color:#ffffff;text-shadow:0 0 22px rgba(255,206,130,.55);">$289</span>
+        <span style="font-family:'Inter',sans-serif;font-size:28px;color:rgba(255,255,255,.7);white-space:nowrap;">/ mo</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:24px;margin-top:22px;">
+        <div style="font-family:'Inter',sans-serif;font-weight:700;color:#1a1206;background:linear-gradient(180deg,#ffe9bd,#dcaf62);font-size:29px;letter-spacing:.04em;padding:21px 58px;border-radius:999px;white-space:nowrap;box-shadow:0 0 44px rgba(255,196,120,.7),0 10px 26px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.7);">Enroll now</div>
+        <div style="flex:1;"></div>
+        <img src="assets/tp_stars-5.svg" alt="Five Trustpilot stars" style="height:38px;display:block;">
+        <span style="font-family:'Inter',sans-serif;color:#ffffff;font-size:30px;white-space:nowrap;">4.6 on Trustpilot</span>
+      </div>
+    </div>
+  </div>
+  <div id="byline" style="position:absolute;text-align:left;background:rgba(8,10,16,.62);backdrop-filter:blur(12px);padding:12px 20px;border-radius:16px;border:1px solid rgba(255,255,255,.16);box-shadow:0 10px 34px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.12);">
+    <div id="bn" style="font-family:'Inter',sans-serif;font-weight:600;color:#fff;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);">Julie Gibson Clark</div>
+    <div id="br" style="font-family:'PlayfairIt',serif;font-style:italic;color:#ffd9a0;font-weight:600;margin-top:10px;white-space:nowrap;text-shadow:0 0 26px rgba(255,196,120,.7),0 2px 16px rgba(0,0,0,.85);">2nd Slowest-Aging Person on Earth</div>
+  </div>
+  <div class="guide" id="guide"></div>
+</div></div>
+<script>
+const Q=new URLSearchParams(location.search), F=Q.get('f')||'1x1', GUIDE=Q.get('guide')==='1';
+
+/* 7C authored parameters, extracted verbatim from LLA All Banners (blueprintFormats):
+   julieFormats base with h1='Master your tailored', h2='Longevity Blueprint', hd-10, hi-10,
+   zw='84%' for 1:1. Card width 740px, left 64px in the authored 1080-wide space. */
+const A={
+ '1x1' :{photo:'assets/julie_couch_a_web.jpg',pos:'0% 25%',  top:20, logo:340, zw:'84%', sz:1, sp:0, nm:30, cr:22, nb:6,  hd:44, hi:40, pd:'34px 44px', pl:34, pr:56, po:56},
+ '4x5' :{photo:'assets/julie_garden_web.jpg', pos:'18% 18%', top:72, logo:460, zw:'78%', sz:1, sp:1, nm:44, cr:34, nb:56, hd:66, hi:62, pd:'44px 48px', pl:40, pr:68, po:68},
+ '9x16':{photo:'assets/julie_couch_b_web.jpg',pos:'30% 25%', top:110,logo:480, zw:'96%', sz:1, sp:1, nm:46, cr:36, nb:56, hd:66, hi:62, pd:'44px 48px', pl:40, pr:68, po:68}
+};
+const FORMATS={
+ '1x1'   :{w:1080,h:1080, safe:0.05,  a:'1x1'},
+ '1x1hi' :{w:1440,h:1440, safe:0.05,  a:'1x1'},
+ '4x5'   :{w:1080,h:1350, safe:0.05,  a:'4x5'},
+ '4x5hi' :{w:1440,h:1800, safe:0.05,  a:'4x5'},
+ '9x16m' :{w:1080,h:1920, safeTopPx:250, safeBottomPx:340, safe:0.06, a:'9x16'},
+ '9x16'  :{w:1080,h:1920, safeTopPct:0.14, safeBottomPct:0.35, safe:0.06, a:'1x1'},
+ '9x16hi':{w:1440,h:2560, safeTopPct:0.14, safeBottomPct:0.35, safe:0.06, a:'1x1'},
+ '191x1' :{w:1200,h:628,  safe:0.05, land:1, a:'1x1'},
+ '16x9'  :{w:1920,h:1080, safe:0.05, land:1, a:'1x1'}
+};
+const LANDPHOTO='assets/julie_couch_a_web.jpg', LANDPOS='58% 22%';
+const NINEPHOTO='assets/julie_couch_b_web.jpg', NINEPOS='30% 25%';
+
+const fmt=FORMATS[F], a=A[fmt.a];
+const VW = fmt.land ? Math.round(1080*fmt.w/fmt.h) : 1080;
+const VH = fmt.land ? 1080 : Math.round(1080*fmt.h/fmt.w);
+const S  = fmt.w/VW;
+
+document.getElementById('out').style.width=fmt.w+'px';
+document.getElementById('out').style.height=fmt.h+'px';
+const virt=document.getElementById('virt');
+virt.style.width=VW+'px'; virt.style.height=VH+'px'; virt.style.transform='scale('+S+')';
+
+const bg=document.getElementById('bg');
+if(fmt.land){bg.src=LANDPHOTO;bg.style.objectPosition=LANDPOS;}
+else if(F==='9x16'||F==='9x16hi'){bg.src=NINEPHOTO;bg.style.objectPosition=NINEPOS;}
+else {bg.src=a.photo;bg.style.objectPosition=a.pos;}
+
+const card=document.getElementById('card');
+card.style.padding=a.pd;
+document.getElementById('logo').style.width=a.logo+'px';
+document.getElementById('h1').style.fontSize=a.hd+'px';
+document.getElementById('h2').style.fontSize=a.hi+'px';
+document.getElementById('pl').style.fontSize=a.pl+'px';
+document.getElementById('po').style.fontSize=a.po+'px';
+document.getElementById('pr').style.fontSize=a.pr+'px';
+document.getElementById('zoomwrap').style.width=a.zw;
+document.getElementById('zoomwrap').style.display=a.sz?'block':'none';
+document.getElementById('sp').style.display=a.sp?'block':'none';
+document.getElementById('bn').style.fontSize=a.nm+'px';
+document.getElementById('br').style.fontSize=a.cr+'px';
+
+const insetX=Math.round(fmt.safe*VW);
+const safeTop    = fmt.safeTopPx    !=null ? fmt.safeTopPx    : Math.round((fmt.safeTopPct   !=null?fmt.safeTopPct   :fmt.safe)*VH);
+const safeBottom = fmt.safeBottomPx !=null ? fmt.safeBottomPx : Math.round((fmt.safeBottomPct!=null?fmt.safeBottomPct:fmt.safe)*VH);
+const bandH=VH-safeTop-safeBottom;
+const wrap=document.getElementById('cardwrap');
+wrap.style.left=insetX+'px';
+
+function layout(){
+  wrap.style.transform='none';
+  const by=document.getElementById('byline');
+  by.style.right=insetX+'px';
+  by.style.bottom=(safeBottom+6)+'px';
+  const bh=by.offsetHeight;
+  /* The credit chip sits bottom-right and horizontally overlaps the card column,
+     so its height is reserved out of the usable band. The card is then scaled
+     uniformly to fit — proportional only, never reflowed. */
+  const usableH = bandH - bh - 18;
+  const rawH=card.offsetHeight, rawW=740;
+  const sc=Math.min(1, usableH/rawH, (VW-2*insetX)/rawW);
+  const authoredOK = !fmt.land && a.top>=safeTop && a.top+rawH<=safeTop+usableH && sc===1;
+  const top = authoredOK ? a.top : Math.round(safeTop+(usableH-rawH*sc)/2);
+  wrap.style.top=top+'px';
+  wrap.style.transform='scale('+sc+')';
+  const srcW=bg.naturalWidth||1, srcH=bg.naturalHeight||1;
+  window.__meta={VW,VH,S,rawH,sc,top,insetX,safeTop,safeBottom,
+    photoSrc:bg.getAttribute('src'),photoW:srcW,photoH:srcH,
+    photoUpscale:Math.round(Math.max(fmt.w/srcW,fmt.h/srcH)*1000)/1000,
+    bylineH:bh, cardBottom:Math.round(top+rawH*sc), bylineTop:VH-safeBottom-6-bh,
+    fits:(top>=safeTop-1)&&(top+rawH*sc<=VH-safeBottom-6-bh+1)};
+  if(GUIDE){
+    const g=document.getElementById('guide'); g.style.display='block'; g.innerHTML='';
+    const mk=h=>{const d=document.createElement('div');d.innerHTML=h;return d.firstChild;};
+    g.appendChild(mk('<div class="band" style="top:0;height:'+safeTop+'px"></div>'));
+    g.appendChild(mk('<div class="band" style="bottom:0;height:'+safeBottom+'px"></div>'));
+    g.appendChild(mk('<div class="box" style="left:'+insetX+'px;top:'+safeTop+'px;width:'+(VW-2*insetX)+'px;height:'+bandH+'px"></div>'));
+    const fs=Math.round(VH*0.026);
+    g.appendChild(mk('<div class="lbl" style="left:'+insetX+'px;top:'+(safeTop+14)+'px;font-size:'+fs+'px">SAFE ZONE &nbsp;'+fmt.w+' \u00d7 '+fmt.h+'</div>'));
+    g.appendChild(mk('<div class="lbl" style="left:'+insetX+'px;bottom:'+(safeBottom+14)+'px;font-size:'+fs+'px">ALL COPY INSIDE \u2713</div>'));
+  }
+}
+window.__ready=false;
+document.fonts.ready
+ .then(()=>Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r;}))))
+ .then(()=>{layout();requestAnimationFrame(()=>requestAnimationFrame(()=>{layout();window.__ready=true;}));});
+</script>
+</body></html>

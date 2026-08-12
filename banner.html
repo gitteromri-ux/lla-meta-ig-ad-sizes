@@ -74,19 +74,23 @@ const B=Q.get('b')||'courtney', F=Q.get('f')||'1x1', GUIDE=Q.get('guide')==='1';
 
 /* Output sizes — exact Meta / Instagram accepted pixel dimensions */
 const FORMATS={
- '1x1'  :{w:1080,h:1080, safe:0.05,  authored:{top:48, logo:420, zh:200}},
- '4x5'  :{w:1080,h:1350, safe:0.05,  authored:{top:84, logo:460, zh:304}},
- '9x16' :{w:1080,h:1920, safeTopPx:250, safeBottomPx:340, safe:0.055, authored:{top:110,logo:490,zh:420}},
- '191x1':{w:1200,h:628,  safe:0.05,  land:true, authored:{top:null,logo:420,zh:200}},
- '16x9' :{w:1920,h:1080, safe:0.05,  land:true, authored:{top:null,logo:420,zh:200}}
+ '1x1'   :{w:1080,h:1080, safe:0.05,  authored:{top:48, logo:420, zh:200}},
+ '1x1hi' :{w:1440,h:1440, safe:0.05,  authored:{top:48, logo:420, zh:200}},
+ '4x5'   :{w:1080,h:1350, safe:0.05,  authored:{top:84, logo:460, zh:304}},
+ '4x5hi' :{w:1440,h:1800, safe:0.05,  authored:{top:84, logo:460, zh:304}},
+ '9x16m' :{w:1080,h:1920, safeTopPx:250, safeBottomPx:340, safe:0.06, authored:{top:110,logo:490,zh:420}},
+ '9x16'  :{w:1080,h:1920, safeTopPct:0.14, safeBottomPct:0.35, safe:0.06, authored:{top:null,logo:420,zh:200}},
+ '9x16hi':{w:1440,h:2560, safeTopPct:0.14, safeBottomPct:0.35, safe:0.06, authored:{top:null,logo:420,zh:200}},
+ '191x1' :{w:1200,h:628,  safe:0.05,  land:true, authored:{top:null,logo:420,zh:200}},
+ '16x9'  :{w:1920,h:1080, safe:0.05,  land:true, authored:{top:null,logo:420,zh:200}}
 };
 const POS={
- courtney:{'1x1':'4% 12%','4x5':'27% 12%','9x16':'38% 12%','191x1':'62% 14%','16x9':'62% 14%'},
- julie   :{'1x1':'15% 25%','4x5':'23% 20%','9x16':'35% 25%','191x1':'62% 22%','16x9':'62% 22%'}
+ courtney:{'1x1':'62% 18%','1x1hi':'62% 18%','4x5':'52% 22%','4x5hi':'52% 22%','9x16':'52% 22%','9x16m':'52% 22%','9x16hi':'52% 22%','191x1':'62% 16%','16x9':'62% 16%'},
+ julie   :{'1x1':'15% 25%','1x1hi':'15% 25%','4x5':'23% 20%','4x5hi':'23% 20%','9x16':'35% 25%','9x16m':'35% 25%','9x16hi':'35% 25%','191x1':'62% 22%','16x9':'62% 22%'}
 };
 const PHOTO={
- courtney:{'1x1':'assets/courtney_master_web.jpg','4x5':'assets/courtney_master_web.jpg','9x16':'assets/courtney_master_web.jpg','191x1':'assets/courtney_master_web.jpg','16x9':'assets/courtney_master_web.jpg'},
- julie   :{'1x1':'assets/julie_couch_a_web.jpg','4x5':'assets/julie_garden_web.jpg','9x16':'assets/julie_couch_b_web.jpg','191x1':'assets/julie_couch_a_web.jpg','16x9':'assets/julie_couch_a_web.jpg'}
+ courtney:{'1x1':'assets/courtney_master_hi.png','1x1hi':'assets/courtney_master_hi.png','4x5':'assets/courtney_portrait_hi.png','4x5hi':'assets/courtney_portrait_hi.png','9x16':'assets/courtney_portrait_hi.png','9x16m':'assets/courtney_portrait_hi.png','9x16hi':'assets/courtney_portrait_hi.png','191x1':'assets/courtney_master_hi.png','16x9':'assets/courtney_master_hi.png'},
+ julie   :{'1x1':'assets/julie_couch_a_web.jpg','1x1hi':'assets/julie_couch_a_web.jpg','4x5':'assets/julie_garden_web.jpg','4x5hi':'assets/julie_garden_web.jpg','9x16':'assets/julie_couch_b_web.jpg','9x16m':'assets/julie_couch_b_web.jpg','9x16hi':'assets/julie_couch_b_web.jpg','191x1':'assets/julie_couch_a_web.jpg','16x9':'assets/julie_couch_a_web.jpg'}
 };
 const THEME={
  courtney:{
@@ -172,8 +176,8 @@ const br=document.getElementById('br'); br.textContent=th.role; br.style.color=t
 
 /* ---- Safe zones (Meta placement UI reserves) ---- */
 const insetX=Math.round(fmt.safe*VW);
-const safeTop    = fmt.safeTopPx    !=null ? fmt.safeTopPx    : Math.round(fmt.safe*VH);
-const safeBottom = fmt.safeBottomPx !=null ? fmt.safeBottomPx : Math.round(fmt.safe*VH);
+const safeTop    = fmt.safeTopPx    !=null ? fmt.safeTopPx    : Math.round((fmt.safeTopPct   !=null?fmt.safeTopPct   :fmt.safe)*VH);
+const safeBottom = fmt.safeBottomPx !=null ? fmt.safeBottomPx : Math.round((fmt.safeBottomPct!=null?fmt.safeBottomPct:fmt.safe)*VH);
 const bandTop=safeTop, bandH=VH-safeTop-safeBottom;
 
 const wrap=document.getElementById('cardwrap');
@@ -200,7 +204,12 @@ function layout(){
   const byline=document.getElementById('byline');
   byline.style.right=insetX+'px';
   byline.style.bottom=(safeBottom+ (fmt.land?0:0))+'px';
+  const bgi=document.getElementById('bg');
+  const srcW=bgi.naturalWidth||1, srcH=bgi.naturalHeight||1;
+  const coverScale=Math.max(fmt.w/srcW, fmt.h/srcH);
   window.__meta={VW,VH,S,rawH,sc,top,insetX,safeTop,safeBottom,bandTop,bandH,
+                 photoSrc:bgi.getAttribute('src'),photoW:srcW,photoH:srcH,
+                 photoUpscale:Math.round(coverScale*1000)/1000,
                  cardBottom:top+rawH*sc, fits:(top>=safeTop-1)&&(top+rawH*sc<=VH-safeBottom+1)};
   if(GUIDE) drawGuide(top,rawH*sc,sc);
 }
