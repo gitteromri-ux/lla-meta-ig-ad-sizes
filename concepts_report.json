@@ -1,0 +1,373 @@
+[
+  {
+    "id": "j6",
+    "label": "JULIE \u00b7 MASTER YOUR TAILORED BLUEPRINT \u00b7 CARD LEFT",
+    "order": 0,
+    "file_1080": "concepts/LLA_CONCEPT_00_J6_JULIE-MASTER-YOUR-TAILORED-BLUEPRINT-CARD-LEFT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_00_J6_JULIE-MASTER-YOUR-TAILORED-BLUEPRINT-CARD-LEFT_1440x1440.png"
+  },
+  {
+    "id": "j7",
+    "label": "JULIE \u00b7 MASTER YOUR TAILORED BLUEPRINT \u00b7 CARD RIGHT",
+    "order": 1,
+    "file_1080": "concepts/LLA_CONCEPT_01_J7_JULIE-MASTER-YOUR-TAILORED-BLUEPRINT-CARD-RIGHT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_01_J7_JULIE-MASTER-YOUR-TAILORED-BLUEPRINT-CARD-RIGHT_1440x1440.png"
+  },
+  {
+    "id": "g1",
+    "label": "JULIE \u00b7 GLASS CARD",
+    "order": 2,
+    "file_1080": "concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1440x1440.png"
+  },
+  {
+    "id": "g2",
+    "label": "COURTNEY \u00b7 GLASS CARD",
+    "order": 3,
+    "file_1080": "concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png"
+  },
+  {
+    "id": "g3",
+    "label": "JULIE \u00b7 GLASS CARD ALT",
+    "order": 4,
+    "file_1080": "concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1440x1440.png"
+  },
+  {
+    "id": "e2",
+    "label": "JULIE \u00b7 35% AUG PROMO \u00b7 ICE CARD",
+    "order": 5,
+    "file_1080": "concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png"
+  },
+  {
+    "id": "e3",
+    "label": "JULIE \u00b7 35% AUG PROMO \u00b7 NEW MESSAGE \u00b7 DARK CARD",
+    "order": 6,
+    "file_1080": "concepts/LLA_CONCEPT_06_E3_JULIE-35-AUG-PROMO-NEW-MESSAGE-DARK-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_06_E3_JULIE-35-AUG-PROMO-NEW-MESSAGE-DARK-CARD_1440x1440.png"
+  },
+  {
+    "id": "e1",
+    "label": "COURTNEY \u00b7 35% AUG PROMO \u00b7 DARK CARD",
+    "order": 7,
+    "file_1080": "concepts/LLA_CONCEPT_07_E1_COURTNEY-35-AUG-PROMO-DARK-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_07_E1_COURTNEY-35-AUG-PROMO-DARK-CARD_1440x1440.png"
+  },
+  {
+    "id": "w2",
+    "label": "JULIE \u00b7 WHITE CARD",
+    "order": 8,
+    "file_1080": "concepts/LLA_CONCEPT_08_W2_JULIE-WHITE-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_08_W2_JULIE-WHITE-CARD_1440x1440.png"
+  },
+  {
+    "id": "w1",
+    "label": "COURTNEY \u00b7 WHITE CARD",
+    "order": 9,
+    "file_1080": "concepts/LLA_CONCEPT_09_W1_COURTNEY-WHITE-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_09_W1_COURTNEY-WHITE-CARD_1440x1440.png"
+  },
+  {
+    "id": "w3",
+    "label": "COURTNEY \u00b7 WHITE CARD RIGHT",
+    "order": 10,
+    "file_1080": "concepts/LLA_CONCEPT_10_W3_COURTNEY-WHITE-CARD-RIGHT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_10_W3_COURTNEY-WHITE-CARD-RIGHT_1440x1440.png"
+  },
+  {
+    "id": "b4",
+    "label": "JULIE \u00b7 BLACK HEADER \u00b7 CARD LEFT",
+    "order": 11,
+    "file_1080": "concepts/LLA_CONCEPT_11_B4_JULIE-BLACK-HEADER-CARD-LEFT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_11_B4_JULIE-BLACK-HEADER-CARD-LEFT_1440x1440.png"
+  },
+  {
+    "id": "b3",
+    "label": "JULIE \u00b7 BLACK HEADER \u00b7 CARD RIGHT",
+    "order": 12,
+    "file_1080": "concepts/LLA_CONCEPT_12_B3_JULIE-BLACK-HEADER-CARD-RIGHT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_12_B3_JULIE-BLACK-HEADER-CARD-RIGHT_1440x1440.png"
+  },
+  {
+    "id": "b2",
+    "label": "COURTNEY \u00b7 BLACK HEADER \u00b7 CARD LEFT",
+    "order": 13,
+    "file_1080": "concepts/LLA_CONCEPT_13_B2_COURTNEY-BLACK-HEADER-CARD-LEFT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_13_B2_COURTNEY-BLACK-HEADER-CARD-LEFT_1440x1440.png"
+  },
+  {
+    "id": "b1",
+    "label": "COURTNEY \u00b7 BLACK HEADER \u00b7 CARD RIGHT",
+    "order": 14,
+    "file_1080": "concepts/LLA_CONCEPT_14_B1_COURTNEY-BLACK-HEADER-CARD-RIGHT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_14_B1_COURTNEY-BLACK-HEADER-CARD-RIGHT_1440x1440.png"
+  },
+  {
+    "id": "b5",
+    "label": "COURTNEY \u00b7 BLACK HEADER \u00b7 PORTRAIT WIDE",
+    "order": 15,
+    "file_1080": "concepts/LLA_CONCEPT_15_B5_COURTNEY-BLACK-HEADER-PORTRAIT-WIDE_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_15_B5_COURTNEY-BLACK-HEADER-PORTRAIT-WIDE_1440x1440.png"
+  },
+  {
+    "id": "c5",
+    "label": "COURTNEY \u00b7 NEON RING",
+    "order": 16,
+    "file_1080": "concepts/LLA_CONCEPT_16_C5_COURTNEY-NEON-RING_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_16_C5_COURTNEY-NEON-RING_1440x1440.png"
+  },
+  {
+    "id": "j5",
+    "label": "JULIE \u00b7 NEON RING",
+    "order": 17,
+    "file_1080": "concepts/LLA_CONCEPT_17_J5_JULIE-NEON-RING_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_17_J5_JULIE-NEON-RING_1440x1440.png"
+  },
+  {
+    "id": "c3",
+    "label": "COURTNEY \u00b7 FLOATING + MEDALLION",
+    "order": 18,
+    "file_1080": "concepts/LLA_CONCEPT_18_C3_COURTNEY-FLOATING-MEDALLION_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_18_C3_COURTNEY-FLOATING-MEDALLION_1440x1440.png"
+  },
+  {
+    "id": "j3",
+    "label": "JULIE \u00b7 FLOATING + MEDALLION",
+    "order": 19,
+    "file_1080": "concepts/LLA_CONCEPT_19_J3_JULIE-FLOATING-MEDALLION_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_19_J3_JULIE-FLOATING-MEDALLION_1440x1440.png"
+  },
+  {
+    "id": "c1",
+    "label": "COURTNEY \u00b7 CARD + PORTRAIT",
+    "order": 20,
+    "file_1080": "concepts/LLA_CONCEPT_20_C1_COURTNEY-CARD-PORTRAIT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_20_C1_COURTNEY-CARD-PORTRAIT_1440x1440.png"
+  },
+  {
+    "id": "j1",
+    "label": "JULIE \u00b7 CARD + PORTRAIT",
+    "order": 21,
+    "file_1080": "concepts/LLA_CONCEPT_21_J1_JULIE-CARD-PORTRAIT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_21_J1_JULIE-CARD-PORTRAIT_1440x1440.png"
+  },
+  {
+    "id": "c2",
+    "label": "COURTNEY \u00b7 MIRRORED",
+    "order": 22,
+    "file_1080": "concepts/LLA_CONCEPT_22_C2_COURTNEY-MIRRORED_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_22_C2_COURTNEY-MIRRORED_1440x1440.png"
+  },
+  {
+    "id": "j2",
+    "label": "JULIE \u00b7 MIRRORED",
+    "order": 23,
+    "file_1080": "concepts/LLA_CONCEPT_23_J2_JULIE-MIRRORED_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_23_J2_JULIE-MIRRORED_1440x1440.png"
+  },
+  {
+    "id": "c4",
+    "label": "COURTNEY \u00b7 TRIPLE STACK",
+    "order": 24,
+    "file_1080": "concepts/LLA_CONCEPT_24_C4_COURTNEY-TRIPLE-STACK_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_24_C4_COURTNEY-TRIPLE-STACK_1440x1440.png"
+  },
+  {
+    "id": "j4",
+    "label": "JULIE \u00b7 TRIPLE STACK",
+    "order": 25,
+    "file_1080": "concepts/LLA_CONCEPT_25_J4_JULIE-TRIPLE-STACK_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_25_J4_JULIE-TRIPLE-STACK_1440x1440.png"
+  },
+  {
+    "id": "z2",
+    "label": "JULIE \u00b7 LIVE CLASS",
+    "order": 26,
+    "file_1080": "concepts/LLA_CONCEPT_26_Z2_JULIE-LIVE-CLASS_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_26_Z2_JULIE-LIVE-CLASS_1440x1440.png"
+  },
+  {
+    "id": "z1",
+    "label": "COURTNEY \u00b7 LIVE CLASS",
+    "order": 27,
+    "file_1080": "concepts/LLA_CONCEPT_27_Z1_COURTNEY-LIVE-CLASS_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_27_Z1_COURTNEY-LIVE-CLASS_1440x1440.png"
+  },
+  {
+    "id": "z4",
+    "label": "JULIE \u00b7 LIVE CLASS WIDE",
+    "order": 28,
+    "file_1080": "concepts/LLA_CONCEPT_28_Z4_JULIE-LIVE-CLASS-WIDE_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_28_Z4_JULIE-LIVE-CLASS-WIDE_1440x1440.png"
+  },
+  {
+    "id": "z3",
+    "label": "COURTNEY \u00b7 LIVE CLASS WIDE",
+    "order": 29,
+    "file_1080": "concepts/LLA_CONCEPT_29_Z3_COURTNEY-LIVE-CLASS-WIDE_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_29_Z3_COURTNEY-LIVE-CLASS-WIDE_1440x1440.png"
+  },
+  {
+    "id": "5b",
+    "label": "JULIE \u00b7 LEAD CARD V2",
+    "order": 30,
+    "file_1080": "concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1440x1440.png"
+  },
+  {
+    "id": "5a",
+    "label": "COURTNEY \u00b7 LEAD CARD V2",
+    "order": 31,
+    "file_1080": "concepts/LLA_CONCEPT_31_5A_COURTNEY-LEAD-CARD-V2_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_31_5A_COURTNEY-LEAD-CARD-V2_1440x1440.png"
+  },
+  {
+    "id": "4e",
+    "label": "JULIE \u00b7 THE LEAD CARD",
+    "order": 32,
+    "file_1080": "concepts/LLA_CONCEPT_32_4E_JULIE-THE-LEAD-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_32_4E_JULIE-THE-LEAD-CARD_1440x1440.png"
+  },
+  {
+    "id": "4d",
+    "label": "JULIE \u00b7 THE CLOSE-UP",
+    "order": 33,
+    "file_1080": "concepts/LLA_CONCEPT_33_4D_JULIE-THE-CLOSE-UP_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_33_4D_JULIE-THE-CLOSE-UP_1440x1440.png"
+  },
+  {
+    "id": "4f",
+    "label": "JULIE \u00b7 KINETIC TYPE",
+    "order": 34,
+    "file_1080": "concepts/LLA_CONCEPT_34_4F_JULIE-KINETIC-TYPE_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_34_4F_JULIE-KINETIC-TYPE_1440x1440.png"
+  },
+  {
+    "id": "4b",
+    "label": "COURTNEY \u00b7 THE LEAD CARD",
+    "order": 35,
+    "file_1080": "concepts/LLA_CONCEPT_35_4B_COURTNEY-THE-LEAD-CARD_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_35_4B_COURTNEY-THE-LEAD-CARD_1440x1440.png"
+  },
+  {
+    "id": "4a",
+    "label": "COURTNEY \u00b7 THE CLOSE-UP",
+    "order": 36,
+    "file_1080": "concepts/LLA_CONCEPT_36_4A_COURTNEY-THE-CLOSE-UP_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_36_4A_COURTNEY-THE-CLOSE-UP_1440x1440.png"
+  },
+  {
+    "id": "4c",
+    "label": "COURTNEY \u00b7 KINETIC TYPE",
+    "order": 37,
+    "file_1080": "concepts/LLA_CONCEPT_37_4C_COURTNEY-KINETIC-TYPE_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_37_4C_COURTNEY-KINETIC-TYPE_1440x1440.png"
+  },
+  {
+    "id": "3a",
+    "label": "JULIE \u00b7 THE GRAND ARCH",
+    "order": 38,
+    "file_1080": "concepts/LLA_CONCEPT_38_3A_JULIE-THE-GRAND-ARCH_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_38_3A_JULIE-THE-GRAND-ARCH_1440x1440.png"
+  },
+  {
+    "id": "3b",
+    "label": "JULIE \u00b7 THE LEDGER",
+    "order": 39,
+    "file_1080": "concepts/LLA_CONCEPT_39_3B_JULIE-THE-LEDGER_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_39_3B_JULIE-THE-LEDGER_1440x1440.png"
+  },
+  {
+    "id": "3c",
+    "label": "JULIE \u00b7 CINEMA FULL-BLEED",
+    "order": 40,
+    "file_1080": "concepts/LLA_CONCEPT_40_3C_JULIE-CINEMA-FULL-BLEED_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_40_3C_JULIE-CINEMA-FULL-BLEED_1440x1440.png"
+  },
+  {
+    "id": "3d",
+    "label": "JULIE \u00b7 POSTER SPLIT",
+    "order": 41,
+    "file_1080": "concepts/LLA_CONCEPT_41_3D_JULIE-POSTER-SPLIT_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_41_3D_JULIE-POSTER-SPLIT_1440x1440.png"
+  },
+  {
+    "id": "3e",
+    "label": "JULIE \u00b7 GHOST WORDMARK",
+    "order": 42,
+    "file_1080": "concepts/LLA_CONCEPT_42_3E_JULIE-GHOST-WORDMARK_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_42_3E_JULIE-GHOST-WORDMARK_1440x1440.png"
+  },
+  {
+    "id": "2a",
+    "label": "THE GRAND ARCH",
+    "order": 43,
+    "file_1080": "concepts/LLA_CONCEPT_43_2A_THE-GRAND-ARCH_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_43_2A_THE-GRAND-ARCH_1440x1440.png"
+  },
+  {
+    "id": "2b",
+    "label": "THE LEDGER \u00b7 IVORY PAPER",
+    "order": 44,
+    "file_1080": "concepts/LLA_CONCEPT_44_2B_THE-LEDGER-IVORY-PAPER_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_44_2B_THE-LEDGER-IVORY-PAPER_1440x1440.png"
+  },
+  {
+    "id": "2c",
+    "label": "CINEMA \u00b7 GILDED FULL-BLEED",
+    "order": 45,
+    "file_1080": "concepts/LLA_CONCEPT_45_2C_CINEMA-GILDED-FULL-BLEED_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_45_2C_CINEMA-GILDED-FULL-BLEED_1440x1440.png"
+  },
+  {
+    "id": "2d",
+    "label": "POSTER SPLIT \u00b7 TYPE OVER THE SEAM",
+    "order": 46,
+    "file_1080": "concepts/LLA_CONCEPT_46_2D_POSTER-SPLIT-TYPE-OVER-THE-SEAM_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_46_2D_POSTER-SPLIT-TYPE-OVER-THE-SEAM_1440x1440.png"
+  },
+  {
+    "id": "2e",
+    "label": "GHOST WORDMARK",
+    "order": 47,
+    "file_1080": "concepts/LLA_CONCEPT_47_2E_GHOST-WORDMARK_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_47_2E_GHOST-WORDMARK_1440x1440.png"
+  },
+  {
+    "id": "1a",
+    "label": "Decode Your Biomarkers.",
+    "order": 48,
+    "file_1080": "concepts/LLA_CONCEPT_48_1A_DECODE-YOUR-BIOMARKERS_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_48_1A_DECODE-YOUR-BIOMARKERS_1440x1440.png"
+  },
+  {
+    "id": "1b",
+    "label": "Decode Your Biomarkers.",
+    "order": 49,
+    "file_1080": "concepts/LLA_CONCEPT_49_1B_DECODE-YOUR-BIOMARKERS_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_49_1B_DECODE-YOUR-BIOMARKERS_1440x1440.png"
+  },
+  {
+    "id": "1c",
+    "label": "Decode Your Biomarkers.",
+    "order": 50,
+    "file_1080": "concepts/LLA_CONCEPT_50_1C_DECODE-YOUR-BIOMARKERS_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_50_1C_DECODE-YOUR-BIOMARKERS_1440x1440.png"
+  },
+  {
+    "id": "1d",
+    "label": "Decode Your",
+    "order": 51,
+    "file_1080": "concepts/LLA_CONCEPT_51_1D_DECODE-YOUR_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_51_1D_DECODE-YOUR_1440x1440.png"
+  },
+  {
+    "id": "1e",
+    "label": "LIVE SESSIONS",
+    "order": 52,
+    "file_1080": "concepts/LLA_CONCEPT_52_1E_LIVE-SESSIONS_1080x1080.png",
+    "file_1440": "concepts/LLA_CONCEPT_52_1E_LIVE-SESSIONS_1440x1440.png"
+  }
+]
