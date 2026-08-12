@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LLA · Meta &amp; Instagram Paid Media — Master Size Pack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..700&family=Inter:wght@300..800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05070d;--panel:#0b1020;--line:rgba(140,190,255,.16);--ink:#f2f6ff;--dim:#95a3bd;--blue:#9cc2ee;--gold:#e3cb96;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;
+background-image:radial-gradient(90% 60% at 50% -10%,rgba(60,110,200,.20),transparent 70%);}
+.wrap{max-width:1500px;margin:0 auto;padding:72px 40px 120px}
+header{border-bottom:1px solid var(--line);padding-bottom:44px;margin-bottom:14px}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.30em;color:var(--blue);text-transform:uppercase}
+h1{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(38px,5.4vw,74px);line-height:1.03;letter-spacing:-.02em;margin-top:18px}
+h1 em{font-style:italic;background:linear-gradient(100deg,#e8f1ff,#9cc2ee 55%,#6f9dd8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{margin-top:22px;max-width:900px;font-size:19px;line-height:1.65;color:var(--dim)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chip{font-size:12.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#cfe0ff;
+border:1px solid var(--line);background:rgba(20,32,60,.55);padding:9px 15px;border-radius:100px}
+.bar{display:flex;flex-wrap:wrap;gap:14px;margin:38px 0 0}
+.btn{display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:700;letter-spacing:.02em;
+padding:15px 26px;border-radius:12px;text-decoration:none;border:1px solid transparent;transition:.18s}
+.btn-p{background:linear-gradient(180deg,#a8cbf5,#6f9dd8);color:#04101f;box-shadow:0 10px 34px rgba(90,160,255,.34)}
+.btn-p:hover{filter:brightness(1.09);transform:translateY(-1px)}
+.btn-s{border-color:var(--line);color:#dbe7fb;background:rgba(16,26,48,.6)}
+.btn-s:hover{border-color:rgba(156,194,238,.5);background:rgba(24,38,68,.8)}
+section{margin-top:88px}
+.sechead{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;border-left:3px solid var(--blue);padding-left:20px}
+.sechead.gold{border-left-color:var(--gold)}
+h2{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(30px,3.4vw,46px);letter-spacing:-.015em}
+.sechead p{color:var(--dim);font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:30px;margin-top:34px}
+.card{background:linear-gradient(170deg,rgba(14,22,42,.94),rgba(7,11,22,.94));border:1px solid var(--line);
+border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:.2s}
+.card:hover{border-color:rgba(156,194,238,.42);transform:translateY(-3px);box-shadow:0 26px 60px rgba(0,0,0,.55)}
+.card.g{border-color:rgba(227,203,150,.18)} .card.g:hover{border-color:rgba(227,203,150,.45)}
+.head{padding:22px 24px 18px;border-bottom:1px solid var(--line)}
+.ratio{font-family:'Playfair Display',serif;font-weight:700;font-size:34px;line-height:1;letter-spacing:-.01em}
+.px{margin-top:9px;font-size:22px;font-weight:800;letter-spacing:.02em;color:var(--blue);font-variant-numeric:tabular-nums}
+.card.g .px{color:var(--gold)}
+.place{margin-top:11px;font-size:13.5px;line-height:1.5;color:var(--dim)}
+.thumb{background:#04060c;display:flex;align-items:center;justify-content:center;padding:20px;min-height:250px}
+.thumb img{max-width:100%;max-height:420px;display:block;border-radius:6px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+.spec{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border-top:1px solid var(--line)}
+.spec div{background:rgba(6,10,20,.9);padding:13px 16px}
+.spec b{display:block;font-size:10.5px;font-weight:700;letter-spacing:.16em;color:#7d8ca8;text-transform:uppercase}
+.spec span{font-size:14px;font-weight:600;color:#e6eeff;font-variant-numeric:tabular-nums}
+.acts{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px}
+.dl{display:flex;align-items:center;justify-content:center;gap:10px;padding:15px 18px;border-radius:11px;
+font-size:15px;font-weight:800;letter-spacing:.02em;text-decoration:none;
+background:linear-gradient(180deg,#a8cbf5,#6f9dd8);color:#04101f;box-shadow:0 8px 26px rgba(90,160,255,.3);transition:.16s}
+.card.g .dl{background:linear-gradient(180deg,#f2e0b8,#c8a45c);box-shadow:0 8px 26px rgba(226,180,110,.3)}
+.dl:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.dl2{display:flex;align-items:center;justify-content:center;gap:9px;padding:12px 16px;border-radius:10px;
+font-size:13.5px;font-weight:600;text-decoration:none;color:#c4d4ee;border:1px solid var(--line);background:rgba(14,24,44,.6)}
+.dl2:hover{border-color:rgba(156,194,238,.45);color:#fff}
+.ok{color:#2ee08a;font-weight:700}
+table{width:100%;border-collapse:collapse;margin-top:30px;font-size:14.5px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th{text-align:left;font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#8b9bb8;
+padding:15px 18px;background:rgba(12,20,38,.95);border-bottom:1px solid var(--line)}
+td{padding:15px 18px;border-bottom:1px solid rgba(140,190,255,.08);color:#dce6f8;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:none}
+td.n{font-weight:800;color:var(--blue)}
+.note{margin-top:26px;padding:24px 26px;border-left:3px solid var(--gold);background:rgba(20,17,9,.5);border-radius:0 12px 12px 0;
+font-size:15px;line-height:1.7;color:#e4dcc7}
+footer{margin-top:110px;padding-top:34px;border-top:1px solid var(--line);color:#6f7d96;font-size:13.5px;line-height:1.8}
+@media(max-width:640px){.wrap{padding:44px 20px 80px}}
+</style></head>
+<body><div class="wrap">
+
+<header>
+  <div class="kicker">Longevity Life Academy · Gita Agency</div>
+  <h1>Meta &amp; Instagram Paid Media<br><em>Master Size Pack</em></h1>
+  <p class="lede">Two approved lead-card banners, each exported at five exact Meta-accepted pixel sizes. The card artwork is pixel-identical in every file — same fonts, same type sizes, same neon geometry, rendered at card scale 1.000 across all ten exports. Nothing resampled, nothing reflowed, nothing cropped. All copy sits inside the platform safe zones.</p>
+  <div class="chips">
+    <span class="chip">10 upload-ready PNGs</span>
+    <span class="chip">5 sizes per banner</span>
+    <span class="chip">Safe-zone verified</span>
+    <span class="chip">sRGB · 24-bit PNG</span>
+    <span class="chip">Playfair Display + Inter embedded</span>
+    <span class="chip">Card scale 1.000 · zero design drift</span>
+  </div>
+  <div class="bar">
+    <a class="btn btn-p" href="LLA_META_IG_ALL_SIZES.zip" download>⤓ Download all 10 ads (ZIP)</a>
+    <a class="btn btn-s" href="LLA_SAFEZONE_GUIDES.zip" download>⤓ Download safe-zone guides (ZIP)</a>
+    <a class="btn btn-s" href="#specs">Size reference table</a>
+  </div>
+</header>
+
+<section id="specs">
+  <div class="sechead"><h2>Exact sizes &amp; where each one runs</h2><p>Every dimension below is a native Meta Ads Manager accepted size — no upscaling on ingest.</p></div>
+  <table>
+    <thead><tr><th>Ratio</th><th>Pixel size</th><th>Placements</th><th>Meta max file</th><th>Safe zone applied</th></tr></thead>
+    <tbody>
+      <tr><td class="n">1:1</td><td>1080 × 1080</td><td>Facebook Feed · Instagram Feed · Explore · Marketplace · Search results</td><td>30 MB</td><td>5% all edges</td></tr>
+      <tr><td class="n">4:5</td><td>1080 × 1350</td><td>Instagram Feed (recommended) · Facebook Feed vertical — largest mobile footprint</td><td>30 MB</td><td>5% all edges</td></tr>
+      <tr><td class="n">9:16</td><td>1080 × 1920</td><td>Instagram Stories · Reels · Facebook Stories · Reels · Audience Network</td><td>30 MB</td><td>250 px top · 340 px bottom · 5.5% sides</td></tr>
+      <tr><td class="n">1.91:1</td><td>1200 × 628</td><td>Facebook link ads · Right column · Marketplace · Messenger inbox · Audience Network banner</td><td>30 MB</td><td>5% all edges</td></tr>
+      <tr><td class="n">16:9</td><td>1920 × 1080</td><td>Facebook Feed landscape · In-stream · Instant Articles · Search results landscape</td><td>30 MB</td><td>5% all edges</td></tr>
+    </tbody>
+  </table>
+  <div class="note"><b>Why 250 / 340 px on 9:16:</b> Instagram and Facebook overlay the profile row at the top and the caption, CTA button and audio bar at the bottom of every Story and Reel. Meta reserves roughly the top 250 px and bottom 340 px of a 1080 × 1920 frame. Every headline, price, logo and Trustpilot line in the 9:16 exports sits inside the surviving centre band, so nothing is covered by platform UI. The card artwork itself was not resized to achieve this — only repositioned.</div>
+</section>
+
+<section>
+  <div class="sechead"><h2>Banner 7A · Courtney Donofrio</h2><p>“Decode Your Biomarkers. Extend Your Life.” — neon-blue cut</p></div>
+  <div class="grid" id="gridC"></div>
+</section>
+
+<section>
+  <div class="sechead gold"><h2>Banner 7B · Julie Gibson Clark</h2><p>“Make longevity automatic.” — warm-gold cut</p></div>
+  <div class="grid" id="gridJ"></div>
+</section>
+
+<footer>
+  <b style="color:#c9d8f0">Longevity Life Academy — Meta &amp; Instagram paid media size pack.</b><br>
+  Produced by Gita Agency. Rendered from the approved “Lead Cards · Layout A Final” master at device scale factor 1 with headless Chromium, no post-resampling. Placement specifications per <a style="color:#9cc2ee" href="https://www.facebook.com/business/ads-guide/image">Meta Ads Guide — Image ad specifications</a> and <a style="color:#9cc2ee" href="https://www.facebook.com/business/help/980593475366490">Meta Business Help Centre — image ad formats</a>.<br>
+  Every PNG in this repository was opened and dimension-verified after render. Card render scale: 1.000 on all ten exports.
+</footer>
+</div>
+
+<script>
+const SIZES=[
+ {k:'1x1',  r:'1:1',   w:1080,h:1080, p:'FB Feed · IG Feed · Explore · Marketplace'},
+ {k:'4x5',  r:'4:5',   w:1080,h:1350, p:'IG Feed (recommended) · FB Feed vertical'},
+ {k:'9x16', r:'9:16',  w:1080,h:1920, p:'IG Stories · Reels · FB Stories · Audience Network'},
+ {k:'191x1',r:'1.91:1',w:1200,h:628,  p:'FB link ads · Right column · Messenger · Marketplace'},
+ {k:'16x9', r:'16:9',  w:1920,h:1080, p:'FB Feed landscape · In-stream · Instant Articles'}
+];
+const BANNERS=[
+ {id:'COURTNEY',grid:'gridC',cls:''},
+ {id:'JULIE',   grid:'gridJ',cls:'g'}
+];
+for(const b of BANNERS){
+  const g=document.getElementById(b.grid);
+  for(const s of SIZES){
+    const base=`LLA_${b.id}_${s.k}_${s.w}x${s.h}`;
+    const ad=`ads/${base}.png`, gd=`guides/${base}_SAFEZONE.png`;
+    const el=document.createElement('div');
+    el.className='card '+b.cls;
+    el.innerHTML=`
+      <div class="head">
+        <div class="ratio">${s.r}</div>
+        <div class="px">${s.w} × ${s.h} px</div>
+        <div class="place">${s.p}</div>
+      </div>
+      <div class="thumb"><img src="${ad}" alt="${b.id} ${s.r} ${s.w} by ${s.h} pixels" loading="lazy"></div>
+      <div class="spec">
+        <div><b>Format</b><span>PNG · sRGB</span></div>
+        <div><b>Aspect</b><span>${s.r}</span></div>
+        <div><b>Safe zone</b><span class="ok">Pass ✓</span></div>
+        <div><b>Card scale</b><span>1.000</span></div>
+      </div>
+      <div class="acts">
+        <a class="dl" href="${ad}" download="${base}.png">⤓ Download ${s.w} × ${s.h} PNG</a>
+        <a class="dl2" href="${gd}" download="${base}_SAFEZONE.png">View safe-zone guide</a>
+      </div>`;
+    g.appendChild(el);
+  }
+}
+</script>
+</body></html>

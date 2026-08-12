@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Playfair';src:url('assets/fonts/PlayfairDisplay.ttf');font-weight:400 900;font-display:block;}
+@font-face{font-family:'PlayfairIt';src:url('assets/fonts/PlayfairDisplay-Italic.ttf');font-weight:400 900;font-style:italic;font-display:block;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter.ttf');font-weight:100 900;font-display:block;}
+html,body{margin:0;padding:0;background:#05070d;overflow:hidden;}
+#out{position:relative;overflow:hidden;background:#05070d;}
+#virt{position:absolute;top:0;left:0;transform-origin:0 0;overflow:hidden;}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.cardwrap{position:absolute;transform-origin:left center;}
+.card{width:640px;display:flex;flex-direction:column;border-radius:26px;padding:44px 48px;
+backdrop-filter:blur(22px);border-width:1.5px;border-style:solid;
+transform:perspective(1500px) rotateY(3.5deg);transform-origin:left center;}
+.h1{font-family:'Playfair',serif;font-weight:700;color:#fff;line-height:1.05;letter-spacing:-.015em;white-space:nowrap;}
+.it{font-family:'PlayfairIt',serif;font-style:italic;font-weight:600;line-height:1.08;white-space:nowrap;
+-webkit-background-clip:text;background-clip:text;color:transparent;}
+.rule{width:190px;height:3px;margin-top:18px;border-radius:2px;}
+.sub{margin-top:20px;font-family:'Playfair',serif;font-size:34px;color:#fff;white-space:nowrap;}
+.zoom{position:relative;width:100%;margin-top:20px;border-radius:14px;overflow:hidden;}
+.stats{display:flex;gap:64px;margin-top:20px;}
+.slab{font-family:'Inter',sans-serif;font-weight:600;font-size:15px;letter-spacing:.18em;}
+.snum{font-family:'Inter',sans-serif;font-weight:700;color:#fff;font-size:34px;}
+.dot{width:10px;height:10px;border-radius:50%;background:#2ee08a;box-shadow:0 0 16px rgba(46,224,138,.95);display:inline-block;}
+.price{display:flex;align-items:baseline;gap:16px;margin-top:24px;border-top-width:1px;border-top-style:solid;padding-top:22px;}
+.off{font-family:'Playfair',serif;font-weight:700;font-size:46px;line-height:1;white-space:nowrap;
+-webkit-background-clip:text;background-clip:text;color:transparent;}
+.promo{font-family:'Inter',sans-serif;font-weight:700;font-size:15px;letter-spacing:.24em;white-space:nowrap;}
+.was{font-family:'Playfair',serif;font-size:26px;color:rgba(255,255,255,.42);text-decoration:line-through;text-decoration-color:rgba(255,150,120,.7);}
+.now{font-family:'Playfair',serif;font-weight:700;font-size:46px;line-height:1;color:#fff;}
+.mo{font-family:'Inter',sans-serif;font-size:19px;color:rgba(255,255,255,.7);}
+.tp{display:flex;align-items:center;gap:14px;margin-top:20px;}
+.tp span{font-family:'Inter',sans-serif;color:#fff;font-size:23px;white-space:nowrap;}
+.byline{position:absolute;text-align:right;}
+.bn{font-family:'Inter',sans-serif;font-weight:600;color:#fff;font-size:26px;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);}
+.br{font-family:'Inter',sans-serif;font-size:18px;margin-top:5px;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);}
+.guide{position:absolute;inset:0;pointer-events:none;display:none;}
+.guide .band{position:absolute;left:0;right:0;background:rgba(255,0,80,.24);}
+.guide .box{position:absolute;border:3px dashed rgba(60,255,170,.95);}
+.guide .lbl{position:absolute;font-family:'Inter',sans-serif;font-weight:700;color:#fff;background:rgba(0,0,0,.62);padding:6px 12px;border-radius:4px;letter-spacing:.08em;}
+</style></head>
+<body>
+<div id="out"><div id="virt">
+  <img class="bg" id="bg">
+  <div class="tint" id="t1" style="position:absolute;inset:0;"></div>
+  <div class="tint" id="t2" style="position:absolute;inset:0;"></div>
+  <div class="cardwrap" id="cardwrap"><div class="card" id="card">
+    <img id="logo" src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group" style="display:block;margin-top:4px;filter:brightness(1.07) drop-shadow(0 2px 10px rgba(0,0,0,.85));">
+    <div id="hl"></div>
+    <div class="it" id="it"></div>
+    <div class="rule" id="rule"></div>
+    <div class="sub">Master the Six Pillars of longevity.</div>
+    <div class="zoom" id="zoom"><img src="assets/zoom_class_web.jpg" alt="Live online small-group class" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;"></div>
+    <div class="stats">
+      <div><div class="slab" id="sl1">LIVE SESSIONS</div><div style="display:flex;align-items:center;gap:10px;margin-top:8px;"><span class="dot"></span><span class="snum" id="sn1">18</span></div></div>
+      <div><div class="slab" id="sl2">SMALL GROUPS</div><div class="snum" id="sn2" style="margin-top:8px;">8&#8211;15</div></div>
+    </div>
+    <div class="price" id="price">
+      <span class="off" id="off">35% OFF</span>
+      <span class="promo" id="promo">AUGUST PROMO</span>
+      <div style="flex:1;"></div>
+      <span class="was">$445</span>
+      <span class="now" id="now">$289</span>
+      <span class="mo">/ mo</span>
+    </div>
+    <div class="tp"><img src="assets/tp_stars-5.svg" alt="Five Trustpilot stars" style="height:30px;display:block;"><span>4.6 on Trustpilot</span></div>
+  </div></div>
+  <div class="byline" id="byline"><div class="bn" id="bn"></div><div class="br" id="br"></div></div>
+  <div class="guide" id="guide"></div>
+</div></div>
+<script>
+const Q=new URLSearchParams(location.search);
+const B=Q.get('b')||'courtney', F=Q.get('f')||'1x1', GUIDE=Q.get('guide')==='1';
+
+/* Output sizes — exact Meta / Instagram accepted pixel dimensions */
+const FORMATS={
+ '1x1'  :{w:1080,h:1080, safe:0.05,  authored:{top:48, logo:420, zh:200}},
+ '4x5'  :{w:1080,h:1350, safe:0.05,  authored:{top:84, logo:460, zh:304}},
+ '9x16' :{w:1080,h:1920, safeTopPx:250, safeBottomPx:340, safe:0.055, authored:{top:110,logo:490,zh:420}},
+ '191x1':{w:1200,h:628,  safe:0.05,  land:true, authored:{top:null,logo:420,zh:200}},
+ '16x9' :{w:1920,h:1080, safe:0.05,  land:true, authored:{top:null,logo:420,zh:200}}
+};
+const POS={
+ courtney:{'1x1':'4% 12%','4x5':'27% 12%','9x16':'38% 12%','191x1':'62% 14%','16x9':'62% 14%'},
+ julie   :{'1x1':'15% 25%','4x5':'23% 20%','9x16':'35% 25%','191x1':'62% 22%','16x9':'62% 22%'}
+};
+const PHOTO={
+ courtney:{'1x1':'assets/courtney_master_web.jpg','4x5':'assets/courtney_master_web.jpg','9x16':'assets/courtney_master_web.jpg','191x1':'assets/courtney_master_web.jpg','16x9':'assets/courtney_master_web.jpg'},
+ julie   :{'1x1':'assets/julie_couch_a_web.jpg','4x5':'assets/julie_garden_web.jpg','9x16':'assets/julie_couch_b_web.jpg','191x1':'assets/julie_couch_a_web.jpg','16x9':'assets/julie_couch_a_web.jpg'}
+};
+const THEME={
+ courtney:{
+  t1:'linear-gradient(to right,rgba(4,7,14,.6) 0%,rgba(4,7,14,.12) 55%,rgba(4,7,14,.4) 100%)',
+  t2:'radial-gradient(120% 100% at 50% 30%,rgba(0,0,0,0) 55%,rgba(4,7,14,.55) 100%)',
+  card:'linear-gradient(165deg,rgba(13,21,42,.95) 0%,rgba(6,10,21,.88) 100%)',
+  border:'rgba(130,185,255,.85)',
+  shadow:'0 60px 130px rgba(0,0,0,.7),0 0 150px rgba(90,160,255,.7),0 0 60px rgba(120,180,255,.6),0 0 24px rgba(160,205,255,.7),inset 0 2px 0 rgba(255,255,255,.4),inset 0 0 44px rgba(90,160,255,.14)',
+  hlShadow:'0 0 34px rgba(120,180,255,.35)',
+  hl:['Decode Your','Biomarkers.'], hlSize:72,
+  it:'Extend Your Life.', itSize:50,
+  itGrad:'linear-gradient(100deg,#e8f1ff 0%,#9cc2ee 55%,#6f9dd8 100%)',
+  itFilter:'drop-shadow(0 0 24px rgba(120,180,255,.6))',
+  rule:'linear-gradient(90deg,#9cc2ee,rgba(156,194,238,0))', ruleShadow:'0 0 18px rgba(140,190,255,.9)',
+  zoomShadow:'0 24px 54px rgba(0,0,0,.55),0 0 34px rgba(90,160,255,.35),0 0 0 1px rgba(160,200,255,.4)',
+  slab:'rgba(226,239,255,.65)', numShadow:'0 0 18px rgba(120,180,255,.5)',
+  priceBorder:'rgba(156,194,238,.28)',
+  offGrad:'linear-gradient(100deg,#e8f1ff 0%,#9cc2ee 60%,#6f9dd8 100%)', offFilter:'drop-shadow(0 0 18px rgba(140,190,255,.6))',
+  promo:'rgba(226,239,255,.7)', nowShadow:'0 0 22px rgba(140,190,255,.5)',
+  name:'Courtney Donofrio', role:'Longevity Life Academy Instructor', roleColor:'rgba(255,255,255,.85)'
+ },
+ julie:{
+  t1:'linear-gradient(to right,rgba(10,7,4,.6) 0%,rgba(10,7,4,.12) 55%,rgba(10,7,4,.4) 100%)',
+  t2:'radial-gradient(120% 100% at 50% 30%,rgba(0,0,0,0) 55%,rgba(10,7,4,.55) 100%)',
+  card:'linear-gradient(165deg,rgba(21,17,9,.95) 0%,rgba(9,7,4,.88) 100%)',
+  border:'rgba(232,206,150,.85)',
+  shadow:'0 60px 130px rgba(0,0,0,.7),0 0 150px rgba(226,180,110,.7),0 0 60px rgba(232,206,150,.6),0 0 24px rgba(255,226,170,.7),inset 0 2px 0 rgba(255,255,255,.4),inset 0 0 44px rgba(226,180,110,.14)',
+  hlShadow:'0 0 34px rgba(255,196,120,.35)',
+  hl:['Make longevity'], hlSize:80,
+  it:'automatic.', itSize:74,
+  itGrad:'linear-gradient(100deg,#f6ecd2 0%,#e3cb96 55%,#c8a45c 100%)',
+  itFilter:'drop-shadow(0 0 24px rgba(255,196,120,.6))',
+  rule:'linear-gradient(90deg,#e3cb96,rgba(227,203,150,0))', ruleShadow:'0 0 18px rgba(255,206,130,.9)',
+  zoomShadow:'0 24px 54px rgba(0,0,0,.55),0 0 34px rgba(226,180,110,.35),0 0 0 1px rgba(240,215,165,.4)',
+  slab:'rgba(234,217,174,.7)', numShadow:'0 0 18px rgba(255,196,120,.5)',
+  priceBorder:'rgba(216,195,154,.28)',
+  offGrad:'linear-gradient(100deg,#fff3d8 0%,#e3cb96 50%,#c8a45c 100%)', offFilter:'drop-shadow(0 0 18px rgba(255,206,130,.6))',
+  promo:'rgba(234,217,174,.75)', nowShadow:'0 0 22px rgba(255,206,130,.55)',
+  name:'Julie Gibson Clark', role:'2nd Slowest-Aging Person on Earth', roleColor:'#ead9ae'
+ }
+};
+
+const fmt=FORMATS[F], th=THEME[B], a=fmt.authored;
+/* Virtual canvas: authored space is 1080 wide (portrait/square) or 1080 tall (landscape). */
+const VW = fmt.land ? Math.round(1080*fmt.w/fmt.h) : 1080;
+const VH = fmt.land ? 1080 : Math.round(1080*fmt.h/fmt.w);
+const S  = fmt.w/VW;
+
+document.getElementById('out').style.width=fmt.w+'px';
+document.getElementById('out').style.height=fmt.h+'px';
+const virt=document.getElementById('virt');
+virt.style.width=VW+'px'; virt.style.height=VH+'px'; virt.style.transform='scale('+S+')';
+
+const bg=document.getElementById('bg');
+bg.src=PHOTO[B][F]; bg.style.objectPosition=POS[B][F];
+document.getElementById('t1').style.background=th.t1;
+document.getElementById('t2').style.background=th.t2;
+
+const card=document.getElementById('card');
+card.style.background=th.card; card.style.borderColor=th.border; card.style.boxShadow=th.shadow;
+document.getElementById('logo').style.width=a.logo+'px';
+const hl=document.getElementById('hl');
+th.hl.forEach((line,i)=>{const d=document.createElement('div');d.className='h1';
+  d.style.fontSize=th.hlSize+'px';d.style.textShadow=th.hlShadow;if(i===0)d.style.marginTop='22px';
+  d.textContent=line;hl.appendChild(d);});
+const it=document.getElementById('it');
+it.textContent=th.it; it.style.fontSize=th.itSize+'px'; it.style.marginTop='6px';
+it.style.backgroundImage=th.itGrad; it.style.filter=th.itFilter;
+it.style.paddingBottom='.10em'; it.style.lineHeight='1.18';
+const rule=document.getElementById('rule');
+rule.style.background=th.rule; rule.style.boxShadow=th.ruleShadow;
+const zoom=document.getElementById('zoom');
+zoom.style.height=a.zh+'px'; zoom.style.boxShadow=th.zoomShadow;
+document.getElementById('sl1').style.color=th.slab; document.getElementById('sl2').style.color=th.slab;
+document.getElementById('sn1').style.textShadow=th.numShadow; document.getElementById('sn2').style.textShadow=th.numShadow;
+document.getElementById('price').style.borderTopColor=th.priceBorder;
+const off=document.getElementById('off'); off.style.backgroundImage=th.offGrad; off.style.filter=th.offFilter;
+off.style.paddingBottom='.06em';
+document.getElementById('promo').style.color=th.promo;
+document.getElementById('now').style.textShadow=th.nowShadow;
+document.getElementById('bn').textContent=th.name;
+const br=document.getElementById('br'); br.textContent=th.role; br.style.color=th.roleColor;
+
+/* ---- Safe zones (Meta placement UI reserves) ---- */
+const insetX=Math.round(fmt.safe*VW);
+const safeTop    = fmt.safeTopPx    !=null ? fmt.safeTopPx    : Math.round(fmt.safe*VH);
+const safeBottom = fmt.safeBottomPx !=null ? fmt.safeBottomPx : Math.round(fmt.safe*VH);
+const bandTop=safeTop, bandH=VH-safeTop-safeBottom;
+
+const wrap=document.getElementById('cardwrap');
+wrap.style.left=insetX+'px';
+wrap.style.width='640px';
+
+function layout(){
+  wrap.style.transform='none'; wrap.style.top='0px';
+  const ch=card.getBoundingClientRect().height/1; // unscaled because virt scale applied? measure raw
+  const rawH=card.offsetHeight;
+  const rawW=640;
+  const maxW=VW-2*insetX;
+  let sc=Math.min(1, bandH/rawH, maxW/rawW);
+  let top;
+  if(!fmt.land && a.top!=null && sc===1 && a.top>=safeTop && a.top+rawH<=VH-safeBottom){
+    top=a.top;                              /* authored position, already inside safe area */
+  }else{
+    top=Math.round(bandTop+(bandH-rawH*sc)/2);
+  }
+  wrap.style.top=top+'px';
+  wrap.style.height=(rawH)+'px';
+  wrap.style.transformOrigin='left top';
+  wrap.style.transform='scale('+sc+')';
+  const byline=document.getElementById('byline');
+  byline.style.right=insetX+'px';
+  byline.style.bottom=(safeBottom+ (fmt.land?0:0))+'px';
+  window.__meta={VW,VH,S,rawH,sc,top,insetX,safeTop,safeBottom,bandTop,bandH,
+                 cardBottom:top+rawH*sc, fits:(top>=safeTop-1)&&(top+rawH*sc<=VH-safeBottom+1)};
+  if(GUIDE) drawGuide(top,rawH*sc,sc);
+}
+function drawGuide(top,h,sc){
+  const g=document.getElementById('guide'); g.style.display='block'; g.innerHTML='';
+  const mk=(html)=>{const d=document.createElement('div');d.innerHTML=html;return d.firstChild;};
+  g.appendChild(mk('<div class="band" style="top:0;height:'+safeTop+'px"></div>'));
+  g.appendChild(mk('<div class="band" style="bottom:0;height:'+safeBottom+'px"></div>'));
+  g.appendChild(mk('<div class="box" style="left:'+insetX+'px;top:'+safeTop+'px;width:'+(VW-2*insetX)+'px;height:'+(VH-safeTop-safeBottom)+'px"></div>'));
+  const fs=Math.round(VH*0.026);
+  g.appendChild(mk('<div class="lbl" style="left:'+insetX+'px;top:'+(safeTop+14)+'px;font-size:'+fs+'px">SAFE ZONE &nbsp;'+fmt.w+' \u00d7 '+fmt.h+'</div>'));
+  g.appendChild(mk('<div class="lbl" style="left:'+insetX+'px;bottom:'+(safeBottom+14)+'px;font-size:'+fs+'px">ALL COPY INSIDE \u2713</div>'));
+}
+function ready(){
+  return document.fonts.ready.then(()=>Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r;}))));
+}
+window.__ready=false;
+ready().then(()=>{layout();requestAnimationFrame(()=>requestAnimationFrame(()=>{layout();window.__ready=true;}));});
+</script>
+</body></html>
