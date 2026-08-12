@@ -27,7 +27,7 @@
   .block{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px;margin-bottom:22px}
   .block h3{font-family:Fraunces,serif;font-size:22px;margin:0 0 4px}
   .block .sub{color:var(--muted);font-size:13px;margin-bottom:16px}
-  .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+  .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(380px,1fr))}
   .card{background:var(--panel-2);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
   .card .meta{padding:14px 16px 10px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
   .aspect{font-family:Fraunces,serif;font-size:22px;color:var(--accent-2)}
@@ -35,8 +35,8 @@
   .tag{background:#12325a;color:#cfe2ff;font-size:11px;font-weight:700;padding:4px 8px;border-radius:999px;letter-spacing:.04em;border:1px solid #1c4a86}
   .tag.hi{background:#0f3a2b;color:#b8f0d3;border-color:#1b6a4c}
   .placements{padding:0 16px 12px;color:var(--muted);font-size:12px}
-  .imgwrap{background:#0a1428;padding:14px;display:flex;align-items:center;justify-content:center;min-height:280px}
-  .imgwrap img{max-width:100%;max-height:520px;height:auto;display:block;border-radius:8px}
+  .imgwrap{background:#0a1428;padding:14px;display:flex;align-items:center;justify-content:center;min-height:420px}
+  .imgwrap img{max-width:100%;max-height:720px;height:auto;display:block;border-radius:8px}
   .foot{padding:12px 14px 14px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
   .dl{display:block;text-align:center;background:#173663;color:#dbeaff;padding:10px 14px;border-radius:10px;font-weight:700;font-size:13px;border:1px solid #244c86}
   .dl:hover{background:#1e4680}
@@ -56,119 +56,58 @@
 <main class="wrap">
   <section class="intro">
     <h2>Upload eCommerce</h2>
-    <p>Only the approved assets from the doc — matched to the exact library files, sizes and download buttons.</p>
+    <p>Large-card creatives with pricing only. Small headlines, link banners without cards, and no-price versions removed.</p>
   </section>
 
-  <!-- BLOCK 1 -->
+  <!-- BLOCK 1 — Julie Blueprint 7C — 3 largest sizes with pricing card -->
   <section class="block">
-    <h3>Block 1 · Banner 7C · Julie · Longevity Blueprint — Feed pair</h3>
-    <div class="sub">"Master your tailored Longevity Blueprint" — Enroll now</div>
+    <h3>Block 1 · Banner 7C · Julie · Longevity Blueprint (Hi-Res trio with pricing card)</h3>
+    <div class="sub">"Master your tailored Longevity Blueprint" · $289/mo · 35% off · Enroll now</div>
     <div class="grid">
       <div class="card">
-        <div class="meta"><span class="aspect">4:5</span><span class="size">1080 × 1350 px</span></div>
-        <div class="placements">FB Feed · IG Feed</div>
-        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_4x5_1080x1350.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_4x5_1080x1350.png" download>↓ Download 1080 × 1350 PNG</a><span class="fname">ads/LLA_BLUEPRINT_4x5_1080x1350.png</span></div>
+        <div class="meta"><span class="aspect">9:16</span><span class="size">1440 × 2560 px</span><span class="tag hi">LARGEST · META SPEC</span></div>
+        <div class="placements">Meta's printed recommended Stories / Reels resolution</div>
+        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png" download>↓ Download 1440 × 2560 PNG</a><span class="fname">ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png</span></div>
       </div>
       <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span></div>
-        <div class="placements">FB Feed · IG Feed · Explore · Marketplace · Right column</div>
-        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_1x1_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_1x1_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">ads/LLA_BLUEPRINT_1x1_1080x1080.png</span></div>
+        <div class="meta"><span class="aspect">4:5</span><span class="size">1440 × 1800 px</span><span class="tag hi">META SPEC</span></div>
+        <div class="placements">Meta's printed recommended Feed resolution</div>
+        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png" download>↓ Download 1440 × 1800 PNG</a><span class="fname">ads/LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png</span></div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag hi">HI-RES</span></div>
+        <div class="placements">FB Feed · IG Feed · Explore · Marketplace</div>
+        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_1x1_1440x1440.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_1x1_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a><span class="fname">ads/LLA_BLUEPRINT_1x1_1440x1440.png</span></div>
       </div>
     </div>
   </section>
 
-  <!-- BLOCK 2 -->
+  <!-- BLOCK 2 — Julie "Make longevity automatic" — Hi-Res feed pair -->
   <section class="block">
-    <h3>Block 2 · Julie · Longevity Blueprint — Link banner</h3>
-    <div class="sub">1.91:1 link/audience-network banner</div>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">1.91:1</span><span class="size">1200 × 628 px</span></div>
-        <div class="placements">Link ads · Audience Network</div>
-        <div class="imgwrap"><img src="./ads/LLA_JULIE_191x1_1200x628.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_JULIE_191x1_1200x628.png" download>↓ Download 1200 × 628 PNG</a><span class="fname">ads/LLA_JULIE_191x1_1200x628.png</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 3 -->
-  <section class="block">
-    <h3>Block 3 · Courtney "Decode Your Biomarkers" — 16:9 + Blueprint Story 9:16</h3>
-    <div class="sub">Video/landscape + Stories/Reels vertical</div>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">16:9</span><span class="size">1920 × 1080 px</span></div>
-        <div class="placements">Video · In-stream · Landscape feed</div>
-        <div class="imgwrap"><img src="./ads/LLA_COURTNEY_16x9_1920x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_COURTNEY_16x9_1920x1080.png" download>↓ Download 1920 × 1080 PNG</a><span class="fname">ads/LLA_COURTNEY_16x9_1920x1080.png</span></div>
-      </div>
-      <div class="card">
-        <div class="meta"><span class="aspect">9:16</span><span class="size">1080 × 1920 px</span><span class="tag">STORIES · REELS</span></div>
-        <div class="placements">FB/IG Stories · Reels</div>
-        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1080x1920.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1080x1920.png" download>↓ Download 1080 × 1920 PNG</a><span class="fname">ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1080x1920.png</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 4 -->
-  <section class="block">
-    <h3>Block 4 · Julie "Make longevity automatic" — Hi-Res Feed pair</h3>
-    <div class="sub">Meta-recommended sharp resolutions</div>
+    <h3>Block 2 · Julie · "Make longevity automatic" (Hi-Res Feed pair with pricing card)</h3>
+    <div class="sub">$289/mo · 35% off August promo · Enroll now</div>
     <div class="grid">
       <div class="card">
         <div class="meta"><span class="aspect">4:5</span><span class="size">1440 × 1800 px</span><span class="tag hi">META SPEC</span></div>
-        <div class="placements">FB Feed · IG Feed · Meta's printed recommended Feed resolution</div>
+        <div class="placements">FB Feed · IG Feed · Meta recommended Feed resolution</div>
         <div class="imgwrap"><img src="./ads/LLA_JULIE_4x5_1440x1800_META-RECOMMENDED.png" alt=""></div>
         <div class="foot"><a class="dl" href="./ads/LLA_JULIE_4x5_1440x1800_META-RECOMMENDED.png" download>↓ Download 1440 × 1800 PNG</a><span class="fname">ads/LLA_JULIE_4x5_1440x1800_META-RECOMMENDED.png</span></div>
       </div>
       <div class="card">
         <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag hi">HI-RES</span></div>
-        <div class="placements">FB Feed · IG Feed · Explore · Marketplace · Right column</div>
+        <div class="placements">FB Feed · IG Feed · Explore · Marketplace</div>
         <div class="imgwrap"><img src="./ads/LLA_JULIE_1x1_1440x1440.png" alt=""></div>
         <div class="foot"><a class="dl" href="./ads/LLA_JULIE_1x1_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a><span class="fname">ads/LLA_JULIE_1x1_1440x1440.png</span></div>
       </div>
     </div>
   </section>
 
-  <!-- BLOCK 5 -->
+  <!-- BLOCK 3 — Julie "Make longevity automatic" — Video/vertical pair -->
   <section class="block">
-    <h3>Block 5 · Courtney · Decode Your Biomarkers — Link banner</h3>
-    <div class="sub">1.91:1 link/audience-network banner</div>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">1.91:1</span><span class="size">1200 × 628 px</span></div>
-        <div class="placements">Link ads · Audience Network</div>
-        <div class="imgwrap"><img src="./ads/LLA_COURTNEY_191x1_1200x628.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_COURTNEY_191x1_1200x628.png" download>↓ Download 1200 × 628 PNG</a><span class="fname">ads/LLA_COURTNEY_191x1_1200x628.png</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 6 -->
-  <section class="block">
-    <h3>Block 6 · Julie "Make longevity automatic" — Feed 1:1 + Link 1.91:1</h3>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span></div>
-        <div class="placements">FB Feed · IG Feed · Explore · Marketplace · Right column</div>
-        <div class="imgwrap"><img src="./ads/LLA_JULIE_1x1_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_JULIE_1x1_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">ads/LLA_JULIE_1x1_1080x1080.png</span></div>
-      </div>
-      <div class="card">
-        <div class="meta"><span class="aspect">1.91:1</span><span class="size">1200 × 628 px</span></div>
-        <div class="placements">Link ads · Audience Network</div>
-        <div class="imgwrap"><img src="./ads/LLA_JULIE_191x1_1200x628.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_JULIE_191x1_1200x628.png" download>↓ Download 1200 × 628 PNG</a><span class="fname">ads/LLA_JULIE_191x1_1200x628.png</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 7 -->
-  <section class="block">
-    <h3>Block 7 · Julie "Make longevity automatic" — 16:9 + 9:16 pair</h3>
+    <h3>Block 3 · Julie · "Make longevity automatic" (16:9 + 9:16 pair with pricing card)</h3>
     <div class="grid">
       <div class="card">
         <div class="meta"><span class="aspect">16:9</span><span class="size">1920 × 1080 px</span></div>
@@ -177,18 +116,57 @@
         <div class="foot"><a class="dl" href="./ads/LLA_JULIE_16x9_1920x1080.png" download>↓ Download 1920 × 1080 PNG</a><span class="fname">ads/LLA_JULIE_16x9_1920x1080.png</span></div>
       </div>
       <div class="card">
-        <div class="meta"><span class="aspect">9:16</span><span class="size">1080 × 1920 px</span><span class="tag">STORIES · REELS</span></div>
+        <div class="meta"><span class="aspect">9:16</span><span class="size">1440 × 2560 px</span><span class="tag hi">LARGEST · META SPEC</span></div>
         <div class="placements">FB/IG Stories · Reels</div>
-        <div class="imgwrap"><img src="./ads/LLA_JULIE_9x16_STORIES-REELS_1080x1920.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_JULIE_9x16_STORIES-REELS_1080x1920.png" download>↓ Download 1080 × 1920 PNG</a><span class="fname">ads/LLA_JULIE_9x16_STORIES-REELS_1080x1920.png</span></div>
+        <div class="imgwrap"><img src="./ads/LLA_JULIE_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./ads/LLA_JULIE_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png" download>↓ Download 1440 × 2560 PNG</a><span class="fname">ads/LLA_JULIE_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png</span></div>
       </div>
     </div>
   </section>
 
-  <!-- BLOCK 8 -->
+  <!-- BLOCK 4 — Courtney "Decode Your Biomarkers" — Video/vertical pair -->
   <section class="block">
-    <h3>Block 8 · Glass 3D Card pair — 6A Courtney + 6B Julie</h3>
-    <div class="sub">Stories / Reels vertical creatives</div>
+    <h3>Block 4 · Courtney · "Decode Your Biomarkers" (16:9 + 9:16 pair with pricing card)</h3>
+    <div class="sub">$289/mo · 35% off · Claim your seat</div>
+    <div class="grid">
+      <div class="card">
+        <div class="meta"><span class="aspect">16:9</span><span class="size">1920 × 1080 px</span></div>
+        <div class="placements">Video · In-stream · Landscape feed</div>
+        <div class="imgwrap"><img src="./ads/LLA_COURTNEY_16x9_1920x1080.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./ads/LLA_COURTNEY_16x9_1920x1080.png" download>↓ Download 1920 × 1080 PNG</a><span class="fname">ads/LLA_COURTNEY_16x9_1920x1080.png</span></div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="aspect">9:16</span><span class="size">1440 × 2560 px</span><span class="tag hi">LARGEST · META SPEC</span></div>
+        <div class="placements">FB/IG Stories · Reels</div>
+        <div class="imgwrap"><img src="./ads/LLA_COURTNEY_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./ads/LLA_COURTNEY_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png" download>↓ Download 1440 × 2560 PNG</a><span class="fname">ads/LLA_COURTNEY_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOCK 5 — Courtney Hi-Res Feed pair -->
+  <section class="block">
+    <h3>Block 5 · Courtney · "Decode Your Biomarkers" (Hi-Res Feed pair with pricing card)</h3>
+    <div class="grid">
+      <div class="card">
+        <div class="meta"><span class="aspect">4:5</span><span class="size">1440 × 1800 px</span><span class="tag hi">META SPEC</span></div>
+        <div class="placements">FB Feed · IG Feed · Meta recommended Feed resolution</div>
+        <div class="imgwrap"><img src="./ads/LLA_COURTNEY_4x5_1440x1800_META-RECOMMENDED.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./ads/LLA_COURTNEY_4x5_1440x1800_META-RECOMMENDED.png" download>↓ Download 1440 × 1800 PNG</a><span class="fname">ads/LLA_COURTNEY_4x5_1440x1800_META-RECOMMENDED.png</span></div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag hi">HI-RES</span></div>
+        <div class="placements">FB Feed · IG Feed · Explore · Marketplace</div>
+        <div class="imgwrap"><img src="./ads/LLA_COURTNEY_1x1_1440x1440.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./ads/LLA_COURTNEY_1x1_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a><span class="fname">ads/LLA_COURTNEY_1x1_1440x1440.png</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOCK 6 — Glass 3D Card 9:16 pair 6A + 6B (with pricing card) -->
+  <section class="block">
+    <h3>Block 6 · Glass 3D Card 9:16 pair — 6A Courtney + 6B Julie (with pricing card)</h3>
+    <div class="sub">Stories / Reels vertical — full price and CTA card</div>
     <div class="grid">
       <div class="card">
         <div class="meta"><span class="aspect">9:16</span><span class="size">1080 × 1920 px</span><span class="tag">6A · COURTNEY · GLASS 3D CARD</span></div>
@@ -205,141 +183,9 @@
     </div>
   </section>
 
-  <!-- BLOCK 9 -->
+  <!-- BLOCK 7 — 7A/7B/7C Neon Lead & Blueprint vertical trio 1080x1350 -->
   <section class="block">
-    <h3>Block 9 · Julie Glass Card 6B + Courtney Neon Lead 7A</h3>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span><span class="tag">6B · JULIE · GLASS 3D CARD</span></div>
-        <div class="placements">FB Feed · IG Feed</div>
-        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png</span></div>
-      </div>
-      <div class="card">
-        <div class="meta"><span class="aspect">9:16</span><span class="size">1080 × 1920 px</span><span class="tag">7A · COURTNEY · NEON LEAD CARD</span></div>
-        <div class="placements">FB/IG Stories · Reels</div>
-        <div class="imgwrap"><img src="./rounds/LLA_ROUND_7A_1080X1920_1080x1920.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./rounds/LLA_ROUND_7A_1080X1920_1080x1920.png" download>↓ Download 1080 × 1920 PNG</a><span class="fname">rounds/LLA_ROUND_7A_1080X1920_1080x1920.png</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 10 -->
-  <section class="block">
-    <h3>Block 10 · Julie · Glass 3D Card · 1:1 (standalone)</h3>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span><span class="tag">GLASS 3D CARD</span></div>
-        <div class="placements">FB Feed · IG Feed · Explore · Marketplace · Right column</div>
-        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 11 -->
-  <section class="block">
-    <h3>Block 11 · Banner 7C · Julie · Longevity Blueprint — Full Hi-Res trio</h3>
-    <div class="sub">All 3 approved sizes at Meta's largest recommended resolution</div>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">9:16</span><span class="size">1440 × 2560 px</span><span class="tag hi">LARGEST · META SPEC</span></div>
-        <div class="placements">Meta's printed recommended Stories / Reels resolution</div>
-        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png" download>↓ Download 1440 × 2560 PNG</a><span class="fname">ads/LLA_BLUEPRINT_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png</span></div>
-      </div>
-      <div class="card">
-        <div class="meta"><span class="aspect">4:5</span><span class="size">1440 × 1800 px</span><span class="tag hi">META SPEC</span></div>
-        <div class="placements">Meta's printed recommended Feed resolution</div>
-        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png" download>↓ Download 1440 × 1800 PNG</a><span class="fname">ads/LLA_BLUEPRINT_4x5_1440x1800_META-RECOMMENDED.png</span></div>
-      </div>
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag hi">HI-RES</span></div>
-        <div class="placements">FB Feed · IG Feed · Explore · Marketplace · Right column</div>
-        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_1x1_1440x1440.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_1x1_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a><span class="fname">ads/LLA_BLUEPRINT_1x1_1440x1440.png</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 12 -->
-  <section class="block">
-    <h3>Block 12 · G1 · Julie · Glass Card — 1440</h3>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag">G1 · JULIE · GLASS CARD</span></div>
-        <div class="placements">Largest 1440 × 1440 · Also 1080 × 1080</div>
-        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1440x1440.png" alt=""></div>
-        <div class="foot">
-          <a class="dl" href="./concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a>
-          <a class="dl" href="./concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a>
-          <span class="fname">concepts/LLA_CONCEPT_02_G1_JULIE-GLASS-CARD_1440x1440.png</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 13 -->
-  <section class="block">
-    <h3>Block 13 · Concept trio · G2 Courtney + G3 Julie Alt + E2 Julie Ice</h3>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag">G2 · COURTNEY · GLASS CARD</span></div>
-        <div class="placements">Largest 1440 · Also 1080</div>
-        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png" alt=""></div>
-        <div class="foot">
-          <a class="dl" href="./concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a>
-          <a class="dl" href="./concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a>
-          <span class="fname">concepts/LLA_CONCEPT_03_G2_COURTNEY-GLASS-CARD_1440x1440.png</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag">G3 · JULIE · GLASS CARD ALT</span></div>
-        <div class="placements">Largest 1440 · Also 1080</div>
-        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1440x1440.png" alt=""></div>
-        <div class="foot">
-          <a class="dl" href="./concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a>
-          <a class="dl" href="./concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a>
-          <span class="fname">concepts/LLA_CONCEPT_04_G3_JULIE-GLASS-CARD-ALT_1440x1440.png</span>
-        </div>
-      </div>
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag">E2 · JULIE · 35 AUG PROMO ICE CARD</span></div>
-        <div class="placements">Largest 1440 · Also 1080</div>
-        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png" alt=""></div>
-        <div class="foot">
-          <a class="dl" href="./concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a>
-          <a class="dl" href="./concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a>
-          <span class="fname">concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 14 -->
-  <section class="block">
-    <h3>Block 14 · 7B Julie Neon Lead + 7C Julie Blueprint — 1080 pair</h3>
-    <div class="grid">
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span><span class="tag">7B · JULIE · NEON LEAD CARD</span></div>
-        <div class="placements">FB Feed · IG Feed</div>
-        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">concepts/LLA_CONCEPT_30_5B_JULIE-LEAD-CARD-V2_1080x1080.png</span></div>
-      </div>
-      <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span><span class="tag">7C · JULIE · LONGEVITY BLUEPRINT</span></div>
-        <div class="placements">FB Feed · IG Feed</div>
-        <div class="imgwrap"><img src="./ads/LLA_BLUEPRINT_1x1_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./ads/LLA_BLUEPRINT_1x1_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">ads/LLA_BLUEPRINT_1x1_1080x1080.png</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOCK 15 -->
-  <section class="block">
-    <h3>Block 15 · Feed vertical trio 1080 × 1350 — 7A Courtney + 7B Julie + 7C Blueprint</h3>
-    <div class="sub">All three at 4:5 · 1080 × 1350 from the /rounds/ folder</div>
+    <h3>Block 7 · Feed vertical trio 1080 × 1350 — 7A Courtney + 7B Julie + 7C Blueprint (with pricing card)</h3>
     <div class="grid">
       <div class="card">
         <div class="meta"><span class="aspect">4:5</span><span class="size">1080 × 1350 px</span><span class="tag">7A · COURTNEY · NEON LEAD</span></div>
@@ -362,28 +208,52 @@
     </div>
   </section>
 
-  <!-- BLOCK 16 -->
+  <!-- BLOCK 8 — 7A/7B/7C 9:16 stories trio with pricing card -->
   <section class="block">
-    <h3>Block 16 · Feed square trio 1080 × 1080 — 7A Courtney + 7B Julie + 7C Blueprint</h3>
-    <div class="sub">All three from /rounds/ — canonical 1:1 round files</div>
+    <h3>Block 8 · Stories 9:16 trio 1080 × 1920 — 7A Courtney + 7B Julie + 7C Blueprint (with pricing card)</h3>
     <div class="grid">
       <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span><span class="tag">7A · COURTNEY · NEON LEAD</span></div>
-        <div class="placements">FB Feed · IG Feed</div>
-        <div class="imgwrap"><img src="./rounds/LLA_ROUND_7A_1080X1080_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./rounds/LLA_ROUND_7A_1080X1080_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">rounds/LLA_ROUND_7A_1080X1080_1080x1080.png</span></div>
+        <div class="meta"><span class="aspect">9:16</span><span class="size">1080 × 1920 px</span><span class="tag">7A · COURTNEY · NEON LEAD</span></div>
+        <div class="placements">FB/IG Stories · Reels</div>
+        <div class="imgwrap"><img src="./rounds/LLA_ROUND_7A_1080X1920_1080x1920.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./rounds/LLA_ROUND_7A_1080X1920_1080x1920.png" download>↓ Download 1080 × 1920 PNG</a><span class="fname">rounds/LLA_ROUND_7A_1080X1920_1080x1920.png</span></div>
       </div>
       <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span><span class="tag">7B · JULIE · NEON LEAD</span></div>
-        <div class="placements">FB Feed · IG Feed</div>
-        <div class="imgwrap"><img src="./rounds/LLA_ROUND_7B_1080X1080_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./rounds/LLA_ROUND_7B_1080X1080_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">rounds/LLA_ROUND_7B_1080X1080_1080x1080.png</span></div>
+        <div class="meta"><span class="aspect">9:16</span><span class="size">1080 × 1920 px</span><span class="tag">7B · JULIE · NEON LEAD</span></div>
+        <div class="placements">FB/IG Stories · Reels</div>
+        <div class="imgwrap"><img src="./rounds/LLA_ROUND_7B_1080X1920_1080x1920.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./rounds/LLA_ROUND_7B_1080X1920_1080x1920.png" download>↓ Download 1080 × 1920 PNG</a><span class="fname">rounds/LLA_ROUND_7B_1080X1920_1080x1920.png</span></div>
       </div>
       <div class="card">
-        <div class="meta"><span class="aspect">1:1</span><span class="size">1080 × 1080 px</span><span class="tag">7C · JULIE · LONGEVITY BLUEPRINT</span></div>
-        <div class="placements">FB Feed · IG Feed</div>
-        <div class="imgwrap"><img src="./rounds/LLA_ROUND_7C_1080X1080_1080x1080.png" alt=""></div>
-        <div class="foot"><a class="dl" href="./rounds/LLA_ROUND_7C_1080X1080_1080x1080.png" download>↓ Download 1080 × 1080 PNG</a><span class="fname">rounds/LLA_ROUND_7C_1080X1080_1080x1080.png</span></div>
+        <div class="meta"><span class="aspect">9:16</span><span class="size">1080 × 1920 px</span><span class="tag">7C · JULIE · LONGEVITY BLUEPRINT</span></div>
+        <div class="placements">FB/IG Stories · Reels</div>
+        <div class="imgwrap"><img src="./rounds/LLA_ROUND_7C_1080X1920_1080x1920.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./rounds/LLA_ROUND_7C_1080X1920_1080x1920.png" download>↓ Download 1080 × 1920 PNG</a><span class="fname">rounds/LLA_ROUND_7C_1080X1920_1080x1920.png</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOCK 9 — E2 / E1 / E3 promo cards WITH pricing 1440 -->
+  <section class="block">
+    <h3>Block 9 · 35% August Promo cards 1440 — E2 Julie Ice + E1 Courtney Dark + E3 Julie Dark (with pricing card)</h3>
+    <div class="grid">
+      <div class="card">
+        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag">E2 · JULIE · 35% AUG PROMO ICE CARD</span></div>
+        <div class="placements">FB Feed · IG Feed · Explore</div>
+        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a><span class="fname">concepts/LLA_CONCEPT_05_E2_JULIE-35-AUG-PROMO-ICE-CARD_1440x1440.png</span></div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag">E1 · COURTNEY · 35% AUG PROMO DARK</span></div>
+        <div class="placements">FB Feed · IG Feed · Explore</div>
+        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_07_E1_COURTNEY-35-AUG-PROMO-DARK-CARD_1440x1440.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./concepts/LLA_CONCEPT_07_E1_COURTNEY-35-AUG-PROMO-DARK-CARD_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a><span class="fname">concepts/LLA_CONCEPT_07_E1_COURTNEY-35-AUG-PROMO-DARK-CARD_1440x1440.png</span></div>
+      </div>
+      <div class="card">
+        <div class="meta"><span class="aspect">1:1</span><span class="size">1440 × 1440 px</span><span class="tag">E3 · JULIE · 35% AUG PROMO DARK</span></div>
+        <div class="placements">FB Feed · IG Feed · Explore</div>
+        <div class="imgwrap"><img src="./concepts/LLA_CONCEPT_06_E3_JULIE-35-AUG-PROMO-NEW-MESSAGE-DARK-CARD_1440x1440.png" alt=""></div>
+        <div class="foot"><a class="dl" href="./concepts/LLA_CONCEPT_06_E3_JULIE-35-AUG-PROMO-NEW-MESSAGE-DARK-CARD_1440x1440.png" download>↓ Download 1440 × 1440 PNG</a><span class="fname">concepts/LLA_CONCEPT_06_E3_JULIE-35-AUG-PROMO-NEW-MESSAGE-DARK-CARD_1440x1440.png</span></div>
       </div>
     </div>
   </section>
