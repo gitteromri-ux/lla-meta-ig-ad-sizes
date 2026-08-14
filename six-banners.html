@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LLA · 6 Corrected Banners · Upload Ready</title>
+<style>
+  :root{ --bg:#05070d; --card:#0c111c; --line:rgba(200,164,92,.28); --gold:#c8a45c; --txt:#eef2f8; --mut:#98a2b4; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;
+       -webkit-text-size-adjust:100%;padding:0 0 64px}
+  header{padding:28px 20px 22px;border-bottom:1px solid rgba(255,255,255,.08);
+         background:linear-gradient(180deg,#0a1020,#05070d)}
+  .wrap{max-width:1180px;margin:0 auto}
+  h1{font-size:clamp(22px,5vw,34px);letter-spacing:-.01em;line-height:1.15;font-weight:700}
+  .tag{display:inline-block;margin-bottom:12px;font-size:11px;letter-spacing:.22em;color:var(--gold);
+       border:1px solid var(--line);padding:5px 10px;border-radius:3px}
+  header p{margin-top:12px;color:var(--mut);font-size:15px;line-height:1.6;max-width:70ch}
+  .grid{display:grid;gap:26px;padding:26px 20px 0;grid-template-columns:1fr}
+  @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+  .card{background:var(--card);border:1px solid rgba(255,255,255,.09);border-radius:14px;overflow:hidden}
+  .card img{display:block;width:100%;height:auto;background:#000}
+  .meta{padding:16px 18px 18px}
+  .name{font-size:15px;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
+  .file{margin-top:6px;font-size:12px;color:var(--mut);word-break:break-all;font-family:ui-monospace,Menlo,monospace}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  a.dl{flex:1 1 140px;text-align:center;text-decoration:none;font-size:14px;font-weight:700;
+       padding:13px 14px;border-radius:9px;background:var(--gold);color:#12100b}
+  a.dl.alt{background:transparent;color:var(--gold);border:1px solid var(--line)}
+  a.dl:active{transform:translateY(1px)}
+  footer{padding:34px 20px 0;color:var(--mut);font-size:13px;line-height:1.7}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="tag">LLA · SEPARATE UPLOAD TAB</span>
+  <h1>The 6 requested banners — logo corrected</h1>
+  <p>Only the six banners you flagged. Nothing regenerated: rendered from your own
+     <code>LLA-Banner-Concepts</code> source with the Longevity Life Academy lockup scaled up
+     (+20% to +50% per layout, collision-checked) and its surrounding spacing opened up.
+     Each one is available at 1440×1440 (Meta recommended) and 1080×1080.</p>
+</div></header>
+
+<div class="wrap"><div class="grid" id="grid"></div>
+
+<footer>
+  <p>Source: <code>source-pages/LLA-Banner-Concepts.html</code> · renderer: <code>render_six.py</code> ·
+     files: <code>six/</code> · <a href="SIX_BANNERS.zip" style="color:var(--gold)">download all six (ZIP)</a></p>
+</footer></div>
+
+<script>
+const SET=[
+ ["2A","THE GRAND ARCH","LLA_2A_THE-GRAND-ARCH"],
+ ["2B","THE LEDGER · IVORY PAPER","LLA_2B_THE-LEDGER_IVORY-PAPER"],
+ ["2C","CINEMA · GILDED FULL-BLEED","LLA_2C_CINEMA_GILDED-FULL-BLEED"],
+ ["2D","POSTER SPLIT · TYPE OVER THE SEAM","LLA_2D_POSTER-SPLIT_TYPE-OVER-THE-SEAM"],
+ ["2E","GHOST WORDMARK","LLA_2E_GHOST-WORDMARK"],
+ ["3E","JULIE · GHOST WORDMARK","LLA_3E_JULIE_GHOST-WORDMARK"]
+];
+document.getElementById('grid').innerHTML=SET.map(([id,label,base])=>`
+ <div class="card">
+   <img src="six/${base}_1440x1440.png" alt="${id} ${label}" loading="lazy">
+   <div class="meta">
+     <div class="name">${id} · ${label}</div>
+     <div class="file">${base}_1440x1440.png</div>
+     <div class="btns">
+       <a class="dl" href="six/${base}_1440x1440.png" download>↓ 1440 × 1440 PNG</a>
+       <a class="dl alt" href="six/${base}_1080x1080.png" download>↓ 1080 × 1080 PNG</a>
+     </div>
+   </div>
+ </div>`).join('');
+</script>
+</body>
+</html>
