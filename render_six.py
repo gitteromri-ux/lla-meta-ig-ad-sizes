@@ -13,7 +13,7 @@ from playwright.sync_api import sync_playwright
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, 'source-pages', 'LLA-Banner-Concepts.html')
 LOGO = os.path.join(ROOT, 'assets', 'lla_logo_brand.png')
-OUT = os.path.join(ROOT, 'six')
+OUT = os.path.join(ROOT, 'six-v4')
 os.makedirs(OUT, exist_ok=True)
 CHROME = '/home/user/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell'
 
@@ -141,6 +141,76 @@ PASS2 = r"""(ids)=>{
   });
   return rep;}"""
 
+# ---- pass 3: keep the bottom ghost wordmark fully legible -------------------
+# Defect found in audit of six-v3: on the GHOST WORDMARK layouts the word
+# "Academy" was hidden behind the portrait card. Shrink the bottom ghost line
+# until its right edge clears every solid obstacle in its own vertical band.
+PASS3 = r"""(ids)=>{
+  const rep=[];
+  ids.forEach(id=>{
+    const fr=document.querySelector('div[data-cap="'+id+'"]'); if(!fr) return;
+    const Z=parseFloat(fr.style.zoom||'1')||1;
+    const frR=fr.getBoundingClientRect();
+    const FW=frR.width/Z, FH=frR.height/Z;
+    const GUTTER=26, MINFS=64;                 // MINFS is raw px, floor on shrink
+
+    // solid, visually opaque blockers (portrait cards, image tiles, filled panels)
+    const blockers=[];
+    [...fr.querySelectorAll('img,div')].forEach(o=>{
+      if(o.hasAttribute('data-lla-ghost')) return;
+      const cs=getComputedStyle(o);
+      const solid = o.tagName==='IMG' ||
+                    (cs.backgroundImage&&cs.backgroundImage!=='none') ||
+                    (cs.backgroundColor&&cs.backgroundColor!=='rgba(0, 0, 0, 0)'&&
+                     !/, ?0\)$/.test(cs.backgroundColor));
+      if(!solid) return;
+      const r=o.getBoundingClientRect();
+      const w=r.width/Z, h=r.height/Z;
+      if(w<80||h<80) return;              // ignore chips, rules, stars
+      if(w>FW*0.9&&h>FH*0.9) return;      // ignore the frame/background itself
+      blockers.push({l:(r.left-frR.left)/Z, r:(r.left-frR.left)/Z+w,
+                     t:(r.top-frR.top)/Z,  b:(r.top-frR.top)/Z+h});
+    });
+
+    fr.querySelectorAll('[data-lla-ghost]').forEach(g=>{
+      const st=g.getAttribute('style')||'';
+      if(!/bottom:/.test(st)) return;     // bottom display line only
+      for(let pass=0; pass<14; pass++){
+        const gr=g.getBoundingClientRect();
+        const gl=(gr.left-frR.left)/Z, gw=gr.width/Z;
+        const gt=(gr.top-frR.top)/Z, gb=gt+gr.height/Z;
+        // nearest blocker that overlaps this line vertically and starts to its right
+        let limit=FW-GUTTER;
+        blockers.forEach(b=>{
+          if(b.b<=gt+6||b.t>=gb-6) return;        // no vertical overlap
+          if(b.r<=gl+4) return;                    // entirely left of the line
+          if(b.l-GUTTER<limit) limit=b.l-GUTTER;
+        });
+        const avail=limit-gl;
+        if(avail<=0) break;
+        if(gw<=avail+0.5) break;                   // clears everything: done
+        // NOTE: operate on the RAW computed font-size. Dividing by the frame
+        // zoom here (as an earlier revision did) re-inflated the value every
+        // iteration and blew the wordmark off the canvas.
+        const fsRaw=parseFloat(getComputedStyle(g).fontSize);
+        const ratio=avail/gw;                      // exact, zoom-invariant; only ever <1 here
+        const next=Math.max(MINFS, fsRaw*ratio-0.5);
+        if(next>=fsRaw-0.4) break;                 // never grow, never stall
+        g.style.fontSize=next+'px';
+        g.style.whiteSpace='nowrap';
+      }
+      // final guard: never let the line touch the bottom edge
+      const gr=g.getBoundingClientRect();
+      const gb=(gr.top-frR.top)/Z+gr.height/Z;
+      if(gb>FH-14) g.style.bottom=(parseFloat(g.style.bottom||'30')+(gb-(FH-18)))+'px';
+      const fr2=g.getBoundingClientRect();
+      rep.push(id+':fs='+Math.round(parseFloat(getComputedStyle(g).fontSize))
+               +' w='+Math.round(fr2.width/Z)+' left='+Math.round((fr2.left-frR.left)/Z)
+               +' bottomEdge='+Math.round((fr2.top-frR.top)/Z+fr2.height/Z)+'/'+Math.round(FH));
+    });
+  });
+  return rep;}"""
+
 report = []
 with sync_playwright() as p:
     br = p.chromium.launch(executable_path=CHROME,
@@ -154,6 +224,9 @@ with sync_playwright() as p:
         print('pass1:', found)
         page.wait_for_timeout(2500)                      # let the new lockup decode
         print('pass2:', page.evaluate(PASS2, WANT))
+        page.wait_for_timeout(600)
+        print('pass3:', page.evaluate(PASS3, WANT))
+        page.wait_for_timeout(400)
         page.evaluate("""(a)=>{const [ids,sc]=a; ids.forEach(id=>{
             const fr=document.querySelector('div[data-cap="'+id+'"]'); if(fr) fr.style.zoom=String(sc);});}""",
                       [WANT, scale])
@@ -170,9 +243,9 @@ with sync_playwright() as p:
             print('rendered', name)
             if scale == 1.0:
                 report.append({'id': meta['id'], 'label': meta['label'],
-                               'file_1080': 'six/' + name,
-                               'file_1440': 'six/' + name.replace('1080x1080', '1440x1440')})
+                               'file_1080': 'six-v4/' + name,
+                               'file_1440': 'six-v4/' + name.replace('1080x1080', '1440x1440')})
         page.close()
     br.close()
-json.dump(report, open(os.path.join(ROOT, 'six_report.json'), 'w'), indent=2)
+json.dump(report, open(os.path.join(ROOT, 'six_report_v4.json'), 'w'), indent=2)
 print('done', len(report))
