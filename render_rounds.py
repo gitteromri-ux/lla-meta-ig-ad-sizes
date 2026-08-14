@@ -57,29 +57,38 @@ with sync_playwright() as p:
                       label:lbl?lbl.textContent.trim():''});
           });
 
-          // Enlarge talent credit lines 2x wherever they appear, then guard against clipping.
-          const NAMES=/Julie Gibson Clark|Courtney Donofrio|Slowest[- ]Aging|Slowest Ager|Longevity Life Academy Instructor|Founding Faculty|Ranked No/i;
-          document.querySelectorAll('div,span,p').forEach(x=>{
-            if(x.childElementCount>0) return;
-            const t=(x.textContent||'').trim();
-            if(!t || !NAMES.test(t)) return;
-            const cs=getComputedStyle(x);
-            const fs=parseFloat(cs.fontSize)||0;
-            if(fs<=0 || fs>90) return;
-            x.style.fontSize=(fs*2)+'px';
-            x.style.fontWeight=(parseInt(cs.fontWeight)||400)<600?'600':cs.fontWeight;
-            x.style.whiteSpace='nowrap';
-            x.setAttribute('data-grown','1');
-          });
-          // shrink any grown block that now exceeds its frame width
-          document.querySelectorAll('[data-grown]').forEach(x=>{
-            let box=x.closest('div[style*="position:absolute"]')||x.parentElement;
-            const lim=(box&&box.offsetWidth)||0;
-            if(lim && x.scrollWidth>lim){
-              const k=lim/x.scrollWidth;
-              x.style.fontSize=(parseFloat(getComputedStyle(x).fontSize)*k*0.98)+'px';
-            }
-          });
+
+  const NAMES=/Julie Gibson Clark|Courtney Donofrio|Slowest[- ]Aging|Slowest Ager|Longevity Life Academy Instructor|Founding Faculty/i;
+  // Enlarge the credit block with a TRANSFORM, not font-size: siblings never reflow,
+  // so the CTA row and everything else stay exactly where the design put them.
+  const seen=new Set();
+  document.querySelectorAll('div,span,p').forEach(x=>{
+    if(x.childElementCount>0) return;
+    const t=(x.textContent||'').trim(); if(!t||!NAMES.test(t)) return;
+    let blk=x;
+    for(let i=0;i<3 && blk.parentElement;i++){
+      const pt=(blk.parentElement.textContent||'').trim();
+      if(pt.length<=t.length+64 && NAMES.test(pt)) blk=blk.parentElement; else break;
+    }
+    if(seen.has(blk)) return; seen.add(blk);
+    const fr=blk.closest('div[style*="zoom"]')||blk.offsetParent||document.body;
+    const fw=fr.clientWidth||1080, fh=fr.clientHeight||1080;
+    const r=blk.getBoundingClientRect(), pr=fr.getBoundingClientRect();
+    const left=r.left-pr.left, top=r.top-pr.top;
+    let k=2;
+    // never let the enlarged block leave the frame
+    k=Math.min(k, (fw-left-4)/Math.max(r.width,1), (fh-top-4)/Math.max(r.height,1));
+    if(k<1.15) k=1.15;
+    const bottomAnchored = (top + r.height) > fh*0.72;
+    if(bottomAnchored){
+      k=Math.min(2,(fw-left-4)/Math.max(r.width,1),(top+r.height-4)/Math.max(r.height,1));
+      if(k<1.15) k=1.15;
+      blk.style.transformOrigin='left bottom';
+    } else {
+      blk.style.transformOrigin='left top';
+    }
+    blk.style.transform='scale('+k+')';
+  });
           document.body.style.background='#05070d';
           return out;}""", scale)
         page.wait_for_timeout(3000)
