@@ -18,7 +18,7 @@ html,body{margin:0;padding:0;background:#05070d;overflow:hidden;}
   <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(10,7,4,.55) 0%,rgba(10,7,4,.08) 55%,rgba(10,7,4,.02) 100%);"></div>
   <div style="position:absolute;inset:0;background:radial-gradient(120% 100% at 50% 30%,rgba(0,0,0,0) 62%,rgba(10,7,4,.28) 100%);"></div>
   <div id="cardwrap" style="position:absolute;transform-origin:left top;">
-    <div id="card" style="width:740px;display:flex;flex-direction:column;background:linear-gradient(165deg,rgba(13,21,42,.95) 0%,rgba(6,10,21,.88) 100%);backdrop-filter:blur(22px);border:1.5px solid rgba(130,185,255,.85);border-radius:26px;transform:perspective(1500px) rotateY(3.5deg);transform-origin:left center;box-shadow:0 60px 130px rgba(0,0,0,.7),0 0 50px rgba(90,160,255,.3),inset 0 2px 0 rgba(255,255,255,.45),inset 0 0 140px rgba(90,160,255,.38),inset 0 0 44px rgba(140,195,255,.32),inset 0 0 12px rgba(170,210,255,.3),inset 0 0 0 1px rgba(255,255,255,.1);">
+    <div id="card" style="width:830px;display:flex;flex-direction:column;background:linear-gradient(165deg,rgba(13,21,42,.95) 0%,rgba(6,10,21,.88) 100%);backdrop-filter:blur(22px);border:1.5px solid rgba(130,185,255,.85);border-radius:26px;transform:perspective(1500px) rotateY(3.5deg);transform-origin:left center;box-shadow:0 60px 130px rgba(0,0,0,.7),0 0 50px rgba(90,160,255,.3),inset 0 2px 0 rgba(255,255,255,.45),inset 0 0 140px rgba(90,160,255,.38),inset 0 0 44px rgba(140,195,255,.32),inset 0 0 12px rgba(170,210,255,.3),inset 0 0 0 1px rgba(255,255,255,.1);">
       <img id="logo" src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group" style="display:block;margin-top:4px;filter:brightness(1.07) drop-shadow(0 2px 10px rgba(0,0,0,.85));">
       <div id="h1" style="margin-top:24px;font-family:'Playfair',serif;font-weight:500;color:#fff;line-height:1.05;letter-spacing:-.02em;white-space:nowrap;text-shadow:0 2px 4px rgba(0,0,0,.25),0 0 34px rgba(120,180,255,.4);">Master your tailored</div>
       <div id="h2" style="margin-top:12px;font-family:'PlayfairIt',serif;font-style:italic;font-weight:600;line-height:1.05;white-space:nowrap;background:linear-gradient(100deg,#e8f1ff 0%,#b8d0f5 55%,#8fb3e8 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 24px rgba(120,180,255,.6));padding-bottom:.10em;">Longevity Blueprint</div>
@@ -127,7 +127,7 @@ function layout(){
      so its height is reserved out of the usable band. The card is then scaled
      uniformly to fit — proportional only, never reflowed. */
   const usableH = bandH - bh - 18;
-  const rawH=card.offsetHeight, rawW=Math.max(740, card.offsetWidth);
+  const rawH=card.offsetHeight, rawW=Math.max(830, card.offsetWidth);
   const sc=Math.min(usableH/rawH, (VW-2*insetX)/rawW);
   const authoredOK = false;
   const top = authoredOK ? a.top : Math.round(safeTop+(usableH-rawH*sc)/2);
