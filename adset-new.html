@@ -1,6 +1,26 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Adset New — Updated banners</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script>
+// Force-bust every image cache on every page load — uses current timestamp
+// so returning users NEVER see a stale version, no matter what.
+(function(){
+  var t = Date.now();
+  document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll('img[src]').forEach(function(img){
+      var s = img.getAttribute('src');
+      img.src = s.split('?')[0] + '?t=' + t;
+    });
+    document.querySelectorAll('a[href$=".png"],a[href$=".zip"]').forEach(function(a){
+      var h = a.getAttribute('href');
+      a.href = h.split('?')[0] + '?t=' + t;
+    });
+  });
+})();
+</script>
 <style>
 :root{--bg:#05070d;--bg2:#0a0f1a;--fg:#e9ecf5;--mut:#8a92a6;--card:#0f1524;--line:#1e2842;--green:#5ef0ab;--gold:#f0d47a}
 *{box-sizing:border-box}
