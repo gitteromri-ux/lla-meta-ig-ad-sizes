@@ -227,6 +227,28 @@ with sync_playwright() as p:
         page.wait_for_timeout(600)
         print('pass3:', page.evaluate(PASS3, WANT))
         page.wait_for_timeout(400)
+        # ---- pass 4: enlarge the headline in the 3E Julie card ----
+        pass4 = r"""()=>{
+          const fr=document.querySelector('div[data-cap="3e"]'); if(!fr) return 'no-3e';
+          const out=[];
+          [...fr.querySelectorAll('div,span,p')].forEach(el=>{
+            if(el.childElementCount>0) return;
+            const t=(el.textContent||'').trim();
+            if(!t) return;
+            const cs=getComputedStyle(el);
+            const fs=parseFloat(cs.fontSize);
+            if(t==='Make longevity'||t==='automatic.'){
+              const nf=Math.round(fs*1.35);
+              el.style.fontSize=nf+'px';
+              el.style.lineHeight='1.02';
+              if(t==='automatic.') el.style.marginBottom='34px';
+              out.push(t+':'+fs+'->'+nf);
+            }
+          });
+          return out;
+        }"""
+        print('pass4:', page.evaluate(pass4))
+        page.wait_for_timeout(400)
         page.evaluate("""(a)=>{const [ids,sc]=a; ids.forEach(id=>{
             const fr=document.querySelector('div[data-cap="'+id+'"]'); if(fr) fr.style.zoom=String(sc);});}""",
                       [WANT, scale])
