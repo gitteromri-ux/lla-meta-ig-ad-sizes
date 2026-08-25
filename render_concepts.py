@@ -119,6 +119,27 @@ with sync_playwright() as p:
               });
             }
           });
+          // 3E-only fix: clip 'Slowest-Aging' and 'Instructor' lines so they don't
+          // smear behind Julie's portrait. Portrait sits at ~58% frame width; clip left text to 56%.
+          document.querySelectorAll('div[data-cap="3e"]').forEach(fr=>{
+            const Z=parseFloat(fr.style.zoom||'1')||1;
+            const FW=fr.getBoundingClientRect().width/Z;
+            // Portrait sits at ~624px in 1080-wide frame => 58%. Text column must end by 55% with margin.
+            const limit=FW*0.50;
+            [...fr.querySelectorAll('div,span,p')].forEach(el=>{
+              if(el.childElementCount>0) return;
+              const t=(el.textContent||'').trim();
+              if(!/^(2nd Slowest[- ]Aging Person on Earth|Longevity Life Academy Instructor|Taught live by )/i.test(t)) return;
+              el.style.whiteSpace='nowrap';
+              let fs=parseFloat(getComputedStyle(el).fontSize);
+              for(let g=0;g<40;g++){
+                const w=el.getBoundingClientRect().width/Z;
+                if(w<=limit) break;
+                fs=fs-2; if(fs<18) break;
+                el.style.fontSize=fs+'px';
+              }
+            });
+          });
           document.body.style.background='#05070d';
           return found;}""", scale)
         page.wait_for_timeout(2500)
