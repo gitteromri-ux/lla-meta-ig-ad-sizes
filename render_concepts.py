@@ -79,6 +79,46 @@ with sync_playwright() as p:
     }
     blk.style.transform='scale('+k+')';
   });
+          // Enlarge the 'Make longevity' / 'automatic.' headline on the 3A-3E Julie set.
+          // These layouts absolutely-position the sub-line 'Taught live by ...' just below
+          // the italic word, so we (1) size up the headline safely, (2) shrink to fit,
+          // and (3) shift 'Taught live by ...' downward by the extra descender height.
+          document.querySelectorAll('div[data-cap]').forEach(fr=>{
+            const id=fr.getAttribute('data-cap');
+            if(!/^3[a-e]$/.test(id)) return;
+            const Z=parseFloat(fr.style.zoom||'1')||1;
+            const frR=fr.getBoundingClientRect();
+            const FW=frR.width/Z;
+            let deltaAuto=0;
+            [...fr.querySelectorAll('div,span,p')].forEach(el=>{
+              if(el.childElementCount>0) return;
+              const t=(el.textContent||'').trim();
+              if(t!=='Make longevity'&&t!=='automatic.') return;
+              const fs=parseFloat(getComputedStyle(el).fontSize);
+              let nf=Math.round(fs*1.32);
+              el.style.fontSize=nf+'px';
+              el.style.lineHeight='1.02';
+              el.style.whiteSpace='nowrap';
+              for(let g=0;g<12;g++){
+                const w=el.getBoundingClientRect().width/Z;
+                if(w<=FW*0.88) break;
+                nf=Math.max(fs, nf-4);
+                el.style.fontSize=nf+'px';
+                if(nf===fs) break;
+              }
+              if(t==='automatic.') deltaAuto=Math.max(deltaAuto, nf-fs);
+            });
+            // Push the 'Taught live by ...' sub-headline down by the descender delta so
+            // it isn't overlapped by the enlarged italic 'automatic.'.
+            if(deltaAuto>0){
+              [...fr.querySelectorAll('div,span,p')].forEach(el=>{
+                if(el.childElementCount>0) return;
+                const t=(el.textContent||'').trim();
+                if(!/^Taught live by /.test(t)) return;
+                el.style.transform='translateY('+Math.round(deltaAuto*0.9)+'px)';
+              });
+            }
+          });
           document.body.style.background='#05070d';
           return found;}""", scale)
         page.wait_for_timeout(2500)

@@ -230,20 +230,29 @@ with sync_playwright() as p:
         # ---- pass 4: enlarge the headline in the 3E Julie card ----
         pass4 = r"""()=>{
           const fr=document.querySelector('div[data-cap="3e"]'); if(!fr) return 'no-3e';
+          const Z=parseFloat(fr.style.zoom||'1')||1;
+          const frR=fr.getBoundingClientRect();
+          const FW=frR.width/Z;
           const out=[];
           [...fr.querySelectorAll('div,span,p')].forEach(el=>{
             if(el.childElementCount>0) return;
             const t=(el.textContent||'').trim();
-            if(!t) return;
-            const cs=getComputedStyle(el);
-            const fs=parseFloat(cs.fontSize);
-            if(t==='Make longevity'||t==='automatic.'){
-              const nf=Math.round(fs*1.35);
+            if(t!=='Make longevity'&&t!=='automatic.') return;
+            const fs=parseFloat(getComputedStyle(el).fontSize);
+            let nf=Math.round(fs*1.55);
+            el.style.fontSize=nf+'px';
+            el.style.lineHeight='1.02';
+            el.style.whiteSpace='nowrap';
+            if(t==='automatic.') el.style.marginBottom='34px';
+            // shrink to fit inside 92% of frame width
+            for(let g=0;g<10;g++){
+              const w=el.getBoundingClientRect().width/Z;
+              if(w<=FW*0.92) break;
+              nf=Math.max(fs, nf-4);
               el.style.fontSize=nf+'px';
-              el.style.lineHeight='1.02';
-              if(t==='automatic.') el.style.marginBottom='34px';
-              out.push(t+':'+fs+'->'+nf);
+              if(nf===fs) break;
             }
+            out.push(t+':'+fs+'->'+nf);
           });
           return out;
         }"""
