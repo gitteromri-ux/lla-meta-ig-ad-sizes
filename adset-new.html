@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Adset New — Updated banners · Larger headlines + Julie photo swap</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..700&family=Inter:wght@300..800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#05070d;--line:rgba(140,190,255,.16);--ink:#f2f6ff;--dim:#95a3bd;--blue:#9cc2ee;--gold:#e3cb96;--green:#5ef0ab;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;
+background-image:radial-gradient(90% 60% at 50% -10%,rgba(60,110,200,.20),transparent 70%);}
+.wrap{max-width:1560px;margin:0 auto;padding:72px 40px 120px}
+header{border-bottom:1px solid var(--line);padding-bottom:44px}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.30em;color:var(--green);text-transform:uppercase}
+h1{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(38px,5.4vw,74px);line-height:1.03;letter-spacing:-.02em;margin-top:18px}
+h1 em{font-style:italic;background:linear-gradient(100deg,#e8f1ff,#9cc2ee 55%,#6f9dd8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{margin-top:22px;max-width:940px;font-size:19px;line-height:1.65;color:var(--dim)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chip{font-size:12.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#cfe0ff;
+border:1px solid var(--line);background:rgba(20,32,60,.55);padding:9px 15px;border-radius:100px}
+.chip.g{color:#c8f7dc;border-color:rgba(94,240,171,.34);background:rgba(14,40,26,.55)}
+.bar{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
+.btn{display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:700;padding:15px 26px;border-radius:12px;text-decoration:none;border:1px solid transparent;transition:.18s}
+.btn-p{background:linear-gradient(180deg,#a8cbf5,#6f9dd8);color:#04101f;box-shadow:0 10px 34px rgba(90,160,255,.34)}
+.btn-p:hover{filter:brightness(1.09);transform:translateY(-1px)}
+.btn-s{border-color:var(--line);color:#dbe7fb;background:rgba(16,26,48,.6)}
+.btn-s:hover{border-color:rgba(156,194,238,.5);background:rgba(24,38,68,.8)}
+section{margin-top:88px}
+.sechead{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;border-left:3px solid var(--green);padding-left:20px}
+.sechead.gold{border-left-color:var(--gold)}
+.sechead.blue{border-left-color:var(--blue)}
+h2{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(30px,3.4vw,46px);letter-spacing:-.015em}
+.sechead p{color:var(--dim);font-size:16px}
+.note{margin-top:26px;padding:24px 26px;border-left:3px solid var(--green);background:rgba(10,26,18,.5);border-radius:0 12px 12px 0;font-size:15px;line-height:1.7;color:#d7ecdf}
+.note b{color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:30px;margin-top:34px;align-items:stretch}
+.card{background:linear-gradient(170deg,rgba(14,22,42,.94),rgba(7,11,22,.94));border:1px solid var(--line);
+border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:.2s}
+.card:hover{border-color:rgba(156,194,238,.42);transform:translateY(-3px);box-shadow:0 26px 60px rgba(0,0,0,.55)}
+.card.g{border-color:rgba(227,203,150,.18)} .card.g:hover{border-color:rgba(227,203,150,.45)}
+.head{padding:22px 24px 18px;border-bottom:1px solid var(--line);min-height:172px}
+.ratio{font-family:'Playfair Display',serif;font-weight:700;font-size:32px;line-height:1.1;letter-spacing:-.01em}
+.tagx{display:inline-block;margin-left:9px;font-family:'Inter',sans-serif;font-size:10.5px;font-weight:800;letter-spacing:.14em;
+vertical-align:middle;padding:5px 9px;border-radius:4px;background:rgba(94,240,171,.16);color:#5ef0ab;border:1px solid rgba(94,240,171,.34)}
+.tagx.upd{background:rgba(94,240,171,.16);color:#5ef0ab;border-color:rgba(94,240,171,.34)}
+.px{margin-top:9px;font-size:23px;font-weight:800;color:var(--blue);font-variant-numeric:tabular-nums}
+.card.g .px{color:var(--gold)}
+.place{margin-top:11px;font-size:13.5px;line-height:1.5;color:var(--dim)}
+.badges{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px}
+.badge{font-size:10.5px;font-weight:700;letter-spacing:.10em;text-transform:uppercase;padding:5px 9px;border-radius:4px;
+background:rgba(94,240,171,.14);color:#8ef5c1;border:1px solid rgba(94,240,171,.32)}
+.badge.b{background:rgba(156,194,238,.14);color:#bcd4f3;border-color:rgba(156,194,238,.32)}
+.thumb{background:#04060c;display:flex;align-items:center;justify-content:center;padding:22px;height:430px}
+.thumb img{max-width:100%;max-height:386px;width:auto;height:auto;display:block;border-radius:6px;box-shadow:0 14px 40px rgba(0,0,0,.6)}
+.spec{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border-top:1px solid var(--line)}
+.spec div{background:rgba(6,10,20,.9);padding:13px 16px}
+.spec b{display:block;font-size:10.5px;font-weight:700;letter-spacing:.16em;color:#7d8ca8;text-transform:uppercase}
+.spec span{font-size:14px;font-weight:600;color:#e6eeff;font-variant-numeric:tabular-nums}
+.acts{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;margin-top:auto}
+.dl{display:flex;align-items:center;justify-content:center;gap:10px;padding:15px 18px;border-radius:11px;font-size:15px;font-weight:800;text-decoration:none;
+background:linear-gradient(180deg,#a8cbf5,#6f9dd8);color:#04101f;box-shadow:0 8px 26px rgba(90,160,255,.3);transition:.16s}
+.card.g .dl{background:linear-gradient(180deg,#f2e0b8,#c8a45c);box-shadow:0 8px 26px rgba(226,180,110,.3)}
+.dl:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.dl2{display:flex;align-items:center;justify-content:center;gap:9px;padding:12px 16px;border-radius:10px;font-size:13.5px;font-weight:600;
+text-decoration:none;color:#c4d4ee;border:1px solid var(--line);background:rgba(14,24,44,.6)}
+.dl2:hover{border-color:rgba(156,194,238,.45);color:#fff}
+.ok{color:#2ee08a;font-weight:700}
+footer{margin-top:110px;padding-top:34px;border-top:1px solid var(--line);color:#6f7d96;font-size:13.5px;line-height:1.85}
+@media(max-width:640px){.wrap{padding:44px 20px 80px}}
+</style></head>
+<body><div class="wrap">
+
+<header>
+  <div class="kicker">Longevity Life Academy · Latest revisions</div>
+  <h1>Adset New — <em>Updated banners</em></h1>
+  <p class="lede">Every banner touched across the latest two rounds of revisions, in one place. Round 1 enlarged the headline typography in Banner 7C (Master your tailored Longevity Blueprint) and Banner 7B (Make longevity automatic). Round 2 replaced Julie Gibson Clark's harsher 9:16 portrait with the warmer open-smile version. All five files below sit inside Meta's safe zones and are upload-ready.</p>
+  <div class="chips">
+    <span class="chip g">5 upload-ready PNGs</span>
+    <span class="chip g">Headlines enlarged</span>
+    <span class="chip g">Julie photo swapped (9:16)</span>
+    <span class="chip">Meta safe-zone verified</span>
+    <span class="chip">sRGB · 24-bit PNG</span>
+    <span class="chip">Last updated 25 Aug 2026</span>
+  </div>
+  <div class="bar">
+    <a class="btn btn-p" href="ADSET_NEW.zip" download>⤓ Download all 5 updated banners (ZIP)</a>
+    <a class="btn btn-s" href="library.html">← Back to full library</a>
+    <a class="btn btn-s" href="index.html">Home</a>
+  </div>
+</header>
+
+<section id="blueprint">
+  <div class="sechead blue"><h2>Banner 7C · Julie · Longevity Blueprint</h2><p>“Master your tailored <em style="font-style:italic">Longevity Blueprint</em>” — headline enlarged, Julie warm-smile photo</p></div>
+  <div class="note"><b>Round 1 change:</b> h1 (Master your tailored) 44→64, h2 (Longevity Blueprint) 40→58 at 1:1 · h1 66→86, h2 62→80 at 9:16. <b>Round 2 change:</b> 9:16 background swapped from julie_couch_b (intense) to julie_couch_a (warm open smile).</div>
+  <div class="grid" id="gridBP"></div>
+</section>
+
+<section id="julie">
+  <div class="sechead gold"><h2>Banner 7B · Julie Gibson Clark</h2><p>“Make longevity <em style="font-style:italic">automatic.</em>” — headline enlarged</p></div>
+  <div class="note"><b>Round 1 change:</b> "Make longevity" 80→112, "automatic." 74→104. <b>Round 2:</b> already used the warm-smile photo — no swap needed at 1:1.</div>
+  <div class="grid" id="gridJ"></div>
+</section>
+
+<footer>
+  <b style="color:#c9d8f0">Adset New — updated banners page.</b><br>
+  Sources: <a class="dl2" style="display:inline;padding:0;border:none;background:none;color:#9cc2ee" href="https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes/commit/33bb409">commit 33bb409 (headlines)</a> · <a class="dl2" style="display:inline;padding:0;border:none;background:none;color:#9cc2ee" href="https://github.com/gitteromri-ux/lla-meta-ig-ad-sizes/commit/ba34819">commit ba34819 (photo swap)</a>.<br>
+  Every PNG re-rendered from source (blueprint.html / banner.html) with headless Chromium, device scale factor 1, clipped to the exact output rectangle, so output pixels equal browser pixels with no interpolation step.
+</footer>
+</div>
+
+<script>
+const BLUEPRINT=[
+ {t:'1x1_1440x1440',                                r:'1:1',   w:1440,h:1440, tag:'HI-RES', safe:'72 px edges', p:'FB Feed · IG Feed · Explore · Marketplace · Right column', badges:['Headline enlarged']},
+ {t:'9x16_STORIES-REELS_1440x2560_META-RECOMMENDED',r:'9:16',  w:1440,h:2560, tag:'LARGEST · META SPEC', safe:'358 / 896 px', p:'Meta\u2019s printed recommended Stories / Reels resolution', badges:['Headline enlarged','Photo swapped']},
+ {t:'9x16_STORIES-REELS_1080x1920',                 r:'9:16',  w:1080,h:1920, tag:'STORIES + REELS', safe:'269 / 672 px', p:'IG Stories · FB Stories · IG Reels · FB Reels — 14% / 35% / 6% reserve', badges:['Headline enlarged','Photo swapped']},
+ {t:'9x16_MESSENGER-STORY_1080x1920',               r:'9:16',  w:1080,h:1920, tag:'MESSENGER', safe:'250 / 340 px', p:'Messenger Story — Meta\u2019s printed 250 / 340 px reserve', badges:['Headline enlarged','Photo swapped']}
+];
+const JULIE=[
+ {t:'1x1_1440x1440',                                r:'1:1',   w:1440,h:1440, tag:'HI-RES', safe:'72 px edges', p:'FB Feed · IG Feed · Explore · Marketplace · Right column', badges:['Headline enlarged']}
+];
+function build(list, gridId, kind, cls){
+  const g=document.getElementById(gridId);
+  for(const s of list){
+    const base=`LLA_${kind}_${s.t}`;
+    const badgesHtml=(s.badges||[]).map(b=>`<span class="badge${b.includes('Photo')?' b':''}">${b}</span>`).join('');
+    const el=document.createElement('div'); el.className='card '+cls;
+    el.innerHTML=`
+      <div class="head">
+        <div class="ratio">${s.r}${s.tag?`<span class="tagx">${s.tag}</span>`:''}</div>
+        <div class="px">${s.w} × ${s.h} px</div>
+        <div class="place">${s.p}</div>
+        <div class="badges">${badgesHtml}</div>
+      </div>
+      <div class="thumb"><img src="ads/${base}.png?v=2" alt="${kind} ${s.r} ${s.w} by ${s.h} pixels" loading="lazy"></div>
+      <div class="spec">
+        <div><b>Format</b><span>PNG · sRGB</span></div>
+        <div><b>Aspect</b><span>${s.r}</span></div>
+        <div><b>Safe reserve</b><span>${s.safe}</span></div>
+        <div><b>Copy inside</b><span class="ok">Pass ✓</span></div>
+      </div>
+      <div class="acts">
+        <a class="dl" href="ads/${base}.png" download="${base}.png">⤓ Download ${s.w} × ${s.h} PNG</a>
+        <a class="dl2" href="ads/${base}.png" target="_blank">Open full-size in new tab</a>
+      </div>`;
+    g.appendChild(el);
+  }
+}
+build(BLUEPRINT,'gridBP','BLUEPRINT','');
+build(JULIE,'gridJ','JULIE','g');
+</script>
+</body></html>
