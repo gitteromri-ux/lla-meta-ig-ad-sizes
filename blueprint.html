@@ -20,8 +20,8 @@ html,body{margin:0;padding:0;background:#05070d;overflow:hidden;}
   <div id="cardwrap" style="position:absolute;transform-origin:left top;">
     <div id="card" style="width:740px;display:flex;flex-direction:column;background:linear-gradient(165deg,rgba(13,21,42,.95) 0%,rgba(6,10,21,.88) 100%);backdrop-filter:blur(22px);border:1.5px solid rgba(130,185,255,.85);border-radius:26px;transform:perspective(1500px) rotateY(3.5deg);transform-origin:left center;box-shadow:0 60px 130px rgba(0,0,0,.7),0 0 50px rgba(90,160,255,.3),inset 0 2px 0 rgba(255,255,255,.45),inset 0 0 140px rgba(90,160,255,.38),inset 0 0 44px rgba(140,195,255,.32),inset 0 0 12px rgba(170,210,255,.3),inset 0 0 0 1px rgba(255,255,255,.1);">
       <img id="logo" src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group" style="display:block;margin-top:4px;filter:brightness(1.07) drop-shadow(0 2px 10px rgba(0,0,0,.85));">
-      <div id="h1" style="margin-top:24px;font-family:'Playfair',serif;font-weight:500;color:#fff;line-height:1.05;letter-spacing:-.02em;text-shadow:0 2px 4px rgba(0,0,0,.25),0 0 34px rgba(120,180,255,.4);">Master your tailored</div>
-      <div id="h2" style="margin-top:12px;font-family:'PlayfairIt',serif;font-style:italic;font-weight:600;line-height:1.05;background:linear-gradient(100deg,#e8f1ff 0%,#b8d0f5 55%,#8fb3e8 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 24px rgba(120,180,255,.6));padding-bottom:.10em;">Longevity Blueprint</div>
+      <div id="h1" style="margin-top:24px;font-family:'Playfair',serif;font-weight:500;color:#fff;line-height:1.05;letter-spacing:-.02em;white-space:nowrap;text-shadow:0 2px 4px rgba(0,0,0,.25),0 0 34px rgba(120,180,255,.4);">Master your tailored</div>
+      <div id="h2" style="margin-top:12px;font-family:'PlayfairIt',serif;font-style:italic;font-weight:600;line-height:1.05;white-space:nowrap;background:linear-gradient(100deg,#e8f1ff 0%,#b8d0f5 55%,#8fb3e8 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 24px rgba(120,180,255,.6));padding-bottom:.10em;">Longevity Blueprint</div>
       <div style="width:220px;height:2px;margin-top:12px;background:linear-gradient(90deg,#c9b284,rgba(201,178,132,0));"></div>
       <div id="pl" style="margin-top:24px;font-family:'Playfair',serif;color:#ffffff;white-space:nowrap;">Master the Six Pillars of longevity.</div>
       <div id="zoomwrap" style="position:relative;aspect-ratio:1600/893;margin-left:auto;margin-right:auto;margin-top:20px;border-radius:14px;overflow:hidden;box-shadow:0 24px 54px rgba(0,0,0,.55),0 0 34px rgba(90,160,255,.35),0 0 0 1px rgba(160,200,255,.4),inset 0 1px 0 rgba(255,255,255,.35);">
@@ -56,9 +56,9 @@ const Q=new URLSearchParams(location.search), F=Q.get('f')||'1x1', GUIDE=Q.get('
    julieFormats base with h1='Master your tailored', h2='Longevity Blueprint', hd-10, hi-10,
    zw='84%' for 1:1. Card width 740px, left 64px in the authored 1080-wide space. */
 const A={
- '1x1' :{photo:'assets/julie_couch_a_web.jpg',pos:'0% 25%',  top:20, logo:340, zw:'84%', sz:1, sp:0, nm:60, cr:44, nb:6,  hd:96, hi:88, pd:'34px 40px', pl:34, pr:56, po:56},
- '4x5' :{photo:'assets/julie_couch_a_web.jpg', pos:'23% 20%', top:72, logo:460, zw:'78%', sz:1, sp:1, nm:88, cr:68, nb:56, hd:100,hi:92, pd:'44px 40px', pl:40, pr:68, po:68},
- '9x16':{photo:'assets/julie_couch_a_web.jpg',pos:'30% 25%', top:110,logo:480, zw:'96%', sz:1, sp:1, nm:92, cr:72, nb:56, hd:100,hi:92, pd:'44px 40px', pl:40, pr:68, po:68}
+ '1x1' :{photo:'assets/julie_couch_a_web.jpg',pos:'0% 25%',  top:20, logo:340, zw:'84%', sz:1, sp:0, nm:60, cr:44, nb:6,  hd:72, hi:64, pd:'34px 40px', pl:34, pr:56, po:56},
+ '4x5' :{photo:'assets/julie_couch_a_web.jpg', pos:'23% 20%', top:72, logo:460, zw:'78%', sz:1, sp:1, nm:88, cr:68, nb:56, hd:72, hi:64, pd:'44px 40px', pl:40, pr:68, po:68},
+ '9x16':{photo:'assets/julie_couch_a_web.jpg',pos:'30% 25%', top:110,logo:480, zw:'96%', sz:1, sp:1, nm:92, cr:72, nb:56, hd:72, hi:64, pd:'44px 40px', pl:40, pr:68, po:68}
 };
 const FORMATS={
  '1x1'   :{w:1080,h:1080, safe:0.05,  a:'1x1'},
