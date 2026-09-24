@@ -20,13 +20,14 @@ html,body{margin:0;padding:0;background:#05070d;overflow:hidden;}
 #glowB{position:absolute;inset:0;background:radial-gradient(60% 55% at 78% 85%,rgba(201,178,132,.12) 0%,rgba(5,7,13,0) 70%);}
 #vig{position:absolute;inset:0;background:radial-gradient(120% 100% at 50% 40%,rgba(0,0,0,0) 60%,rgba(0,0,0,.45) 100%);}
 
-#comp{position:absolute;transform-origin:left top;display:grid;align-items:start;}
-#comp.stack{grid-template-columns:auto auto;grid-template-areas:"card mock" "card by";column-gap:44px;row-gap:16px;}
-#comp.column{grid-template-columns:auto;grid-template-areas:"mock" "card";row-gap:22px;}
-#card{grid-area:card;} #mockwrap{grid-area:mock;} .stack #byline{grid-area:by;justify-self:end;}
+#comp{position:absolute;transform-origin:left top;display:flex;}
+#comp.stack{flex-direction:row;align-items:center;gap:44px;}
+#comp.column{flex-direction:column;align-items:stretch;gap:22px;}
+#mockcol{display:flex;flex-direction:column;align-items:flex-end;gap:16px;}
+.column #mockcol{order:0;} .column #card{order:1;}
 
 /* hero mockup frame - object-fit: contain, frame aspect = image aspect (set by JS) */
-#mockwrap{position:relative;border-radius:14px;overflow:hidden;background:#05070d;
+#mockwrap{position:relative;border-radius:10px;overflow:hidden;background:#05070d;
   box-shadow:0 24px 54px rgba(0,0,0,.55),0 0 34px rgba(90,160,255,.35),0 0 0 1px rgba(160,200,255,.4),inset 0 1px 0 rgba(255,255,255,.35);}
 #mock{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:50% 50%;display:block;}
 
@@ -101,10 +102,12 @@ html,body{margin:0;padding:0;background:#05070d;overflow:hidden;}
         <span id="tp">4.6 on Trustpilot</span>
       </div>
     </div>
-    <div id="mockwrap"><img id="mock" alt="Masterclass mockup"></div>
-    <div id="byline">
-      <div id="bn">Julie Gibson Clark</div>
-      <div id="br">2nd Slowest-Aging Person on Earth</div>
+    <div id="mockcol">
+      <div id="mockwrap"><img id="mock" alt="Masterclass mockup"></div>
+      <div id="byline">
+        <div id="bn">Julie Gibson Clark</div>
+        <div id="br">2nd Slowest-Aging Person on Earth</div>
+      </div>
     </div>
   </div>
   <div class="guide" id="guide"></div>
@@ -118,7 +121,7 @@ const CONCEPTS={
 /* Authored parameters per aspect family (virtual 1080-based canvas, like blueprint.html A table).
    layout 'stack' = card beside mockup (landscape); 'column' = mockup above the two-column card. */
 const A={
-  column:{layout:'column', cardW:1040, mockW:1040, pd:'32px 38px 34px', logo:300, hd:48, hi:52, sub:24, fmt:21, bl:22, dot:10, po:56, pt:22, pn:19, btn:25, btnpad:'16px 44px', stars:32, tp:24, nm:25, cr:21, gap:16, byGap:0},
+  column:{layout:'column', cardW:1040, mockW:1040, pd:'32px 38px 34px', logo:300, hd:48, hi:50, sub:24, fmt:21, bl:22, dot:10, po:56, pt:22, pn:19, btn:25, btnpad:'16px 40px', stars:32, tp:23, nm:24, cr:20, gap:16, byGap:0},
   stack :{layout:'stack',  cardW:780, mockW:904, pd:'42px 44px 44px', logo:330, hd:62, hi:66, sub:28, fmt:24, bl:25, dot:12, po:66, pt:24, pn:21, btn:28, btnpad:'20px 54px', stars:38, tp:27, nm:29, cr:25, gap:22, byGap:16}
 };
 const FORMATS={
@@ -144,7 +147,7 @@ virt.style.width=VW+'px'; virt.style.height=VH+'px'; virt.style.transform='scale
 
 const comp=document.getElementById('comp'); comp.className=a.layout;
 const card=document.getElementById('card'), mock=document.getElementById('mock'), mockwrap=document.getElementById('mockwrap');
-if(a.layout==='column'){document.getElementById('cta').appendChild(document.getElementById('byline'));}
+if(a.layout==='column'){const by=document.getElementById('byline'); mockwrap.appendChild(by); by.style.position='absolute'; by.style.left='22px'; by.style.bottom='22px'; by.style.zIndex='3';}
 mock.src=concept.src;
 const px=(id,p,v)=>{document.getElementById(id).style[p]=v;};
 card.style.width=a.cardW+'px'; card.style.padding=a.pd; card.style.rowGap='0px';

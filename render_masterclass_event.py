@@ -7,12 +7,16 @@ from playwright.sync_api import sync_playwright
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SIZES = {
     '1x1':    (1080, 1080, '1x1_1080x1080'),
+    '1x1hi':  (1440, 1440, '1x1_1440x1440'),
     '4x5':    (1080, 1350, '4x5_1080x1350'),
+    '4x5hi':  (1440, 1800, '4x5_1440x1800_META-RECOMMENDED'),
+    '9x16m':  (1080, 1920, '9x16_MESSENGER-STORY_1080x1920'),
     '9x16':   (1080, 1920, '9x16_STORIES-REELS_1080x1920'),
+    '9x16hi': (1440, 2560, '9x16_STORIES-REELS_1440x2560_META-RECOMMENDED'),
     '191x1':  (1200, 628,  '191x1_1200x628'),
     '16x9':   (1920, 1080, '16x9_1920x1080'),
 }
-CONCEPTS = ['zoom', 'fold']
+CONCEPTS = ['zoom']
 GUIDES = '--guides' in sys.argv
 OUT = os.path.join(ROOT, 'ads-masterclass')
 os.makedirs(OUT, exist_ok=True)

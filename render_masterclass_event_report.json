@@ -6,17 +6,36 @@
     "output_w": 1080,
     "output_h": 1080,
     "layout": "column",
-    "comp_scale": 0.79,
+    "comp_scale": 0.811,
     "safe_top": 54,
     "safe_bottom": 54,
     "safe_side": 54,
     "mock_src": "assets/mc/zoom-40-ppl-logos.jpg",
     "mock_render_px": [
-      822,
-      458
+      843,
+      470
     ],
     "mock_full_uncropped": true,
-    "fits": false
+    "fits": true
+  },
+  {
+    "concept": "zoom",
+    "format_key": "1x1hi",
+    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-ZOOM_1x1_1440x1440.png",
+    "output_w": 1440,
+    "output_h": 1440,
+    "layout": "column",
+    "comp_scale": 0.811,
+    "safe_top": 54,
+    "safe_bottom": 54,
+    "safe_side": 54,
+    "mock_src": "assets/mc/zoom-40-ppl-logos.jpg",
+    "mock_render_px": [
+      1124,
+      627
+    ],
+    "mock_full_uncropped": true,
+    "fits": true
   },
   {
     "concept": "zoom",
@@ -35,7 +54,45 @@
       542
     ],
     "mock_full_uncropped": true,
-    "fits": false
+    "fits": true
+  },
+  {
+    "concept": "zoom",
+    "format_key": "4x5hi",
+    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-ZOOM_4x5_1440x1800_META-RECOMMENDED.png",
+    "output_w": 1440,
+    "output_h": 1800,
+    "layout": "column",
+    "comp_scale": 0.935,
+    "safe_top": 68,
+    "safe_bottom": 68,
+    "safe_side": 54,
+    "mock_src": "assets/mc/zoom-40-ppl-logos.jpg",
+    "mock_render_px": [
+      1296,
+      723
+    ],
+    "mock_full_uncropped": true,
+    "fits": true
+  },
+  {
+    "concept": "zoom",
+    "format_key": "9x16m",
+    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-ZOOM_9x16_MESSENGER-STORY_1080x1920.png",
+    "output_w": 1080,
+    "output_h": 1920,
+    "layout": "column",
+    "comp_scale": 0.913,
+    "safe_top": 250,
+    "safe_bottom": 340,
+    "safe_side": 65,
+    "mock_src": "assets/mc/zoom-40-ppl-logos.jpg",
+    "mock_render_px": [
+      950,
+      530
+    ],
+    "mock_full_uncropped": true,
+    "fits": true
   },
   {
     "concept": "zoom",
@@ -44,17 +101,36 @@
     "output_w": 1080,
     "output_h": 1920,
     "layout": "column",
-    "comp_scale": 0.796,
+    "comp_scale": 0.817,
     "safe_top": 269,
     "safe_bottom": 672,
     "safe_side": 65,
     "mock_src": "assets/mc/zoom-40-ppl-logos.jpg",
     "mock_render_px": [
-      828,
-      462
+      849,
+      474
     ],
     "mock_full_uncropped": true,
-    "fits": false
+    "fits": true
+  },
+  {
+    "concept": "zoom",
+    "format_key": "9x16hi",
+    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-ZOOM_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png",
+    "output_w": 1440,
+    "output_h": 2560,
+    "layout": "column",
+    "comp_scale": 0.817,
+    "safe_top": 269,
+    "safe_bottom": 672,
+    "safe_side": 65,
+    "mock_src": "assets/mc/zoom-40-ppl-logos.jpg",
+    "mock_render_px": [
+      1132,
+      632
+    ],
+    "mock_full_uncropped": true,
+    "fits": true
   },
   {
     "concept": "zoom",
@@ -87,101 +163,6 @@
     "safe_bottom": 54,
     "safe_side": 96,
     "mock_src": "assets/mc/zoom-40-ppl-logos.jpg",
-    "mock_render_px": [
-      904,
-      505
-    ],
-    "mock_full_uncropped": true,
-    "fits": true
-  },
-  {
-    "concept": "fold",
-    "format_key": "1x1",
-    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-FOLD_1x1_1080x1080.png",
-    "output_w": 1080,
-    "output_h": 1080,
-    "layout": "column",
-    "comp_scale": 0.79,
-    "safe_top": 54,
-    "safe_bottom": 54,
-    "safe_side": 54,
-    "mock_src": "assets/mc/masterclass-fold-mockup-final.png",
-    "mock_render_px": [
-      822,
-      458
-    ],
-    "mock_full_uncropped": true,
-    "fits": false
-  },
-  {
-    "concept": "fold",
-    "format_key": "4x5",
-    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-FOLD_4x5_1080x1350.png",
-    "output_w": 1080,
-    "output_h": 1350,
-    "layout": "column",
-    "comp_scale": 0.935,
-    "safe_top": 68,
-    "safe_bottom": 68,
-    "safe_side": 54,
-    "mock_src": "assets/mc/masterclass-fold-mockup-final.png",
-    "mock_render_px": [
-      972,
-      542
-    ],
-    "mock_full_uncropped": true,
-    "fits": false
-  },
-  {
-    "concept": "fold",
-    "format_key": "9x16",
-    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-FOLD_9x16_STORIES-REELS_1080x1920.png",
-    "output_w": 1080,
-    "output_h": 1920,
-    "layout": "column",
-    "comp_scale": 0.796,
-    "safe_top": 269,
-    "safe_bottom": 672,
-    "safe_side": 65,
-    "mock_src": "assets/mc/masterclass-fold-mockup-final.png",
-    "mock_render_px": [
-      828,
-      462
-    ],
-    "mock_full_uncropped": true,
-    "fits": false
-  },
-  {
-    "concept": "fold",
-    "format_key": "191x1",
-    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-FOLD_191x1_1200x628.png",
-    "output_w": 1200,
-    "output_h": 628,
-    "layout": "stack",
-    "comp_scale": 1.075,
-    "safe_top": 54,
-    "safe_bottom": 54,
-    "safe_side": 103,
-    "mock_src": "assets/mc/masterclass-fold-mockup-final.png",
-    "mock_render_px": [
-      565,
-      316
-    ],
-    "mock_full_uncropped": true,
-    "fits": true
-  },
-  {
-    "concept": "fold",
-    "format_key": "16x9",
-    "file": "ads-masterclass/LLA_MASTERCLASS_EVENT-FOLD_16x9_1920x1080.png",
-    "output_w": 1920,
-    "output_h": 1080,
-    "layout": "stack",
-    "comp_scale": 1,
-    "safe_top": 54,
-    "safe_bottom": 54,
-    "safe_side": 96,
-    "mock_src": "assets/mc/masterclass-fold-mockup-final.png",
     "mock_render_px": [
       904,
       505
