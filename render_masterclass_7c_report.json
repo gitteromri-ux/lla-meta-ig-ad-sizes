@@ -1,0 +1,200 @@
+[
+  {
+    "format_key": "1x1",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_1x1_1080x1080.png",
+    "output_w": 1080,
+    "output_h": 1080,
+    "fits": true,
+    "card_sc": 0.6185,
+    "safe_top": 54,
+    "safe_bottom": 54,
+    "inset_x": 54,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  },
+  {
+    "format_key": "1x1hi",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_1x1_1440x1440.png",
+    "output_w": 1440,
+    "output_h": 1440,
+    "fits": true,
+    "card_sc": 0.6185,
+    "safe_top": 54,
+    "safe_bottom": 54,
+    "inset_x": 54,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  },
+  {
+    "format_key": "4x5",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_4x5_1080x1350.png",
+    "output_w": 1080,
+    "output_h": 1350,
+    "fits": true,
+    "card_sc": 0.7642,
+    "safe_top": 68,
+    "safe_bottom": 68,
+    "inset_x": 54,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  },
+  {
+    "format_key": "4x5hi",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_4x5_1440x1800_META-RECOMMENDED.png",
+    "output_w": 1440,
+    "output_h": 1800,
+    "fits": true,
+    "card_sc": 0.7642,
+    "safe_top": 68,
+    "safe_bottom": 68,
+    "inset_x": 54,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  },
+  {
+    "format_key": "9x16m",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_9x16_MESSENGER-STORY_1080x1920.png",
+    "output_w": 1080,
+    "output_h": 1920,
+    "fits": true,
+    "card_sc": 0.803,
+    "safe_top": 250,
+    "safe_bottom": 340,
+    "inset_x": 65,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  },
+  {
+    "format_key": "9x16",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_9x16_STORIES-REELS_1080x1920.png",
+    "output_w": 1080,
+    "output_h": 1920,
+    "fits": true,
+    "card_sc": 0.624,
+    "safe_top": 269,
+    "safe_bottom": 672,
+    "inset_x": 65,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  },
+  {
+    "format_key": "9x16hi",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_9x16_STORIES-REELS_1440x2560_META-RECOMMENDED.png",
+    "output_w": 1440,
+    "output_h": 2560,
+    "fits": true,
+    "card_sc": 0.624,
+    "safe_top": 269,
+    "safe_bottom": 672,
+    "inset_x": 65,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  },
+  {
+    "format_key": "191x1",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_191x1_1200x628.png",
+    "output_w": 1200,
+    "output_h": 628,
+    "fits": true,
+    "card_sc": 0.6185,
+    "safe_top": 54,
+    "safe_bottom": 54,
+    "inset_x": 103,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  },
+  {
+    "format_key": "16x9",
+    "file": "ads-masterclass/LLA_MASTERCLASS_7C_16x9_1920x1080.png",
+    "output_w": 1920,
+    "output_h": 1080,
+    "fits": true,
+    "card_sc": 0.6185,
+    "safe_top": 54,
+    "safe_bottom": 54,
+    "inset_x": 96,
+    "card_inner_w": 860,
+    "row_widths": {
+      "h1": 860,
+      "h2": 860,
+      "pl": 860,
+      "sp": 860,
+      "bul": 860,
+      "price": 860,
+      "cta": 860
+    },
+    "card_overflow": []
+  }
+]

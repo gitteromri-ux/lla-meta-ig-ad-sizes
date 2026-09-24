@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<!--
+  masterclass-event.html?c=zoom|fold&f=<size>[&guide=1]
+  Premium masterclass event banner in the blueprint.html visual language.
+  The approved mockup (assets/mc/*) is the hero: shown FULL (object-fit: contain in a frame whose
+  aspect ratio is taken from the image itself, so nothing is ever cropped). The frosted card with the
+  event copy sits beside it (landscape) or below it (square / portrait). The whole composition is
+  authored once per aspect family and then scaled UNIFORMLY into the FORMATS safe zone (never reflowed).
+-->
+<style>
+@font-face{font-family:'Playfair';src:url('assets/fonts/PlayfairDisplay.ttf');font-weight:400 900;font-display:block;}
+@font-face{font-family:'PlayfairIt';src:url('assets/fonts/PlayfairDisplay-Italic.ttf');font-weight:400 900;font-style:italic;font-display:block;}
+@font-face{font-family:'Inter';src:url('assets/fonts/Inter.ttf');font-weight:100 900;font-display:block;}
+html,body{margin:0;padding:0;background:#05070d;overflow:hidden;}
+#out{position:relative;overflow:hidden;background:#05070d;}
+#virt{position:absolute;top:0;left:0;transform-origin:0 0;overflow:hidden;background:#05070d;}
+/* canvas atmosphere (same palette as blueprint.html, no photo behind - the mockup is the hero) */
+#glowA{position:absolute;inset:0;background:radial-gradient(70% 60% at 30% 20%,rgba(60,110,200,.22) 0%,rgba(5,7,13,0) 70%);}
+#glowB{position:absolute;inset:0;background:radial-gradient(60% 55% at 78% 85%,rgba(201,178,132,.12) 0%,rgba(5,7,13,0) 70%);}
+#vig{position:absolute;inset:0;background:radial-gradient(120% 100% at 50% 40%,rgba(0,0,0,0) 60%,rgba(0,0,0,.45) 100%);}
+
+#comp{position:absolute;transform-origin:left top;display:grid;align-items:start;}
+#comp.stack{grid-template-columns:auto auto;grid-template-areas:"card mock" "card by";column-gap:44px;row-gap:16px;}
+#comp.column{grid-template-columns:auto;grid-template-areas:"mock" "card";row-gap:22px;}
+#card{grid-area:card;} #mockwrap{grid-area:mock;} .stack #byline{grid-area:by;justify-self:end;}
+
+/* hero mockup frame - object-fit: contain, frame aspect = image aspect (set by JS) */
+#mockwrap{position:relative;border-radius:14px;overflow:hidden;background:#05070d;
+  box-shadow:0 24px 54px rgba(0,0,0,.55),0 0 34px rgba(90,160,255,.35),0 0 0 1px rgba(160,200,255,.4),inset 0 1px 0 rgba(255,255,255,.35);}
+#mock{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:50% 50%;display:block;}
+
+/* frosted card */
+#card{display:grid;box-sizing:border-box;background:linear-gradient(165deg,rgba(13,21,42,.95) 0%,rgba(6,10,21,.88) 100%);backdrop-filter:blur(22px);
+  border:1.5px solid rgba(130,185,255,.85);border-radius:26px;
+  box-shadow:0 60px 130px rgba(0,0,0,.7),0 0 50px rgba(90,160,255,.3),inset 0 2px 0 rgba(255,255,255,.45),inset 0 0 140px rgba(90,160,255,.38),inset 0 0 44px rgba(140,195,255,.32),inset 0 0 12px rgba(170,210,255,.3),inset 0 0 0 1px rgba(255,255,255,.1);}
+.stack #card{grid-template-columns:1fr;grid-template-areas:"logo" "h1" "h2" "rule" "sub" "fmt" "bul" "price" "cta";transform:perspective(1500px) rotateY(3.5deg);transform-origin:left center;}
+.column #card{grid-template-columns:520px 414px;column-gap:30px;
+  grid-template-areas:"logo logo" "h1 bul" "h2 bul" "rule bul" "sub bul" "fmt price" "cta cta";}
+.column #fmt,.column #bul,.column #price{align-self:start;}
+.column #price{flex-direction:column;align-items:flex-start;}
+.column #pdiv{display:none;}
+.column #ptxt{margin-top:8px;}
+.column #byline{margin-left:auto;}
+#spacer{flex:1;} .column #spacer{order:5;} .column #byline{order:6;} #stars{order:3;} #tp{order:4;} .stack #spacer{order:2;}
+#logo{grid-area:logo;display:block;margin-top:4px;filter:brightness(1.07) drop-shadow(0 2px 10px rgba(0,0,0,.85));}
+#h1{grid-area:h1;font-family:'Playfair',serif;font-weight:500;color:#fff;line-height:1.05;letter-spacing:-.02em;white-space:nowrap;text-shadow:0 2px 4px rgba(0,0,0,.25),0 0 34px rgba(120,180,255,.4);}
+#h2{grid-area:h2;font-family:'PlayfairIt',serif;font-style:italic;font-weight:600;line-height:1.05;white-space:nowrap;background:linear-gradient(100deg,#e8f1ff 0%,#b8d0f5 55%,#8fb3e8 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 24px rgba(120,180,255,.6));padding-bottom:.10em;}
+#rule{grid-area:rule;width:220px;height:2px;background:linear-gradient(90deg,#c9b284,rgba(201,178,132,0));}
+#sub{grid-area:sub;font-family:'Playfair',serif;color:#ffffff;line-height:1.28;white-space:nowrap;}
+#fmt{grid-area:fmt;font-family:'Inter',sans-serif;color:rgba(226,239,255,.9);line-height:1.4;white-space:nowrap;}
+#fmt b{font-weight:600;color:#ffe3b0;}
+#bul{grid-area:bul;display:flex;flex-direction:column;}
+#bul .b{display:flex;align-items:flex-start;font-family:'Inter',sans-serif;color:#eaf2ff;line-height:1.32;}
+#bul .b i{flex:none;display:block;border-radius:50%;background:linear-gradient(180deg,#ffe9bd,#dcaf62);box-shadow:0 0 12px rgba(255,196,120,.6);}
+#price{grid-area:price;display:flex;align-items:center;border-top:1px solid rgba(216,195,154,.28);}
+#po{font-family:'Playfair',serif;font-weight:700;line-height:1;white-space:nowrap;background:linear-gradient(100deg,#fff3d8 0%,#e3cb96 50%,#c8a45c 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 18px rgba(255,206,130,.6));padding-bottom:.06em;}
+#pdiv{width:1px;background:rgba(255,255,255,.28);align-self:center;}
+#ptiers{font-family:'Inter',sans-serif;color:#ffffff;white-space:nowrap;line-height:1.25;}
+#pnote{font-family:'Inter',sans-serif;color:rgba(255,255,255,.7);white-space:nowrap;line-height:1.25;}
+#cta{grid-area:cta;display:flex;align-items:center;}
+#btn{font-family:'Inter',sans-serif;font-weight:700;color:#1a1206;background:linear-gradient(180deg,#ffe9bd,#dcaf62);letter-spacing:.04em;border-radius:999px;white-space:nowrap;box-shadow:0 0 44px rgba(255,196,120,.7),0 10px 26px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.7);}
+#stars{display:block;}
+#tp{font-family:'Inter',sans-serif;color:#ffffff;white-space:nowrap;}
+
+/* byline chip (unchanged from blueprint.html) */
+#byline{text-align:left;background:rgba(8,10,16,.62);backdrop-filter:blur(12px);padding:12px 20px;border-radius:16px;border:1px solid rgba(255,255,255,.16);box-shadow:0 10px 34px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.12);}
+#bn{font-family:'Inter',sans-serif;font-weight:700;color:#fff;white-space:nowrap;text-shadow:0 2px 16px rgba(0,0,0,.78);}
+#br{font-family:'PlayfairIt',serif;font-style:italic;color:#ffd9a0;font-weight:600;white-space:nowrap;text-shadow:0 0 26px rgba(255,196,120,.7),0 2px 16px rgba(0,0,0,.85);}
+
+.guide{position:absolute;inset:0;pointer-events:none;display:none;}
+.guide .band{position:absolute;left:0;right:0;background:rgba(255,0,80,.24);}
+.guide .box{position:absolute;border:3px dashed rgba(60,255,170,.95);}
+.guide .lbl{position:absolute;font-family:'Inter',sans-serif;font-weight:700;color:#fff;background:rgba(0,0,0,.62);padding:6px 12px;border-radius:4px;letter-spacing:.08em;}
+</style></head>
+<body>
+<div id="out"><div id="virt">
+  <div id="glowA"></div><div id="glowB"></div><div id="vig"></div>
+  <div id="comp">
+    <div id="card">
+      <img id="logo" src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group">
+      <div id="h1">The Longevity</div>
+      <div id="h2">Masterclass of the Year</div>
+      <div id="rule"></div>
+      <div id="sub">Learn to age slower, live on Zoom<br>with Julie Gibson Clark.</div>
+      <div id="fmt">60 minutes live &#183; <b>Tue, Oct 27 &#183; 7 PM ET</b><br>or &nbsp;<b>Sat, Nov 14 &#183; 1 PM ET</b></div>
+      <div id="bul">
+        <div class="b"><i></i><span>60 minutes live with Julie on Zoom</span></div>
+        <div class="b"><i></i><span>Her full daily protocol</span></div>
+        <div class="b"><i></i><span>VIP: private 30-minute Q&amp;A + $249 Blueprint credit</span></div>
+      </div>
+      <div id="price">
+        <span id="po">From $49</span>
+        <span id="pdiv"></span>
+        <span id="ptxt"><div id="ptiers">$49 Standard &#183; $79 VIP</div><div id="pnote">one payment</div></span>
+      </div>
+      <div id="cta">
+        <div id="btn">Enroll now</div>
+        <div id="spacer"></div>
+        <img id="stars" src="assets/tp_stars-5.svg" alt="Five Trustpilot stars">
+        <span id="tp">4.6 on Trustpilot</span>
+      </div>
+    </div>
+    <div id="mockwrap"><img id="mock" alt="Masterclass mockup"></div>
+    <div id="byline">
+      <div id="bn">Julie Gibson Clark</div>
+      <div id="br">2nd Slowest-Aging Person on Earth</div>
+    </div>
+  </div>
+  <div class="guide" id="guide"></div>
+</div></div>
+<script>
+const Q=new URLSearchParams(location.search), F=Q.get('f')||'1x1', C=Q.get('c')||'zoom', GUIDE=Q.get('guide')==='1';
+const CONCEPTS={
+  zoom:{src:'assets/mc/zoom-40-ppl-logos.jpg'},
+  fold:{src:'assets/mc/masterclass-fold-mockup-final.png'}
+};
+/* Authored parameters per aspect family (virtual 1080-based canvas, like blueprint.html A table).
+   layout 'stack' = card beside mockup (landscape); 'column' = mockup above the two-column card. */
+const A={
+  column:{layout:'column', cardW:1040, mockW:1040, pd:'32px 38px 34px', logo:300, hd:48, hi:52, sub:24, fmt:21, bl:22, dot:10, po:56, pt:22, pn:19, btn:25, btnpad:'16px 44px', stars:32, tp:24, nm:25, cr:21, gap:16, byGap:0},
+  stack :{layout:'stack',  cardW:780, mockW:904, pd:'42px 44px 44px', logo:330, hd:62, hi:66, sub:28, fmt:24, bl:25, dot:12, po:66, pt:24, pn:21, btn:28, btnpad:'20px 54px', stars:38, tp:27, nm:29, cr:25, gap:22, byGap:16}
+};
+const FORMATS={
+ '1x1'   :{w:1080,h:1080, safe:0.05,  a:'column'},
+ '1x1hi' :{w:1440,h:1440, safe:0.05,  a:'column'},
+ '4x5'   :{w:1080,h:1350, safe:0.05,  a:'column'},
+ '4x5hi' :{w:1440,h:1800, safe:0.05,  a:'column'},
+ '9x16m' :{w:1080,h:1920, safeTopPx:250, safeBottomPx:340, safe:0.06, a:'column'},
+ '9x16'  :{w:1080,h:1920, safeTopPct:0.14, safeBottomPct:0.35, safe:0.06, a:'column'},
+ '9x16hi':{w:1440,h:2560, safeTopPct:0.14, safeBottomPct:0.35, safe:0.06, a:'column'},
+ '191x1' :{w:1200,h:628,  safe:0.05, land:1, a:'stack'},
+ '16x9'  :{w:1920,h:1080, safe:0.05, land:1, a:'stack'}
+};
+const fmt=FORMATS[F], a=A[fmt.a], concept=CONCEPTS[C]||CONCEPTS.zoom;
+const VW = fmt.land ? Math.round(1080*fmt.w/fmt.h) : 1080;
+const VH = fmt.land ? 1080 : Math.round(1080*fmt.h/fmt.w);
+const S  = fmt.w/VW;
+
+document.getElementById('out').style.width=fmt.w+'px';
+document.getElementById('out').style.height=fmt.h+'px';
+const virt=document.getElementById('virt');
+virt.style.width=VW+'px'; virt.style.height=VH+'px'; virt.style.transform='scale('+S+')';
+
+const comp=document.getElementById('comp'); comp.className=a.layout;
+const card=document.getElementById('card'), mock=document.getElementById('mock'), mockwrap=document.getElementById('mockwrap');
+if(a.layout==='column'){document.getElementById('cta').appendChild(document.getElementById('byline'));}
+mock.src=concept.src;
+const px=(id,p,v)=>{document.getElementById(id).style[p]=v;};
+card.style.width=a.cardW+'px'; card.style.padding=a.pd; card.style.rowGap='0px';
+px('logo','width',a.logo+'px');
+px('h1','fontSize',a.hd+'px'); px('h1','marginTop',(a.gap+4)+'px');
+px('h2','fontSize',a.hi+'px'); px('h2','marginTop','8px');
+px('rule','marginTop','10px');
+px('sub','fontSize',a.sub+'px'); px('sub','marginTop',a.gap+'px');
+px('fmt','fontSize',a.fmt+'px'); px('fmt','marginTop',Math.round(a.gap*.6)+'px');
+const bul=document.getElementById('bul'); bul.style.marginTop=(a.layout==='column'?(a.gap+4):a.gap)+'px'; bul.style.rowGap=Math.round(a.bl*.5)+'px';
+[...bul.querySelectorAll('.b')].forEach(b=>{b.style.fontSize=a.bl+'px';const i=b.querySelector('i');i.style.width=i.style.height=a.dot+'px';i.style.marginTop=Math.round(a.bl*.42)+'px';i.style.marginRight=Math.round(a.bl*.6)+'px';});
+const price=document.getElementById('price'); price.style.marginTop=a.gap+'px'; price.style.paddingTop=Math.round(a.gap*.8)+'px'; price.style.gap='14px';
+px('po','fontSize',a.po+'px'); px('pdiv','height',Math.round(a.po*.75)+'px'); px('pdiv','margin','0 10px');
+px('ptiers','fontSize',a.pt+'px'); px('pnote','fontSize',a.pn+'px');
+const cta=document.getElementById('cta'); cta.style.marginTop=(a.gap+2)+'px'; cta.style.gap='22px';
+px('btn','fontSize',a.btn+'px'); px('btn','padding',a.btnpad);
+px('stars','height',a.stars+'px'); px('tp','fontSize',a.tp+'px');
+px('bn','fontSize',a.nm+'px'); px('br','fontSize',a.cr+'px'); px('br','marginTop',Math.round(a.cr*.35)+'px');
+mockwrap.style.width=a.mockW+'px';
+
+const insetX=Math.round(fmt.safe*VW);
+const safeTop    = fmt.safeTopPx    !=null ? fmt.safeTopPx    : Math.round((fmt.safeTopPct   !=null?fmt.safeTopPct   :fmt.safe)*VH);
+const safeBottom = fmt.safeBottomPx !=null ? fmt.safeBottomPx : Math.round((fmt.safeBottomPct!=null?fmt.safeBottomPct:fmt.safe)*VH);
+const bandH=VH-safeTop-safeBottom, bandW=VW-2*insetX;
+
+function layout(){
+  /* frame aspect = image aspect -> object-fit: contain shows 100% of the mockup, zero crop */
+  const iw=mock.naturalWidth||1935, ih=mock.naturalHeight||1080;
+  mockwrap.style.height=Math.round(a.mockW*ih/iw)+'px';
+  comp.style.transform='none'; comp.style.left='0px'; comp.style.top='0px';
+  /* measure the un-scaled composition incl. the card's perspective tilt via bounding rects */
+  const vr=virt.getBoundingClientRect();
+  const r=comp.getBoundingClientRect();
+  const rawW=(r.width)/S, rawH=(r.height)/S;             // projected size in virtual px
+  const offX=(r.left-vr.left)/S, offY=(r.top-vr.top)/S;   // tilt may push the box outside its layout origin
+  const sc=Math.min(bandW/rawW, bandH/rawH, 1.25);
+  const left=Math.round(insetX+(bandW-rawW*sc)/2 - offX*sc);
+  const top =Math.round(safeTop+(bandH-rawH*sc)/2 - offY*sc);
+  comp.style.left=left+'px'; comp.style.top=top+'px'; comp.style.transform='scale('+sc+')';
+  /* verify with the final projected box */
+  const r2=comp.getBoundingClientRect();
+  const L=(r2.left-vr.left)/S, T=(r2.top-vr.top)/S, R=L+r2.width/S, B=T+r2.height/S;
+  const mr=mock.getBoundingClientRect(), mw=mockwrap.getBoundingClientRect();
+  const over=[...card.querySelectorAll('#h1,#h2,#sub,#fmt,#ptiers,#pnote,#po,#tp,#bn,#br,#btn,#bul .b span')].filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>e.id||e.textContent.slice(0,20));
+  const cardOver=card.scrollWidth>card.clientWidth+1||card.scrollHeight>card.clientHeight+1;
+  window.__meta={concept:C,format:F,VW,VH,S,layout:a.layout,rawW:Math.round(rawW),rawH:Math.round(rawH),sc:Math.round(sc*1000)/1000,
+    left,top,insetX,safeTop,safeBottom,
+    mockSrc:mock.getAttribute('src'),mockW:iw,mockH:ih,
+    mockRenderPx:[Math.round(mw.width),Math.round(mw.height)],
+    mockContainFull:Math.abs(mr.width/mr.height - iw/ih)<0.01,
+    box:[Math.round(L),Math.round(T),Math.round(R),Math.round(B)],
+    textOverflow:over, cardOverflow:cardOver,
+    fits:(L>=insetX-1)&&(T>=safeTop-1)&&(R<=VW-insetX+1)&&(B<=VH-safeBottom+1)&&over.length===0&&!cardOver};
+  if(GUIDE){
+    const g=document.getElementById('guide'); g.style.display='block'; g.innerHTML='';
+    const mk=h=>{const d=document.createElement('div');d.innerHTML=h;return d.firstChild;};
+    g.appendChild(mk('<div class="band" style="top:0;height:'+safeTop+'px"></div>'));
+    g.appendChild(mk('<div class="band" style="bottom:0;height:'+safeBottom+'px"></div>'));
+    g.appendChild(mk('<div class="box" style="left:'+insetX+'px;top:'+safeTop+'px;width:'+bandW+'px;height:'+bandH+'px"></div>'));
+    const fs=Math.round(VH*0.026);
+    g.appendChild(mk('<div class="lbl" style="left:'+insetX+'px;top:'+(safeTop+14)+'px;font-size:'+fs+'px">SAFE ZONE &nbsp;'+fmt.w+' \u00d7 '+fmt.h+'</div>'));
+    g.appendChild(mk('<div class="lbl" style="left:'+insetX+'px;bottom:'+(safeBottom+14)+'px;font-size:'+fs+'px">ALL COPY INSIDE \u2713</div>'));
+  }
+}
+window.__ready=false;
+document.fonts.ready
+ .then(()=>Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r;}))))
+ .then(()=>{layout();requestAnimationFrame(()=>requestAnimationFrame(()=>{layout();window.__ready=true;}));});
+</script>
+</body></html>
