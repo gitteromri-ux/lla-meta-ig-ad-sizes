@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Julie masterclass · Selected placement-safe v10</title><link rel="stylesheet" href="masterclass-selected-v10.css"></head><body>
+<main class="art">
+ <div class="lighting"></div>
+ <section class="message">
+  <h1><span>The longevity masterclass</span><i>of the year.</i></h1>
+  <p class="authority">The <em>world’s 2nd slowest ager</em> reveals her protocol.</p>
+ </section>
+ <figure><img alt="Julie Gibson Clark"><div class="image-fade"></div></figure>
+ <footer>
+  <p class="host">Live with <strong>Julie Gibson Clark</strong><span class="duration">60-minute Zoom masterclass</span></p>
+  <div class="dates"><p>Oct 27 <span>7 pm eastern</span></p><em>or</em><p>Nov 14 <span>1 pm eastern</span></p></div>
+  <div class="join"><p>Starting at just <strong>$49</strong></p><span class="seats">Limited seats</span><span class="button">Reserve your seat</span></div>
+ </footer>
+</main>
+<script>
+const q=new URLSearchParams(location.search);
+const c=q.get('c')==='zoom'?'zoom':'card',t=q.get('t')==='gold'?'gold':'blue';
+const size=['square','story'].includes(q.get('size'))?q.get('size'):'feed';
+document.body.className=[c,t,size].join(' ');
+const image=document.querySelector('figure img');
+image.src=c==='zoom'?'assets/mc/zoom-40-ppl-logos.jpg':'assets/julie_couch_a_web.jpg';
+if(c==='zoom')image.alt='Original illustration of the live Zoom masterclass';
+window.__ready=false;
+document.fonts.ready.then(()=>Promise.all([...document.images].map(i=>i.complete?Promise.resolve():i.decode()))).then(()=>window.__ready=true);
+</script></body></html>

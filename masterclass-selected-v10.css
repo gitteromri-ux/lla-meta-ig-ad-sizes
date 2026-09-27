@@ -1,0 +1,52 @@
+/* Isolated crop-safety correction. Approved v9 remains unmodified.
+   Same assets, words, palette, surfaces and typefaces. No canvas scaling.
+   Story essentials use conservative 14% top / 35% bottom UI reservations. */
+@import url(masterclass-light-v9.css);
+body{font-synthesis:none}
+.message{top:82px;left:72px;right:72px}
+h1{font-size:76px;letter-spacing:-2.4px}
+h1 i{font-size:122px;letter-spacing:-3.5px}
+.authority{margin-top:30px;font-size:44px;letter-spacing:-1px}
+.authority em{font-size:44px}
+.card figure{top:450px;height:608px}
+.zoom figure{top:450px;left:72px;right:72px;height:523px}
+footer{left:72px;right:72px;bottom:54px;padding:26px 26px 28px}
+.host{font-size:32px;letter-spacing:-.8px;gap:7px}
+.host .duration{font-size:25px;letter-spacing:-.8px}
+.dates{gap:20px;margin-top:20px!important;padding:18px 0 21px}
+.dates p{font-size:36px;gap:12px}
+.dates p span{font-size:30px}
+.join{gap:16px;margin-top:22px!important}
+.join p{font-size:29px}
+.join strong{font-size:41px}
+.join .seats{font-size:24px}
+.join .button{min-width:290px;height:66px;padding:0 18px;font-size:28px}
+
+/* Square is a separately authored layout, not a crop of the Feed image. */
+.square .art{height:1080px}
+.square .message,.story .message{top:72px}
+.square h1,.story h1{font-size:72px}
+.square h1 i,.story h1 i{font-size:112px}
+.square .authority,.story .authority{margin-top:20px;font-size:42px}
+.square .authority em,.story .authority em{font-size:42px}
+.square.card figure{top:360px;height:487px}
+.square.card figure img,.story.card figure img{object-position:50% 0%}
+.square.card .image-fade,.story.card .image-fade{background:linear-gradient(0deg,#07111c 0%,transparent 24%,transparent 94%,#07111c 100%)}
+.square.zoom figure{top:360px;left:190px;right:190px;height:391px}
+.square footer,.story footer{bottom:64px;padding:20px 26px 22px}
+.square .host,.story .host{font-size:30px}
+.square .host .duration,.story .host .duration{font-size:24px}
+.square .dates,.story .dates{margin-top:15px!important;padding:14px 0 15px}
+.square .dates p,.story .dates p{font-size:33px}
+.square .dates p span,.story .dates p span{font-size:29px}
+.square .join,.story .join{margin-top:16px!important}
+.square .join .button,.story .join .button{height:60px}
+.square .join strong,.story .join strong{font-size:38px}
+
+/* Story/Reel: preserve all essential copy inside x=72..1008,
+   y=270..1248. Empty exterior is deliberate platform-overlay space. */
+.story .art{height:1920px}
+.story .message{top:286px}
+.story.card figure{top:574px;height:487px}
+.story.zoom figure{top:574px;left:190px;right:190px;height:391px}
+.story footer{bottom:690px}
