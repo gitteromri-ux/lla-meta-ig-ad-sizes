@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Julie masterclass · Layout proof 05</title><link rel="stylesheet" href="masterclass-brand-v5.css"></head>
+<body><main id="out"><div id="art">
+<img class="photograph" alt="Julie Gibson Clark"><div class="scrim"></div>
+<div class="panel">
+<img class="brand" src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group">
+<div class="headline"><span>The Longevity</span><em>Masterclass<br>of the Year</em></div>
+<div class="benefit">Make longevity<br>part of your life.</div>
+<div class="speaker">With Julie Gibson Clark</div>
+<figure class="zoom-stage"><img src="assets/mc/zoom-40-ppl-logos.jpg" alt="Original Zoom masterclass experience illustration"></figure>
+<ul class="points"><li>60 minutes live on Zoom</li><li>Her daily longevity protocol</li></ul>
+<div class="purchase"><div class="price"><span>Starting at just</span><strong>$49</strong></div><div class="cta-group"><div class="limited">Limited seats</div><div class="action">Reserve your seat <span>↗</span></div></div></div>
+<div class="event"><span>Oct 27 · 7 PM ET</span><span class="or">or</span><span>Nov 14 · 1 PM ET</span></div>
+</div>
+<div class="nameplate">Julie Gibson Clark</div>
+</div></main><script>
+const Q=new URLSearchParams(location.search),C=Q.get('c')||'zoom',F=Q.get('f')||'4x5',V=Q.get('v')||'a',T=Q.get('t')||'gold';
+const sizes={'1x1':[1080,1080],'1x1hi':[1440,1440],'4x5':[1080,1350],'4x5hi':[1440,1800],'9x16m':[1080,1920],'9x16':[1080,1920],'9x16hi':[1440,2560],'191x1':[1200,628],'16x9':[1920,1080]};
+const [w,h]=sizes[F]||sizes['4x5'],land=w>h,square=w===h,story=h/w>1.5;
+const vw=land?Math.round(1080*w/h):1080,vh=land?1080:Math.round(1080*h/w),art=document.getElementById('art');
+document.body.className=[C,land?'land':'',square?'square':'',story?'story':'',`copy-${V}`,`tone-${T}`].join(' ');
+Object.assign(document.getElementById('out').style,{width:w+'px',height:h+'px'});
+Object.assign(art.style,{width:vw+'px',height:vh+'px',transform:`scale(${w/vw})`});
+art.style.setProperty('--w',vw+'px');art.style.setProperty('--h',vh+'px');
+document.querySelector('.photograph').src=C==='portrait'?'assets/julie-standing-hd.jpg':'assets/julie_couch_a_web.jpg';
+document.querySelector('.headline').innerHTML=V==='a'
+ ?'<span>The Longevity</span><em>Masterclass'+(C==='zoom'?' ':'<br>')+'of the Year</em>'
+ :'<span>Learn to</span><em>age slower.</em>';
+document.querySelector('.benefit').innerHTML=V==='a'
+ ?'The world’s 2nd slowest ager<br><em>reveals her protocol.</em>'
+ :'From the world’s<br><em>2nd slowest ager.</em>';
+document.querySelector('.speaker').textContent='Julie Gibson Clark · Live on Zoom';
+document.querySelector('.points').innerHTML='<li>60 minutes live on Zoom</li><li>Her daily longevity protocol</li>';
+if(V==='b'&&C==='portrait')document.querySelector('.points').innerHTML='<li>The Longevity Masterclass of the Year</li>';
+window.__ready=false;
+document.fonts.ready.then(()=>Promise.all([...document.images].map(i=>i.complete?Promise.resolve():i.decode().catch(()=>{})))).then(()=>{
+window.__meta={version:'brand-v5',concept:C,copy:V,tone:T,format:F,w,h,reviewOnly:true,fonts:['PlayfairDisplay.ttf','PlayfairDisplay-Italic.ttf','Inter.ttf']};
+requestAnimationFrame(()=>requestAnimationFrame(()=>window.__ready=true));
+});
+</script></body></html>

@@ -1,0 +1,57 @@
+@import url(masterclass-brand-v4.css);
+/* Revision 05: remove excess hierarchy and unify the enrollment footer. */
+.brand{top:36px!important}
+.headline{top:170px}
+.headline>span{font-weight:400;letter-spacing:-1px}
+.headline em{font-weight:400!important}
+.benefit{font-weight:400!important}
+.purchase{bottom:128px!important;min-height:104px;border-top:1px solid #c4d8ec50;padding-top:28px;align-items:center!important}
+.price{display:flex!important;gap:20px!important;align-items:center!important;flex-wrap:nowrap}
+.price>span{font:300 29px/1.2 LLAInter,sans-serif!important;width:186px!important;max-width:186px}
+body .price strong{font:400 72px/1 LLAInter,sans-serif!important;letter-spacing:-2.5px!important;margin:0!important}
+.cta-group{gap:10px!important;align-items:flex-end}
+.limited{font:400 24px/1.2 LLAInter,sans-serif!important;letter-spacing:2px!important}
+.action{font:400 31px/1.2 LLAInter,sans-serif!important;padding:0!important;border:0!important;gap:13px!important}
+.action span{font-size:29px!important}
+.event{bottom:56px!important;font-size:32px!important;color:#e3ebf4}
+.zoom .headline{top:150px;font-size:60px}
+.zoom .headline em{font-size:82px}
+.zoom .benefit{top:336px;font-size:48px;line-height:1.15}
+.zoom .zoom-stage{top:488px;height:504px}
+.zoom .speaker{top:1015px;font-size:30px;font-weight:400}
+.zoom .purchase{bottom:128px!important}
+.zoom.copy-b .headline{top:157px;font-size:61px}
+.zoom.copy-b .headline em{font-size:108px}
+.zoom.copy-b .benefit{top:391px;font-size:47px}
+.portrait .headline{top:189px;font-size:57px;right:350px}
+.portrait .headline em{font-size:94px}
+.portrait .benefit{top:547px;font-size:47px;width:595px}
+.portrait .benefit em{font-size:52px}
+.portrait .speaker{top:781px;font-size:30px;font-weight:400}
+.portrait.copy-b .headline{top:219px;font-size:67px}
+.portrait.copy-b .headline em{font-size:112px}
+.portrait.copy-b .benefit{top:514px;font-size:53px}
+.portrait.copy-b .benefit em{font-size:60px}
+.portrait.copy-b .speaker{top:751px}
+.portrait.copy-b .points{top:835px;font-size:30px}
+.card .panel{height:1180px;top:48px}
+.card .brand{top:28px!important}
+.card .headline{top:155px;font-size:47px}
+.card .headline em{font-size:81px}
+.card .benefit{top:442px;font-size:44px;line-height:1.18}
+.card .points{top:679px;font-size:33px}
+.card .event{left:38px!important;bottom:212px!important;font-size:32px!important}
+.card .purchase{bottom:43px!important;left:38px!important;right:38px!important;display:flex!important;flex-direction:row;gap:18px!important;padding-top:26px;align-items:center!important}
+.card .price{gap:11px!important;max-width:290px}
+.card .price>span{font-size:25px!important;width:117px!important}
+.card .price strong{font-size:65px!important;letter-spacing:-2px!important}
+.card .cta-group{margin:0!important;flex-direction:column!important;align-items:flex-end!important;gap:12px!important}
+.card .limited{font-size:20px!important;letter-spacing:1px!important}
+.card .action{font-size:24px!important;gap:10px!important}
+.card .action span{font-size:25px!important}
+.card .nameplate{bottom:43px}
+.card.copy-b .headline{top:174px;font-size:61px}
+.card.copy-b .headline em{font-size:95px}
+.card.copy-b .benefit{top:433px;font-size:51px}
+.card.copy-b .points{top:655px}
+.zoom .price strong{font-size:72px!important}
