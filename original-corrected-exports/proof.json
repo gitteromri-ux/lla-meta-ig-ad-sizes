@@ -1,0 +1,50 @@
+[
+  {
+    "file": "7b-1080x1350.png",
+    "fit": true,
+    "price79": false,
+    "vip": false,
+    "bullets": 0,
+    "overflow": []
+  },
+  {
+    "file": "7b-1080x1080.png",
+    "fit": true,
+    "price79": false,
+    "vip": false,
+    "bullets": 0,
+    "overflow": []
+  },
+  {
+    "file": "7b-1080x1920.png",
+    "fit": true,
+    "price79": false,
+    "vip": false,
+    "bullets": 0,
+    "overflow": []
+  },
+  {
+    "file": "7c-1080x1350.png",
+    "fit": true,
+    "price79": false,
+    "vip": false,
+    "bullets": 2,
+    "overflow": []
+  },
+  {
+    "file": "7c-1080x1080.png",
+    "fit": true,
+    "price79": false,
+    "vip": false,
+    "bullets": 2,
+    "overflow": []
+  },
+  {
+    "file": "7c-1080x1920.png",
+    "fit": true,
+    "price79": false,
+    "vip": false,
+    "bullets": 2,
+    "overflow": []
+  }
+]
