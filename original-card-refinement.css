@@ -1,0 +1,19 @@
+#card{width:960px!important;box-sizing:border-box;padding:38px 48px!important}
+.sub,#pl{font-family:PlayfairIt,serif!important;font-style:italic;font-size:45px!important;line-height:1.2;white-space:normal!important;letter-spacing:-.5px;margin-top:24px!important;color:#cae6ff!important}
+body.gold .sub{color:#ead3a0!important}
+.sub span,#pl span{display:block}
+.zoom,#zoomwrap{width:100%!important;height:265px!important;aspect-ratio:auto!important;margin-top:28px!important}
+.offer{font-family:Inter,sans-serif;color:#f4f6f8;margin-top:24px}
+.offer-benefits{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding-bottom:22px;border-bottom:1px solid #c3d6ef44}
+.offer-benefits>div:last-child{border-left:1px solid #c3d6ef44;padding-left:28px}
+.offer-benefits strong{display:block;font-size:36px;font-weight:500;line-height:1.18;white-space:nowrap}
+.offer-benefits span{font-size:29px;display:block;margin-top:7px;color:#d6e0ed}
+.offer-dates{font-size:30px;line-height:1.3;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;border-bottom:1px solid #c3d6ef44;white-space:nowrap}
+.offer-dates em{font-family:PlayfairIt,serif;font-size:29px;font-style:italic;color:#c9d9e9}
+.offer-action{display:flex;align-items:center;justify-content:space-between;padding-top:24px;gap:24px}
+.offer-price{font:400 38px/1.2 Playfair,serif;color:#efdbb1;white-space:nowrap}
+.offer-price span{display:block;font:400 25px/1.2 Inter,sans-serif;color:#e0e7ef;margin-top:8px}
+.offer-cta{font:500 30px/1.2 Inter,sans-serif;padding:19px 25px;border-radius:5px;background:linear-gradient(135deg,#f5e3be,#dec18d);color:#1c1d21;white-space:nowrap;box-shadow:0 0 26px #e7bf6829}
+.bn,#bn{font-size:51px!important;font-weight:500!important}
+.br,#br{font-size:49px!important;font-weight:400!important}
+#byline{padding:12px 20px!important}

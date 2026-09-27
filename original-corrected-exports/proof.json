@@ -28,7 +28,7 @@
     "fit": true,
     "price79": false,
     "vip": false,
-    "bullets": 2,
+    "bullets": 0,
     "overflow": []
   },
   {
@@ -36,7 +36,7 @@
     "fit": true,
     "price79": false,
     "vip": false,
-    "bullets": 2,
+    "bullets": 0,
     "overflow": []
   },
   {
@@ -44,7 +44,7 @@
     "fit": true,
     "price79": false,
     "vip": false,
-    "bullets": 2,
+    "bullets": 0,
     "overflow": []
   }
 ]
