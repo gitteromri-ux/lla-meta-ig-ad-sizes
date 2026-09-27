@@ -1,0 +1,149 @@
+@import url(masterclass-brand-v3.css);
+/* Original brand fonts only. Lightest genuine Playfair cut: 400. */
+body{--accent:#dfc797;--champagne:var(--accent)}
+.tone-blue{--accent:#c4e1ff}.tone-white{--accent:#ffffff}
+.headline,.headline em,.benefit,.benefit em,.price strong{font-weight:400!important}
+.headline em,.benefit em,.price strong,.limited,.action span{color:var(--accent)!important}
+.brand{top:30px!important;height:72px!important;width:405px!important}
+.exclusive{position:absolute;left:56px;right:35px;top:118px;font:400 26px/1.25 LLAInter,sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent)}
+.headline em{letter-spacing:-2px}.benefit em{font-family:LLAPlayfairItalic,serif;font-style:italic}
+.cta-group{display:flex;flex-direction:column;gap:21px;align-items:flex-end}
+.limited{font:400 32px/1.2 LLAInter,sans-serif;text-transform:uppercase;letter-spacing:3px}
+.action{position:static!important;font:400 34px/1.2 LLAInter,sans-serif!important;padding-bottom:15px!important;border-color:var(--accent);margin:0!important}
+.action span{font-size:35px!important}
+.price strong{font-size:180px!important;line-height:1.02;letter-spacing:-5px}
+.price>span{font-size:31px!important;font-weight:300}
+.purchase{bottom:119px!important;left:56px!important;right:56px!important;display:flex!important;gap:30px}
+.event{font-size:34px!important;bottom:42px!important;left:56px!important}
+.zoom .exclusive{left:59px}
+.zoom .headline{top:174px;font-size:65px;right:50px}
+.zoom .headline em{font-size:84px;white-space:nowrap}
+.zoom .benefit{top:355px;left:59px;font-size:54px;line-height:1.12;right:45px}
+.zoom .zoom-stage{top:511px;height:454px}
+.zoom .speaker{top:988px;font-size:32px}
+.zoom .price strong{font-size:156px!important}
+.zoom .purchase{bottom:111px!important}
+.zoom .limited{font-size:29px}
+.zoom.copy-b .headline{font-size:68px;top:168px}
+.zoom.copy-b .headline em{font-size:112px}
+.zoom.copy-b .benefit{top:394px;font-size:55px}
+.zoom.copy-b .benefit br{display:none}
+.zoom.copy-b .benefit em{display:inline}
+.portrait .headline{top:210px;right:360px;font-size:72px}
+.portrait .headline em{font-size:103px;line-height:1.03}
+.portrait .benefit{top:555px;left:56px;width:630px;font-size:54px;line-height:1.13}
+.portrait .benefit br{display:none}.portrait .benefit em{display:block;font-size:59px}
+.portrait .speaker{top:832px;font-size:32px}
+.portrait .points{display:none}
+.portrait.copy-b .headline{top:245px;font-size:90px}
+.portrait.copy-b .headline em{font-size:125px;white-space:nowrap}
+.portrait.copy-b .benefit{top:567px;font-size:63px}
+.portrait.copy-b .benefit em{font-size:68px}
+.portrait.copy-b .speaker{top:772px}
+.portrait.copy-b .points{display:block;top:865px;font-size:31px}
+.portrait .cta-group{max-width:420px}
+.card .panel{height:1202px;top:40px}
+.card .brand{left:35px!important;top:24px!important;width:500px!important;height:82px!important}
+.card .exclusive{left:38px;top:127px;font-size:21px;letter-spacing:.9px;right:24px}
+.card .headline{top:195px;left:38px;font-size:52px}
+.card .headline em{font-size:82px;line-height:1.04}
+.card .benefit{top:475px;left:38px;right:28px;font:400 50px/1.15 LLAPlayfair,serif}
+.card .benefit br{display:none}.card .benefit em{display:block}
+.card .points{top:704px;font-size:34px;line-height:1.6}
+.card .event{bottom:252px!important;left:38px!important;font-size:33px!important;gap:3px 10px}
+.card .purchase{bottom:29px!important;left:38px!important;right:38px!important;display:block!important}
+.card .price{gap:22px}.card .price strong{font-size:151px!important}.card .price>span{font-size:28px!important;width:166px}
+.card .cta-group{flex-direction:row;align-items:center;justify-content:space-between;margin-top:18px;gap:9px}
+.card .limited{font-size:21px;letter-spacing:1px;white-space:nowrap}
+.card .action{font-size:24px!important;padding:0 0 8px!important;gap:14px}
+.card .action span{font-size:26px!important}
+.card .nameplate{bottom:33px;font-weight:400;font-size:47px}
+.card.copy-b .headline{top:211px;font-size:72px}
+.card.copy-b .headline em{font-size:94px;white-space:nowrap}
+.card.copy-b .benefit{top:445px;font-size:55px}
+.card.copy-b .points{top:661px}
+/* Square: distinct artboard rhythm rather than cropping the feed export. */
+.square .brand{top:24px!important;height:62px!important;width:360px!important}
+.square .exclusive{top:100px;font-size:23px}
+.square.zoom .headline{top:145px;font-size:56px}.square.zoom .headline em{font-size:72px}
+.square.zoom .benefit{top:299px;font-size:45px}
+.square.zoom .zoom-stage{top:429px;height:326px}
+.square.zoom .speaker{top:777px;font-size:29px}
+.square.zoom .purchase{bottom:102px!important}
+.square .price strong{font-size:126px!important}.square .price>span{font-size:26px!important}
+.square .event{font-size:31px!important;bottom:32px!important}
+.square .limited{font-size:26px}.square .action{font-size:29px!important}
+.square.zoom.copy-b .headline{top:140px;font-size:60px}.square.zoom.copy-b .headline em{font-size:92px}
+.square.zoom.copy-b .benefit{top:335px;font-size:43px}
+.square.portrait .headline{top:163px;font-size:61px}.square.portrait .headline em{font-size:82px}
+.square.portrait .benefit{top:455px;font-size:44px;width:580px}.square.portrait .benefit em{font-size:50px}
+.square.portrait .speaker{top:683px;font-size:29px}
+.square.portrait.copy-b .headline{top:178px;font-size:73px}.square.portrait.copy-b .headline em{font-size:104px}
+.square.portrait.copy-b .benefit{top:461px;font-size:50px}.square.portrait.copy-b .benefit em{font-size:57px}
+.square.portrait.copy-b .speaker{top:647px}.square.portrait.copy-b .points{top:715px;font-size:28px}
+.square.card .panel{top:26px;height:987px}
+.square.card .brand{top:16px!important;left:35px!important;height:67px!important;width:430px!important}
+.square.card .exclusive{top:103px;font-size:20px}
+.square.card .headline{top:155px;font-size:43px}.square.card .headline em{font-size:67px}
+.square.card .benefit{top:383px;font-size:42px}
+.square.card .points{top:562px;font-size:29px}
+.square.card .event{bottom:210px!important;font-size:28px!important}
+.square.card .price strong{font-size:120px!important}.square.card .price>span{font-size:25px!important}
+.square.card .purchase{bottom:23px!important}.square.card .limited{font-size:20px}
+.square.card .action{font-size:23px!important}.square.card .nameplate{bottom:20px;font-size:36px}
+.square.card.copy-b .headline{top:174px;font-size:59px}.square.card.copy-b .headline em{font-size:82px}
+.square.card.copy-b .benefit{top:383px;font-size:48px}.square.card.copy-b .points{top:555px}
+/* Stories preserve top/bottom placement-safe space. */
+.story .panel{top:235px;bottom:335px}
+.story.zoom .headline{top:174px}.story.zoom .zoom-stage{top:511px;height:444px}
+.story.zoom .speaker{top:981px}.story.zoom .benefit{top:355px}
+.story.zoom.copy-b .benefit{top:394px}
+.story.portrait .headline{top:210px}.story.portrait.copy-b .headline{top:245px}
+.story.card .panel{top:245px;bottom:auto;height:1202px}
+.story.card .nameplate{bottom:359px}
+/* Landscape preserves the same information with a dedicated two-column composition. */
+.land .exclusive{top:128px;font-size:29px}
+.land .brand{width:455px!important;height:81px!important}
+.land .headline{top:222px!important;font-size:76px!important;width:870px!important}
+.land .headline em{font-size:110px!important;white-space:normal!important}
+.land .benefit{top:598px!important;left:56px!important;font-size:53px!important;width:820px!important}
+.land .benefit em{font-size:58px!important}
+.land .speaker{top:827px!important;font-size:33px!important}
+.land .purchase{left:auto!important;right:72px!important;bottom:122px!important;gap:42px}
+.land .price strong{font-size:165px!important}
+.land .event{bottom:39px!important;font-size:34px!important}
+.land .limited{font-size:29px}.land .action{font-size:32px!important}
+.land.zoom .zoom-stage{top:222px;width:900px;height:auto;aspect-ratio:1435/801}
+.land.zoom .headline em{font-size:101px!important}
+.land.zoom .benefit{top:593px!important}
+.land.zoom .speaker{top:806px!important}
+.land.zoom.copy-b .headline em{font-size:126px!important}
+.land.zoom.copy-b .benefit br{display:block}
+.land.portrait .points{display:none}
+.land.portrait .headline{width:870px!important}
+.land.portrait .benefit{top:581px!important;width:760px!important}
+.land.portrait.copy-b .headline em{font-size:127px!important}
+.land.portrait.copy-b .benefit{top:571px!important}
+.land.card .panel{top:33px;height:975px;width:1055px}
+.land.card .brand{left:40px!important;top:16px!important;width:432px!important;height:78px!important}
+.land.card .exclusive{left:40px;top:109px;font-size:24px}
+.land.card .headline{left:40px!important;top:163px!important;font-size:52px!important;width:925px!important}
+.land.card .headline em{font-size:79px!important}
+.land.card .benefit{top:430px!important;left:40px!important;font-size:44px!important;width:930px!important}
+.land.card .benefit em{font-size:48px!important}
+.land.card .points{top:584px;font-size:30px}
+.land.card .event{bottom:213px!important;left:40px!important;font-size:30px!important}
+.land.card .purchase{left:40px!important;right:40px!important;bottom:22px!important;display:flex!important}
+.land.card .price strong{font-size:130px!important}
+.land.card .price>span{font-size:26px!important;width:138px}
+.land.card .cta-group{display:flex;flex-direction:column;align-items:flex-end;gap:18px;margin:0}
+.land.card .limited{font-size:24px}.land.card .action{font-size:28px!important}
+.land.card.copy-b .headline{font-size:67px!important}.land.card.copy-b .headline em{font-size:104px!important}
+.land.card.copy-b .benefit{top:421px!important}
+.land.card .nameplate{bottom:66px;font-size:43px}
+.square.zoom .headline{top:139px}.square.zoom .headline em{font-size:70px}
+.square.zoom .benefit{top:308px}.square.zoom .zoom-stage{top:434px;height:306px}
+.square.zoom .speaker{top:758px}
+.story.card .headline{top:195px}
+.story.card.copy-b .headline{top:211px}
+.zoom.copy-b:not(.land) .benefit em{margin-left:.18em}

@@ -1,0 +1,4214 @@
+[
+  {
+    "file": "zoom-a-gold-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-gold-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-gold-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-gold-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-gold-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-gold-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-gold-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-gold-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-gold-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "gold",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-blue-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "blue",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-a-white-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "a",
+      "tone": "white",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-gold-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "gold",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-blue-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "blue",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-a-white-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "a",
+      "tone": "white",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-gold-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "gold",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-blue-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "blue",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "portrait-b-white-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "portrait",
+      "copy": "b",
+      "tone": "white",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-gold-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "gold",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-blue-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "blue",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-a-white-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "a",
+      "tone": "white",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-gold-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "gold",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-blue-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "blue",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "card-b-white-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "card",
+      "copy": "b",
+      "tone": "white",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-gold-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "gold",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-blue-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "blue",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-1x1-1080x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "1x1",
+      "w": 1080,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-1x1hi-1440x1440.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "1x1hi",
+      "w": 1440,
+      "h": 1440,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-4x5-1080x1350.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "4x5",
+      "w": 1080,
+      "h": 1350,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-4x5hi-1440x1800.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "4x5hi",
+      "w": 1440,
+      "h": 1800,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-9x16m-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16m",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-9x16-1080x1920.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16",
+      "w": 1080,
+      "h": 1920,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-9x16hi-1440x2560.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "9x16hi",
+      "w": 1440,
+      "h": 2560,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-191x1-1200x628.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "191x1",
+      "w": 1200,
+      "h": 628,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  },
+  {
+    "file": "zoom-b-white-16x9-1920x1080.png",
+    "meta": {
+      "version": "brand-v4",
+      "concept": "zoom",
+      "copy": "b",
+      "tone": "white",
+      "format": "16x9",
+      "w": 1920,
+      "h": 1080,
+      "reviewOnly": true,
+      "fonts": [
+        "PlayfairDisplay.ttf",
+        "PlayfairDisplay-Italic.ttf",
+        "Inter.ttf"
+      ]
+    },
+    "images": true,
+    "fonts": [
+      "LLAPlayfair",
+      "LLAPlayfairItalic",
+      "LLAInter"
+    ],
+    "overflows": [],
+    "overlaps": []
+  }
+]
