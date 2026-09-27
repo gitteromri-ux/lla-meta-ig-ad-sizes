@@ -1,0 +1,101 @@
+[
+  {
+    "file": "zoom-blue-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 72,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  },
+  {
+    "file": "zoom-gold-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 72,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  },
+  {
+    "file": "zoom-white-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 72,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  },
+  {
+    "file": "portrait-blue-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 33,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  },
+  {
+    "file": "portrait-gold-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 33,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  },
+  {
+    "file": "portrait-white-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 33,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  },
+  {
+    "file": "card-blue-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 62,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  },
+  {
+    "file": "card-gold-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 62,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  },
+  {
+    "file": "card-white-1080x1350.png",
+    "images": true,
+    "gapAboveImage": 62,
+    "overflow": [],
+    "fonts": [
+      "Playfair",
+      "PlayfairItalic",
+      "Inter"
+    ]
+  }
+]
