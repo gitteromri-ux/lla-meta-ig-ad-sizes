@@ -1,0 +1,113 @@
+{
+  "results": [
+    {
+      "selected": "4x5hi-1440x1800",
+      "images": [
+        {
+          "src": "brand-v3-exports/zoom-4x5hi-1440x1800.png",
+          "width": 1440,
+          "height": 1800
+        },
+        {
+          "src": "brand-v3-exports/portrait-4x5hi-1440x1800.png",
+          "width": 1440,
+          "height": 1800
+        },
+        {
+          "src": "brand-v3-exports/card-4x5hi-1440x1800.png",
+          "width": 1440,
+          "height": 1800
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "selected": "1x1hi-1440x1440",
+      "images": [
+        {
+          "src": "brand-v3-exports/zoom-1x1hi-1440x1440.png",
+          "width": 1440,
+          "height": 1440
+        },
+        {
+          "src": "brand-v3-exports/portrait-1x1hi-1440x1440.png",
+          "width": 1440,
+          "height": 1440
+        },
+        {
+          "src": "brand-v3-exports/card-1x1hi-1440x1440.png",
+          "width": 1440,
+          "height": 1440
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "selected": "9x16hi-1440x2560",
+      "images": [
+        {
+          "src": "brand-v3-exports/zoom-9x16hi-1440x2560.png",
+          "width": 1440,
+          "height": 2560
+        },
+        {
+          "src": "brand-v3-exports/portrait-9x16hi-1440x2560.png",
+          "width": 1440,
+          "height": 2560
+        },
+        {
+          "src": "brand-v3-exports/card-9x16hi-1440x2560.png",
+          "width": 1440,
+          "height": 2560
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "selected": "191x1-1200x628",
+      "images": [
+        {
+          "src": "brand-v3-exports/zoom-191x1-1200x628.png",
+          "width": 1200,
+          "height": 628
+        },
+        {
+          "src": "brand-v3-exports/portrait-191x1-1200x628.png",
+          "width": 1200,
+          "height": 628
+        },
+        {
+          "src": "brand-v3-exports/card-191x1-1200x628.png",
+          "width": 1200,
+          "height": 628
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "selected": "16x9-1920x1080",
+      "images": [
+        {
+          "src": "brand-v3-exports/zoom-16x9-1920x1080.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "brand-v3-exports/portrait-16x9-1920x1080.png",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "brand-v3-exports/card-16x9-1920x1080.png",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  }
+}
