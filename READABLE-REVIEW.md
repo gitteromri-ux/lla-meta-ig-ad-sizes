@@ -1,6 +1,14 @@
 # Julie masterclass banner revision
 
-Review-only source revision, 27 September 2026. Nothing in this branch authorizes a Meta replacement or a production website change.
+Review-only source revision 02, 27 September 2026. Supersedes the rejected first revision. Nothing in this branch authorizes a Meta replacement or a production website change.
+
+## Revision 02
+
+The first revision was rejected by the user as a generic event flyer with incorrect brand typography. This revision restores the actual PlayfairDisplay-Italic.ttf font, original-style blue dimensional card, much larger Julie photography, dominant $49 offer and short advertising hierarchy. The portrait concept leads with “Learn to age slower.” The Zoom concept makes Julie the dominant subject and the existing Zoom illustration secondary.
+
+Reference direction: Apple's single-message hierarchy; MasterClass presenter-led advertising; original Longevity Life Academy 7C typography and dimensional material. These are art-direction references, not copied layouts. Conversion performance is not established by design review.
+
+All 27 variants were rendered. Separate DOM checks on the 12 concept/aspect combinations confirmed no overlapping headline, subheading, speaker name, bullets, date, price, CTA or Zoom image rectangles. PlayfairItalic was verified as the computed display family. All nine export sizes per family have intact images and no horizontal text overflow.
 
 ## Three selected concepts
 

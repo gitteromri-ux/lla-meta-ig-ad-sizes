@@ -1,46 +1,39 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>Julie masterclass · readable creative review</title>
-<link rel="stylesheet" href="masterclass-readable.css"></head>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Julie masterclass · Brand revision 2</title><link rel="stylesheet" href="masterclass-readable.css"></head>
 <body><main id="out"><div id="art">
-<img class="photo" alt="Julie Gibson Clark">
-<div class="shade"></div>
+<img class="photo" alt="Julie Gibson Clark"><div class="shade"></div><div class="light"></div>
+<div class="content">
 <img class="brand" src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group">
 <section class="copy">
-<h1>The Longevity<br><span>Masterclass</span><br><span class="year">of the Year</span></h1>
-<div class="speaker">with Julie Gibson Clark</div>
-<h2>Build your own<br>longevity routine.</h2>
-<ul><li>60 minutes live on Zoom</li><li>Julie’s daily protocol</li></ul>
+<h1><span>The Longevity</span><i>Masterclass<br> of the Year</i></h1>
+<h2>Her daily protocol.<br> Your next move.</h2>
+<div class="speaker">With Julie Gibson Clark</div>
+<ul><li>60 minutes live on Zoom</li><li>Her complete daily routine</li></ul>
 </section>
-<figure class="zoom"><img src="assets/mc/zoom-40-ppl-logos.jpg" alt="Masterclass Zoom experience illustration"></figure>
-<div class="portrait-name">Julie<br>Gibson Clark</div>
-<footer>
-<div class="dates"><strong>CHOOSE YOUR LIVE SESSION</strong><span>Oct 27 · 7 PM ET <b>or</b> Nov 14 · 1 PM ET</span></div>
-<div class="offer"><div class="price"><span>Starting at just</span><strong>$49</strong></div><div class="cta">Join the masterclass<span>Live on Zoom</span></div></div>
-</footer>
+<figure class="experience"><img src="assets/mc/zoom-40-ppl-logos.jpg" alt="Existing masterclass Zoom experience illustration"></figure>
+<div class="event"><span>Oct 27 · 7 PM ET</span><b>or</b><span>Nov 14 · 1 PM ET</span></div>
+<div class="offer"><div class="price"><span>Starting at just</span><strong>$49</strong></div><div class="cta">Reserve your place <span>↗</span></div></div>
+</div>
+<div class="signature">Julie Gibson Clark</div>
 </div></main>
 <script>
-const q=new URLSearchParams(location.search), c=q.get('c')||'zoom', f=q.get('f')||'4x5';
+const q=new URLSearchParams(location.search),c=q.get('c')||'zoom',f=q.get('f')||'4x5';
 const formats={'1x1':[1080,1080],'1x1hi':[1440,1440],'4x5':[1080,1350],'4x5hi':[1440,1800],'9x16m':[1080,1920],'9x16':[1080,1920],'9x16hi':[1440,2560],'191x1':[1200,628],'16x9':[1920,1080]};
-const [w,h]=formats[f]||formats['4x5'], land=w>h, story=h/w>1.5, square=w===h;
-const vw=land?Math.round(1080*w/h):1080, vh=land?1080:Math.round(1080*h/w);
-const art=document.getElementById('art');
+const [w,h]=formats[f]||formats['4x5'],land=w>h,story=h/w>1.5,square=w===h;
+const vw=land?Math.round(1080*w/h):1080,vh=land?1080:Math.round(1080*h/w),art=document.getElementById('art');
 document.body.className=[c,land?'land':'',story?'story':'',square?'square':''].join(' ');
 Object.assign(document.getElementById('out').style,{width:w+'px',height:h+'px'});
 Object.assign(art.style,{width:vw+'px',height:vh+'px',transform:`scale(${w/vw})`});
 art.style.setProperty('--h',vh+'px');art.style.setProperty('--w',vw+'px');
 document.querySelector('.photo').src=c==='portrait'?'assets/julie-standing-hd.jpg':'assets/julie_couch_a_web.jpg';
-if(c==='zoom'){
- document.querySelector('h2').innerHTML='Learn Julie’s daily protocol.';
- document.querySelector('.speaker').innerHTML='Julie Gibson Clark · Live on Zoom';
- document.querySelector('.cta span').textContent='60 minutes live';
-}
 if(c==='portrait'){
- document.querySelector('h2').innerHTML='Learn her routine.<br>Build your own.';
- document.querySelector('h1').innerHTML='The Longevity<br><span>Masterclass</span><br><span class="year">of the Year</span>';
+ document.querySelector('h1').innerHTML='<span>Learn to</span><i>age slower.</i>';
+ document.querySelector('h2').innerHTML='The Longevity<br><i>Masterclass of the Year</i>';
+ document.querySelector('.speaker').innerHTML='With Julie<br> Gibson Clark';
 }
+if(c==='zoom'){document.querySelector('h2').innerHTML='Her daily protocol.<br>60 minutes on Zoom.';}
 window.__ready=false;
 document.fonts.ready.then(()=>Promise.all([...document.images].map(i=>i.complete?Promise.resolve():i.decode().catch(()=>{})))).then(()=>{
- window.__meta={concept:c,format:f,w,h,fits:true,reviewOnly:true};
- requestAnimationFrame(()=>window.__ready=true);
+ window.__meta={concept:c,format:f,w,h,reviewOnly:true,version:'brand-v2',italicFont:document.fonts.check('italic 600 80px PlayfairItalic')};
+ requestAnimationFrame(()=>requestAnimationFrame(()=>window.__ready=true));
 });
 </script></body></html>
