@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Julie masterclass · Full-width direction</title><link rel="stylesheet" href="masterclass-wide-v7.css"></head><body>
+<main class="art">
+ <div class="lighting"></div>
+ <header><img src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group"><span>Limited seats</span></header>
+ <section class="message">
+  <h1><span>The longevity masterclass</span><i>of the year.</i></h1>
+  <p class="authority">The world’s 2nd slowest ager<br>reveals her protocol, live.</p>
+ </section>
+ <figure><img alt="Julie Gibson Clark"><div class="image-fade"></div></figure>
+ <footer>
+  <p class="host">Julie Gibson Clark <span>·</span> 60 minutes live on Zoom</p>
+  <p class="dates">Oct 27 · 7 pm eastern <span>or</span> Nov 14 · 1 pm eastern</p>
+  <p class="join">Reserve your seat <span>·</span> Starting at just <strong>$49</strong></p>
+ </footer>
+</main>
+<script>
+const q=new URLSearchParams(location.search),c=q.get('c')||'portrait',t=q.get('t')||'blue';
+document.body.className=c+' '+t;
+const image=document.querySelector('figure img');
+image.src=c==='zoom'?'assets/mc/zoom-40-ppl-logos.jpg':c==='portrait'?'assets/julie-standing-hd.jpg':'assets/julie_couch_a_web.jpg';
+if(c==='zoom')image.alt='Original illustration of the live Zoom masterclass';
+if(c==='portrait'){
+ document.querySelector('h1').innerHTML='<span>Learn to <i>age slower.</i></span>';
+ document.querySelector('.authority').innerHTML='From the world’s 2nd slowest ager.';
+ document.querySelector('.host').innerHTML='The longevity masterclass <span>·</span> Julie Gibson Clark';
+}
+window.__ready=false;
+document.fonts.ready.then(()=>Promise.all([...document.images].map(i=>i.complete?Promise.resolve():i.decode().catch(()=>{})))).then(()=>window.__ready=true);
+</script></body></html>
