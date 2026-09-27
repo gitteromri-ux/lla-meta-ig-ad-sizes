@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Julie masterclass · Editorial direction</title><link rel="stylesheet" href="masterclass-editorial-v6.css"></head><body>
+<main class="art">
+ <img class="photo" alt="Julie Gibson Clark">
+ <div class="shade"></div><div class="material"></div>
+ <header><img src="assets/lla_logo_oneline.png" alt="Longevity Life Academy by eTeacher Group"><span>Limited seats</span></header>
+ <section class="message">
+  <p class="eyebrow">The Longevity</p>
+  <h1>Masterclass<br><i>of the Year.</i></h1>
+  <p class="authority">The world’s 2nd slowest ager.<br><span>Her protocol. Revealed live.</span></p>
+ </section>
+ <figure class="experience"><img src="assets/mc/zoom-40-ppl-logos.jpg" alt="Illustration of the live Zoom masterclass"></figure>
+ <div class="presenter"><span>With</span> Julie Gibson Clark</div>
+ <div class="details"><span>60 minutes live on Zoom</span><span>Her daily longevity protocol</span></div>
+ <footer>
+  <div class="event-title">Live longevity masterclass</div>
+  <div class="dates"><span>Oct 27 <b>·</b> 7 PM ET</span><span class="or">or</span><span>Nov 14 <b>·</b> 1 PM ET</span></div>
+  <div class="enroll"><span class="price">Starting at just <strong>$49</strong></span><span class="cta">Reserve your seat <b>↗</b></span></div>
+ </footer>
+</main>
+<script>
+const q=new URLSearchParams(location.search),c=q.get('c')||'portrait',t=q.get('t')||'blue';
+document.body.className=c+' '+t;
+document.querySelector('.photo').src=c==='portrait'?'assets/julie-standing-hd.jpg':'assets/julie_couch_a_web.jpg';
+if(c==='portrait'){
+ document.querySelector('.eyebrow').textContent='Learn to';
+ document.querySelector('h1').innerHTML='Age<br><i>slower.</i>';
+ document.querySelector('.authority').innerHTML='From the world’s<br><span>2nd slowest ager.</span>';
+}
+if(c==='zoom'){
+ document.querySelector('h1').innerHTML='Masterclass<br><i>of the Year.</i>';
+}
+window.__ready=false;
+document.fonts.ready.then(()=>Promise.all([...document.images].map(i=>i.complete?Promise.resolve():i.decode().catch(()=>{})))).then(()=>{window.__ready=true});
+</script></body></html>
